@@ -40,11 +40,27 @@
 <script>
 var imageItemArray = [];
 
+/**
+ * Randomize array element order in-place.
+ * Using Durstenfeld shuffle algorithm.
+ * From: http://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
+ */
+var shuffleArray = function(items) {
+    for (var i = items.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var temp = items[i];
+        items[i] = items[j];
+        items[j] = temp;
+    }
+    return items;
+};
+
 var chooseNewImages = function() {
-  for( i=1; i <= 9; ++i )
+  shuffleArray(imageItemArray);
+  for( i=0; i < 9; ++i )
   {
       imgID = "#box" + i;
-      var item = imageItemArray[Math.floor(Math.random()*imageItemArray.length)];
+      var item = imageItemArray[i];
       $(imgID).attr("src",item.src);
       $(imgID).attr("title",item.name);
   }
@@ -54,6 +70,8 @@ var chooseNewImages = function() {
   var flickerAPI = "images.json"
   $.getJSON( flickerAPI ).done(function( data ) {
       imageItemArray = data.images;
+      while( imageItemArray.length < 9 )
+        imageItemArray = imageItemArray.concat(imageItemArray);
       chooseNewImages();
     })
     .fail(function( jqxhr, textStatus, error ) {

@@ -2,6 +2,8 @@
       {"name": "Rey", "src": "Rey1.png"},
       {"name": "Brienne of Tarth", "src": "Brienne1.png"},
       {"name": "Eowyn", "src": "Eowyn1.png"},
+      {"name": "Wonder Woman", "src": "WonderWoman1.png"},
+      {"name": "Black Widow", "src": "BlackWidow1.png"},
       {"name": "Blank", "src": "blank.png"}
     ]
 }
