@@ -1,0 +1,100 @@
+<html>
+<head>
+<style>
+.square {
+    float:left;
+    position: relative;
+    width: 30%;
+    padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
+    margin:0.00%; /* was 1.66% */
+    overflow:hidden;
+}
+
+.content {
+    position:absolute;
+    height:100%; /* = 100% - 2*padding */
+    width:100%; /* = 100% - 2*padding */
+    padding: 0%;
+}
+.table{
+    display:table;
+    width:100%;
+    height:100%;
+}
+.table-cell{
+    display:table-cell;
+    vertical-align:middle;
+}
+
+
+/*  For responsive images */
+.content .rs{
+    width:auto;
+    height:auto;
+    max-height:90%;
+    max-width:100%;
+}
+
+</style>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script>
+var imageItemArray = [];
+
+var chooseNewImages = function() {
+  for( i=1; i <= 9; ++i )
+  {
+      imgID = "#box" + i;
+      var item = imageItemArray[Math.floor(Math.random()*imageItemArray.length)];
+      $(imgID).attr("src",item.src);
+      $(imgID).attr("title",item.name);
+  }
+};
+
+(function() {
+  var flickerAPI = "images.json"
+  $.getJSON( flickerAPI ).done(function( data ) {
+      imageItemArray = data.images;
+      chooseNewImages();
+    })
+    .fail(function( jqxhr, textStatus, error ) {
+        var err = textStatus + ", " + error;
+        console.log( "Request Failed: " + err );
+    });
+})();
+</script>
+</head>
+<body>
+<div style="max-width:750px; max-height:750px;">
+<div class="square"> <div class="content"> <div class="table"> <div class="table-cell">
+    <img id="box1" class="rs" src="blank.png"/>
+</div> </div> </div> </div>
+<div class="square"> <div class="content"> <div class="table"> <div class="table-cell">
+    <img id="box2" class="rs" src="blank.png"/>
+</div> </div> </div> </div>
+<div class="square"> <div class="content"> <div class="table"> <div class="table-cell">
+    <img id="box3" class="rs" src="blank.png"/>
+</div> </div> </div> </div>
+
+<div class="square"> <div class="content"> <div class="table"> <div class="table-cell">
+    <img id="box4" class="rs" src="blank.png"/>
+</div> </div> </div> </div>
+<div class="square"> <div class="content"> <div class="table"> <div class="table-cell">
+    <img id="box5" class="rs" src="blank.png"/>
+</div> </div> </div> </div>
+<div class="square"> <div class="content"> <div class="table"> <div class="table-cell">
+    <img id="box6" class="rs" src="blank.png"/>
+</div> </div> </div> </div>
+
+<div class="square"> <div class="content"> <div class="table"> <div class="table-cell">
+    <img id="box7" class="rs" src="blank.png"/>
+</div> </div> </div> </div>
+<div class="square"> <div class="content"> <div class="table"> <div class="table-cell">
+    <img id="box8" class="rs" src="blank.png"/>
+</div> </div> </div> </div>
+<div class="square"> <div class="content"> <div class="table"> <div class="table-cell">
+    <img id="box9" class="rs" src="blank.png"/>
+</div> </div> </div> </div>
+</div>
+
+</body>
+</html>
