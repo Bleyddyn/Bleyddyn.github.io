@@ -1,8 +1,19 @@
 <html>
 <head>
   <title>MaLPi</title>
+  <script src="w3data.js"></script>
 </head>
 <body>
+<div w3-include-html="nav_header.html"></div>
+<script>
+  w3IncludeHTML();
+
+  // not working, why?
+  var element = document.getElementById("home-nav-anchor");
+  if( element )
+      element.outerHTML = "";
+</script>
+<div>
 <h1><a name="about">MaLPi</a></h1>
 <p><b>Ma</b>chine <b>L</b>earning on a Raspberry <b>Pi</b> (also a subtle reference to the Stargate shows)</p>
 <p>A robotics project for playing around with hardware and learning to use Machine Learning techniques.</p>
@@ -14,5 +25,6 @@
 <p><a href="https://plus.google.com/102063919580003650665/posts/V5Yv8vsd4YK">Aug 24, 2013</a></p>
 <p><i>Missing</i></p>
 <p><a href="20161008/">Oct 10, 2016</a></p>
+</div>
 </body>
 </html>
