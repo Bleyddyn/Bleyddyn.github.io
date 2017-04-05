@@ -1,7 +1,7 @@
 ---
 title: "Human-level control through deep reinforcement learning"
 collection: publications
-permalink: /publications/2015-02-26-deep-q-learning.md
+permalink: /publications/2015-02-26-deep-q-learning
 venue: "Nature"
 excerpt: "One of the first deep reinforcement learning papers."
 date: 2015-02-26
@@ -17,9 +17,10 @@ This paper gets around that problem with two main changes to training:
 
 1. Experience replay
 
-Each time step is recorded with: state, action, reward, and next state.
-A random mini-batch of experiences is drawn and used for a Q-learning update.
+   Each time step is recorded with: state, action, reward, and next state.
+   A random mini-batch of experiences is drawn and used for a Q-learning update.
 
 2. Separate target and behavior value networks
 
-Updates are performed on a copy of the network. Only after a number of such updates is the improved network copied back into the one used to choose actions.
+   Updates are performed on a copy of the network. Only after a number of such updates is the improved network copied back into the one used to choose actions.
+
