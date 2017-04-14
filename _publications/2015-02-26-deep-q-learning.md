@@ -2,11 +2,9 @@
 title: "Human-level control through deep reinforcement learning"
 collection: publications
 permalink: /publications/2015-02-26-deep-q-learning
-venue: "Nature"
 excerpt: "One of the first deep reinforcement learning papers."
 date: 2015-02-26
 paperurl: http://web.stanford.edu/class/psych209/Readings/MnihEtAlHassibis15NatureControlDeepRL.pdf
-#citation: 'Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).'
 ---
 
 ## Notes

@@ -2,11 +2,9 @@
 title: "Reinforcement Learning with Unsupervised Auxiliary Tasks"
 collection: publications
 permalink: /publications/2017-03-01-unsupervised-auxiliary-tasks
-venue: "arXiv.org"
 excerpt: 'Increase speed of a Reinforcement Learning system with auxiliary task.'
-date: 2017-03-01
+date: 2016-11-16
 paperurl: https://arxiv.org/abs/1611.05397v1
-#citation: 'Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).'
 ---
 
 ## Notes
