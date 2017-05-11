@@ -33,6 +33,8 @@ author_profile: true
 * [Learning to Act By Predicting the Future](https://arxiv.org/abs/1611.01779)
 * [Neural Episodic Control](https://arxiv.org/abs/1703.01988)
 * [Equivalence Between Policy Gradients and Soft Q-Learning](https://arxiv.org/abs/1704.06440)
+* [Count-Based Exploration with Neural Density Models](https://arxiv.org/abs/1703.01310)
+  * Replacing epsilon greedy exploration with a generalized count-based exploration strategy.
 
 ### Not as relevant to MaLPi, but interesting
 
@@ -41,3 +43,4 @@ author_profile: true
 * [A Neural Representation of Sketch Drawings](https://arxiv.org/abs/1704.03477)
 * [Hybrid computing using a neural network with dynamic external memory](https://www.nature.com/articles/nature20101.epdf?author_access_token=ImTXBI8aWbYxYQ51Plys8NRgN0jAjWel9jnR3ZoTv0MggmpDmwljGswxVdeocYSurJ3hxupzWuRNeGvvXnoO8o4jTJcnAyhGuZzXJ1GEaD-Z7E6X_a9R-xqJ9TfJWBqz)
 * [Bayesian Recurrent Neural Networks](https://arxiv.org/abs/1704.02798)
+  * [A Tensorflow implementation](https://github.com/DeNeutoy/bayesian-rnn)
