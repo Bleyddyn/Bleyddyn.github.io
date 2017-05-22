@@ -33,8 +33,18 @@ author_profile: true
 * [Learning to Act By Predicting the Future](https://arxiv.org/abs/1611.01779)
 * [Neural Episodic Control](https://arxiv.org/abs/1703.01988)
 * [Equivalence Between Policy Gradients and Soft Q-Learning](https://arxiv.org/abs/1704.06440)
+  * [Reddit discussion](https://www.reddit.com/r/MachineLearning/comments/6bi6np/d_glearning_taming_the_noise_in_reinforcement/)
 * [Count-Based Exploration with Neural Density Models](https://arxiv.org/abs/1703.01310)
   * Replacing epsilon greedy exploration with a generalized count-based exploration strategy.
+* [Learning to act by predicting the future](https://openreview.net/forum?id=rJLS7qKel&noteId=rJLS7qKel)
+  * Predicting the future as a supervised learning task
+* [Curiosity-driven Exploration by Self-supervised Prediction](https://pathak22.github.io/noreward-rl/)
+* [One-Shot Imitation Learning](https://arxiv.org/abs/1703.07326)
+* [Efficient Parallel Methods for Deep Reinforcement Learning](https://arxiv.org/abs/1705.04862v2)
+* [Asynchronous Methods for Deep Reinforcement Learning](https://arxiv.org/abs/1602.01783)
+  * The A3C paper.
+* [Recurrent Additive Networks](http://www.kentonl.com/pub/llz.2017.pdf)
+  * A simpler type of RNN. Not sure if/where it's been published. Only tested on language tasks?
 
 ### Not as relevant to MaLPi, but interesting
 
@@ -44,3 +54,4 @@ author_profile: true
 * [Hybrid computing using a neural network with dynamic external memory](https://www.nature.com/articles/nature20101.epdf?author_access_token=ImTXBI8aWbYxYQ51Plys8NRgN0jAjWel9jnR3ZoTv0MggmpDmwljGswxVdeocYSurJ3hxupzWuRNeGvvXnoO8o4jTJcnAyhGuZzXJ1GEaD-Z7E6X_a9R-xqJ9TfJWBqz)
 * [Bayesian Recurrent Neural Networks](https://arxiv.org/abs/1704.02798)
   * [A Tensorflow implementation](https://github.com/DeNeutoy/bayesian-rnn)
+* [ML for analyzing unix log files](https://www.google.com/#safe=off&q=unix+log+files+machine+learning+detect+outliers)
