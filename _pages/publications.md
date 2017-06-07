@@ -19,17 +19,28 @@ author_profile: true
 
 ## Papers to read
 
+### Actor/Critic papers
+
+* [Off-Policy Actor-Critic](https://arxiv.org/abs/1205.4839)
+  * Sutton, et. al. 2012. Includes elegibility traces.
+* [Sample Efficient Actor-Critic With Experience Replay](https://arxiv.org/abs/1611.01224)
+  * [ACER implementation](https://github.com/pfnet/chainerrl/blob/master/chainerrl/agents/acer.py)
+* [The Reactor: A Sample-Efficient Actor-Critic Architecture](https://arxiv.org/abs/1704.04651)
+* [Asynchronous Methods for Deep Reinforcement Learning](https://arxiv.org/abs/1602.01783)
+  * The A3C paper.
+* [A Survey of Actor-Critic Reinforcement Learning: Standard and Natural Policy Gradients](https://pdfs.semanticscholar.org/145a/42e83ec142a125da3ad845ee95027ef702e5.pdf)
+  * 2010, maybe?
+* [ON ACTOR-CRITIC ALGORITHMS](http://www.mit.edu/~jnt/Papers/J094-03-kon-actors.pdf)
+  * 2003
+
 ### Relevant to MaLPi
 
 * [Safe and efficient off-policy reinforcement learning](https://arxiv.org/abs/1606.02647)
 * [A Robust Adaptive Stochastic Gradient Method for Deep Learning](https://arxiv.org/abs/1703.00788)
-* [Sample Efficient Actor-Critic With Experience Replay](https://arxiv.org/abs/1611.01224)
-  * [ACER implementation](https://github.com/pfnet/chainerrl/blob/master/chainerrl/agents/acer.py)
 * [Bridging the Gap Between Value and Policy Based Reinforcement Learning](https://arxiv.org/abs/1702.08892)
   * [PCL implementation](https://github.com/pfnet/chainerrl/blob/master/chainerrl/agents/pcl.py)
 * [Learning from Demonstrations for Real World Reinforcement Learning](https://arxiv.org/abs/1704.03732)
 * [On Generalized Bellman Equations and Temporal-Difference Learning](https://arxiv.org/abs/1704.04463)
-* [The Reactor: A Sample-Efficient Actor-Critic Architecture](https://arxiv.org/abs/1704.04651)
 * [Learning to Act By Predicting the Future](https://arxiv.org/abs/1611.01779)
 * [Neural Episodic Control](https://arxiv.org/abs/1703.01988)
 * [Equivalence Between Policy Gradients and Soft Q-Learning](https://arxiv.org/abs/1704.06440)
@@ -41,8 +52,6 @@ author_profile: true
 * [Curiosity-driven Exploration by Self-supervised Prediction](https://pathak22.github.io/noreward-rl/)
 * [One-Shot Imitation Learning](https://arxiv.org/abs/1703.07326)
 * [Efficient Parallel Methods for Deep Reinforcement Learning](https://arxiv.org/abs/1705.04862v2)
-* [Asynchronous Methods for Deep Reinforcement Learning](https://arxiv.org/abs/1602.01783)
-  * The A3C paper.
 * [Recurrent Additive Networks](http://www.kentonl.com/pub/llz.2017.pdf)
   * A simpler type of RNN. Not sure if/where it's been published. Only tested on language tasks?
 * [Feature Control as Intrinsic Motivation for Hierarchical Reinforcement Learning](https://arxiv.org/pdf/1705.06769.pdf)
