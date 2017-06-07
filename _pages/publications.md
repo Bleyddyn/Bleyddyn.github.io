@@ -45,6 +45,10 @@ author_profile: true
   * The A3C paper.
 * [Recurrent Additive Networks](http://www.kentonl.com/pub/llz.2017.pdf)
   * A simpler type of RNN. Not sure if/where it's been published. Only tested on language tasks?
+* [Feature Control as Intrinsic Motivation for Hierarchical Reinforcement Learning](https://arxiv.org/pdf/1705.06769.pdf)
+  * Followup to the auxiliary tasks paper.
+* [Non-Markovian Control with Gated End-to-End Memory Policy Networks](https://arxiv.org/abs/1705.10993)
+* [Experience Replay Using Transition Sequences](https://arxiv.org/abs/1705.10834)
 
 ### Not as relevant to MaLPi, but interesting
 
@@ -55,3 +59,5 @@ author_profile: true
 * [Bayesian Recurrent Neural Networks](https://arxiv.org/abs/1704.02798)
   * [A Tensorflow implementation](https://github.com/DeNeutoy/bayesian-rnn)
 * [ML for analyzing unix log files](https://www.google.com/#safe=off&q=unix+log+files+machine+learning+detect+outliers)
+ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
+* [Bayesian Reinforcement Learning: A Survey](https://arxiv.org/abs/1609.04436)
