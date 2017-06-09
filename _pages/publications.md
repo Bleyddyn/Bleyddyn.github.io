@@ -58,6 +58,8 @@ author_profile: true
   * Followup to the auxiliary tasks paper.
 * [Non-Markovian Control with Gated End-to-End Memory Policy Networks](https://arxiv.org/abs/1705.10993)
 * [Experience Replay Using Transition Sequences](https://arxiv.org/abs/1705.10834)
+* [Self-Normalizing Neural Networks](https://arxiv.org/abs/1706.02515)
+  * A replacement for RELU activation. Looks fairly simple to implement and try. A quote from the abstract, "...thus, vanishing and exploding gradients are impossible."
 
 ### Not as relevant to MaLPi, but interesting
 
