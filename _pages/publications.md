@@ -60,6 +60,8 @@ author_profile: true
 * [Experience Replay Using Transition Sequences](https://arxiv.org/abs/1705.10834)
 * [Self-Normalizing Neural Networks](https://arxiv.org/abs/1706.02515)
   * A replacement for RELU activation. Looks fairly simple to implement and try. A quote from the abstract, "...thus, vanishing and exploding gradients are impossible."
+* [Horde: A Scalable Real-time Architecture for Learning Knowledge from Unsupervised Sensorimotor Interaction](http://www.ifaamas.org/Proceedings/aamas2011/papers/A6_R70.pdf)
+  * Older paper, but it checks out.
 
 ### Not as relevant to MaLPi, but interesting
 
@@ -72,3 +74,5 @@ author_profile: true
 * [ML for analyzing unix log files](https://www.google.com/#safe=off&q=unix+log+files+machine+learning+detect+outliers)
 ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [Bayesian Reinforcement Learning: A Survey](https://arxiv.org/abs/1609.04436)
+* [Beyond Monte Carlo Tree Search: Playing Go with Deep Alternative Neural Network and Long-Term Evaluation](https://arxiv.org/abs/1706.04052)
+* [Meta learning Framework for Automated Driving](https://arxiv.org/abs/1706.04038)

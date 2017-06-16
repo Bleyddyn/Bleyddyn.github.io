@@ -134,7 +134,7 @@ textarea {
 
 button,
 input {
-  *overflow: visible; /* inner spacing ie IE6/7*/
+  overflow: visible; /* inner spacing ie IE6/7*/
   line-height: normal; /* FF3/4 have !important on line-height in UA stylesheet*/
 }
 

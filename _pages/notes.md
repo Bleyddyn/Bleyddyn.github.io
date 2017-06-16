@@ -12,6 +12,10 @@ redirect_from:
 
 [And](https://en.wikipedia.org/wiki/Differentiation_rules)
 
+[Matrix Profiles](http://www.cs.ucr.edu/%7Eeamonn/Matrix_Profile_Tutorial_006.pdf), a method of analyzing time series data. Usefull for pulling features out of the accellerometer data?
+
+[Different Softmax methods](https://arxiv.org/abs/1612.05628)
+
 # History
 From [this article](http://sdtimes.com/realities-machine-learning-systems/):
 
