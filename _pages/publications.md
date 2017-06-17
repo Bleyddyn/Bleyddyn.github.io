@@ -26,7 +26,7 @@ author_profile: true
 * [Sample Efficient Actor-Critic With Experience Replay](https://arxiv.org/abs/1611.01224)
   * [ACER implementation](https://github.com/pfnet/chainerrl/blob/master/chainerrl/agents/acer.py)
 * [The Reactor: A Sample-Efficient Actor-Critic Architecture](https://arxiv.org/abs/1704.04651)
-  * Also compares time stacked inputs versus LSTMs.
+  * Also compares time stacked inputs versus LSTMs in section 3.3.
 * [Asynchronous Methods for Deep Reinforcement Learning](https://arxiv.org/abs/1602.01783)
   * The A3C paper.
 * [A Survey of Actor-Critic Reinforcement Learning: Standard and Natural Policy Gradients](https://pdfs.semanticscholar.org/145a/42e83ec142a125da3ad845ee95027ef702e5.pdf)
