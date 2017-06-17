@@ -36,6 +36,7 @@ author_profile: true
 
 ### Relevant to MaLPi
 
+* [Learning Atari: An Exploration of the A3C Reinforcement Learning Method](https://instructure-uploads.s3.amazonaws.com/account_10720000000090242/attachments/70223081/learning-atari-exploration.pdf?response-content-disposition=attachment%3B%20filename%3D%22AtariReport.pdf%22%3B%20filename%2A%3DUTF-8%27%27AtariReport.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJFNFXH2V2O7RPCAA%2F20170617%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20170617T002647Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=6d0f68826df0ae0c3c35de54aa8387701592a4ea64e7d06dd74efc7972ff20d9)
 * [Safe and efficient off-policy reinforcement learning](https://arxiv.org/abs/1606.02647)
 * [A Robust Adaptive Stochastic Gradient Method for Deep Learning](https://arxiv.org/abs/1703.00788)
 * [Bridging the Gap Between Value and Policy Based Reinforcement Learning](https://arxiv.org/abs/1702.08892)
