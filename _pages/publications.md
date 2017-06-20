@@ -26,6 +26,7 @@ author_profile: true
 * [Sample Efficient Actor-Critic With Experience Replay](https://arxiv.org/abs/1611.01224)
   * [ACER implementation](https://github.com/pfnet/chainerrl/blob/master/chainerrl/agents/acer.py)
 * [The Reactor: A Sample-Efficient Actor-Critic Architecture](https://arxiv.org/abs/1704.04651)
+  * Also compares time stacked inputs versus LSTMs in section 3.3.
 * [Asynchronous Methods for Deep Reinforcement Learning](https://arxiv.org/abs/1602.01783)
   * The A3C paper.
 * [A Survey of Actor-Critic Reinforcement Learning: Standard and Natural Policy Gradients](https://pdfs.semanticscholar.org/145a/42e83ec142a125da3ad845ee95027ef702e5.pdf)
@@ -35,6 +36,7 @@ author_profile: true
 
 ### Relevant to MaLPi
 
+* [Learning Atari: An Exploration of the A3C Reinforcement Learning Method](https://instructure-uploads.s3.amazonaws.com/account_10720000000090242/attachments/70223081/learning-atari-exploration.pdf?response-content-disposition=attachment%3B%20filename%3D%22AtariReport.pdf%22%3B%20filename%2A%3DUTF-8%27%27AtariReport.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJFNFXH2V2O7RPCAA%2F20170617%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20170617T002647Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=6d0f68826df0ae0c3c35de54aa8387701592a4ea64e7d06dd74efc7972ff20d9)
 * [Safe and efficient off-policy reinforcement learning](https://arxiv.org/abs/1606.02647)
 * [A Robust Adaptive Stochastic Gradient Method for Deep Learning](https://arxiv.org/abs/1703.00788)
 * [Bridging the Gap Between Value and Policy Based Reinforcement Learning](https://arxiv.org/abs/1702.08892)
