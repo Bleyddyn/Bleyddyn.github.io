@@ -62,8 +62,9 @@ author_profile: true
 * [Experience Replay Using Transition Sequences](https://arxiv.org/abs/1705.10834)
 * [Self-Normalizing Neural Networks](https://arxiv.org/abs/1706.02515)
   * A replacement for RELU activation. Looks fairly simple to implement and try. A quote from the abstract, "...thus, vanishing and exploding gradients are impossible."
-* [Horde: A Scalable Real-time Architecture for Learning Knowledge from Unsupervised Sensorimotor Interaction](http://www.ifaamas.org/Proceedings/aamas2011/papers/A6_R70.pdf)
-  * Older paper, but it checks out.
+* [Grounded Language Learning in a Simulated 3D World](https://arxiv.org/abs/1706.06551)
+  * Rewards for completing tasks given in written instructions.
+* [MEC: Memory-efficient Convolution for Deep Neural Network](https://arxiv.org/abs/1706.06873)
 
 ### Not as relevant to MaLPi, but interesting
 

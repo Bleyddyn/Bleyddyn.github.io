@@ -2,7 +2,7 @@
 title: "A simple neural network module for relational reasoning"
 collection: publications
 permalink: /publications/2017-06-05-relational-reasoning
-excerpt: 'In-progress second edition of an RL textbook.'
+excerpt: 'Relationships between objects.'
 date: 2017-06-05
 paperurl: https://arxiv.org/abs/1706.01427
 use_math: true
