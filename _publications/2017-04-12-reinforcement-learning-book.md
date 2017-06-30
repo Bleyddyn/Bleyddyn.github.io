@@ -12,4 +12,4 @@ use_math: true
 
 Authors: Richard S. Sutton and Andrew G. Barto
 
-
+A [more recent draft](http://incompleteideas.net/sutton/book/bookdraft2017june.pdf) is available. I haven't looked through it yet to see what's changed.

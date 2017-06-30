@@ -65,6 +65,10 @@ author_profile: true
 * [Grounded Language Learning in a Simulated 3D World](https://arxiv.org/abs/1706.06551)
   * Rewards for completing tasks given in written instructions.
 * [MEC: Memory-efficient Convolution for Deep Neural Network](https://arxiv.org/abs/1706.06873)
+* [Long-term Recurrent Convolutional Networks for Visual Recognition and Description](https://arxiv.org/abs/1411.4389)
+  * CNN -> LSTM architecture
+* [Neural SLAM](http://arxiv.org/abs/1706.09520v1)
+* [Expected Policy Gradients](https://arxiv.org/abs/1706.05374)
 
 ### Not as relevant to MaLPi, but interesting
 

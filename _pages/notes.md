@@ -16,6 +16,8 @@ redirect_from:
 
 [Different Softmax methods](https://arxiv.org/abs/1612.05628)
 
+[Long explanation of RNN's and LSTM's](https://ayearofai.com/rohan-lenny-3-recurrent-neural-networks-10300100899b)
+
 # History
 From [this article](http://sdtimes.com/realities-machine-learning-systems/):
 
@@ -30,6 +32,9 @@ Find or write up a brief description of the Perceptron and maybe a couple of oth
 
 [A concise introductory course on probabilistic graphical models](https://ermongroup.github.io/cs228-notes/)
 
+[CS 294: Deep Reinforcement Learning](http://rll.berkeley.edu/deeprlcourse/)
+
+[Bayes, SVM, Decision Trees, and Ensembles in sklearn](https://github.com/savan77/Practical-Machine-Learning-With-Python/blob/master/Part%20-%202/Practical%20Machine%20Learning%20With%20Python%20-%20Part%202.ipynb)
 
 # [The Myth of a Superhuman AI](https://backchannel.com/the-myth-of-a-superhuman-ai-59282b686c62)
 
