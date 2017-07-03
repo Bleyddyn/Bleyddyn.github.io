@@ -6,7 +6,7 @@ redirect_from:
   - /notes.html
 ---
 
-# Math
+# Miscellaneous
 
 [Derivative Rules](http://www.mathsisfun.com/calculus/derivatives-rules.html)
 
@@ -17,6 +17,8 @@ redirect_from:
 [Different Softmax methods](https://arxiv.org/abs/1612.05628)
 
 [Long explanation of RNN's and LSTM's](https://ayearofai.com/rohan-lenny-3-recurrent-neural-networks-10300100899b)
+
+[Tips for Training Recurrent Neural Networks](http://danijar.com/tips-for-training-recurrent-neural-networks/)
 
 # History
 From [this article](http://sdtimes.com/realities-machine-learning-systems/):
