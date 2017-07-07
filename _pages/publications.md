@@ -21,8 +21,6 @@ author_profile: true
 
 ### Actor/Critic papers
 
-* [Off-Policy Actor-Critic](https://arxiv.org/abs/1205.4839)
-  * Sutton, et. al. 2012. Includes elegibility traces.
 * [Sample Efficient Actor-Critic With Experience Replay](https://arxiv.org/abs/1611.01224)
   * [ACER implementation](https://github.com/pfnet/chainerrl/blob/master/chainerrl/agents/acer.py)
 * [The Reactor: A Sample-Efficient Actor-Critic Architecture](https://arxiv.org/abs/1704.04651)
@@ -69,6 +67,8 @@ author_profile: true
   * CNN -> LSTM architecture
 * [Neural SLAM](http://arxiv.org/abs/1706.09520v1)
 * [Expected Policy Gradients](https://arxiv.org/abs/1706.05374)
+* [Noisy Networks for Exploration](https://arxiv.org/abs/1706.10295)
+  * Replace e-greedy or entropy methods of exploration with noisy parameters
 
 ### Not as relevant to MaLPi, but interesting
 

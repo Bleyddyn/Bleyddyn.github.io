@@ -2,7 +2,7 @@
 title: "Off-Policy Actor-Critic"
 collection: publications
 permalink: /publications/2017-07-01-off-policy-actor-critic
-excerpt: "Off-Policy AC with linear state features."
+excerpt: "Off-Policy AC with linear state features. Includes elegibility traces."
 date: 2013-06-20
 paperurl: https://arxiv.org/abs/1205.4839
 use_math: true
