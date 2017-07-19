@@ -20,6 +20,8 @@ redirect_from:
 
 [Tips for Training Recurrent Neural Networks](http://danijar.com/tips-for-training-recurrent-neural-networks/)
 
+[MathJax Tutorial](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference)
+
 # History
 From [this article](http://sdtimes.com/realities-machine-learning-systems/):
 
@@ -53,6 +55,8 @@ Edit: I also really enjoyed http://u.cs.biu.ac.il/~yogo/nnlp.pdf and https://arx
 [CS 294: Deep Reinforcement Learning](http://rll.berkeley.edu/deeprlcourse/)
 
 [Bayes, SVM, Decision Trees, and Ensembles in sklearn](https://github.com/savan77/Practical-Machine-Learning-With-Python/blob/master/Part%20-%202/Practical%20Machine%20Learning%20With%20Python%20-%20Part%202.ipynb)
+
+[Free electronics textbook](https://www.circuitlab.com/textbook/), work in progress.
 
 # [The Myth of a Superhuman AI](https://backchannel.com/the-myth-of-a-superhuman-ai-59282b686c62)
 

@@ -69,6 +69,12 @@ author_profile: true
 * [Expected Policy Gradients](https://arxiv.org/abs/1706.05374)
 * [Noisy Networks for Exploration](https://arxiv.org/abs/1706.10295)
   * Replace e-greedy or entropy methods of exploration with noisy parameters
+* [Distral: Robust Multitask Reinforcement Learning](https://arxiv.org/abs/1707.04175)
+* [Learning from Demonstrations for Real World Reinforcement Learning](https://arxiv.org/abs/1704.03732)
+* [Trial without Error: Towards Safe Reinforcement Learning via Human Intervention](https://arxiv.org/abs/1707.05173)
+  * [Blog](https://owainevans.github.io/blog/hirl_blog.html)
+  * Very nice idea of having a layer between the agent and the environment for preventing disastrous behavior.
+  * Initially handled by a human but later by a learned system.
 
 ### Not as relevant to MaLPi, but interesting
 
@@ -83,3 +89,8 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [Bayesian Reinforcement Learning: A Survey](https://arxiv.org/abs/1609.04436)
 * [Beyond Monte Carlo Tree Search: Playing Go with Deep Alternative Neural Network and Long-Term Evaluation](https://arxiv.org/abs/1706.04052)
 * [Meta learning Framework for Automated Driving](https://arxiv.org/abs/1706.04038)
+* [Representation Learning for Grounded Spatial Reasoning](https://arxiv.org/pdf/1707.03938.pdf)
+  * Instruction text -> LSTM -> vectors 1 and 2
+  * V1 is used as a kernel in a convolution over the state space object embeddings (hand built?)
+  * V2 is used to make a global map representation of the input
+  * both outputs are concatenated and input to a CNN to predict the final map value
