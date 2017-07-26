@@ -75,6 +75,12 @@ author_profile: true
   * [Blog](https://owainevans.github.io/blog/hirl_blog.html)
   * Very nice idea of having a layer between the agent and the environment for preventing disastrous behavior.
   * Initially handled by a human but later by a learned system.
+* [Bayesian Neural Networks with Random Inputs for Model Based Reinforcement Learning](https://medium.com/towards-data-science/bayesian-neural-networks-with-random-inputs-for-model-based-reinforcement-learning-36606a9399b4)
+  * I read through this once, but don't understand most of it.
+* [Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347)
+  * From OpenAI.org: "outperforms other online policy gradient methods"
+* [A Distributional Perspective on Reinforcement Learning](https://arxiv.org/abs/1707.06887)
+* [Deep Learning in Robotics: A Review of Recent Research](https://arxiv.org/abs/1707.07217)
 
 ### Not as relevant to MaLPi, but interesting
 
