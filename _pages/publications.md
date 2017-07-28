@@ -81,6 +81,8 @@ author_profile: true
   * From OpenAI.org: "outperforms other online policy gradient methods"
 * [A Distributional Perspective on Reinforcement Learning](https://arxiv.org/abs/1707.06887)
 * [Deep Learning in Robotics: A Review of Recent Research](https://arxiv.org/abs/1707.07217)
+* [Better Exploration with Parameter Noise](https://blog.openai.com/better-exploration-with-parameter-noise/)
+  * Looks like I would need [Layer Normalization](https://arxiv.org/abs/1607.06450) first.
 
 ### Not as relevant to MaLPi, but interesting
 
