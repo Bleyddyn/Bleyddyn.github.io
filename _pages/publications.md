@@ -21,8 +21,6 @@ author_profile: true
 
 ### Actor/Critic papers
 
-* [Off-Policy Actor-Critic](https://arxiv.org/abs/1205.4839)
-  * Sutton, et. al. 2012. Includes elegibility traces.
 * [Sample Efficient Actor-Critic With Experience Replay](https://arxiv.org/abs/1611.01224)
   * [ACER implementation](https://github.com/pfnet/chainerrl/blob/master/chainerrl/agents/acer.py)
 * [The Reactor: A Sample-Efficient Actor-Critic Architecture](https://arxiv.org/abs/1704.04651)
@@ -69,6 +67,22 @@ author_profile: true
   * CNN -> LSTM architecture
 * [Neural SLAM](http://arxiv.org/abs/1706.09520v1)
 * [Expected Policy Gradients](https://arxiv.org/abs/1706.05374)
+* [Noisy Networks for Exploration](https://arxiv.org/abs/1706.10295)
+  * Replace e-greedy or entropy methods of exploration with noisy parameters
+* [Distral: Robust Multitask Reinforcement Learning](https://arxiv.org/abs/1707.04175)
+* [Learning from Demonstrations for Real World Reinforcement Learning](https://arxiv.org/abs/1704.03732)
+* [Trial without Error: Towards Safe Reinforcement Learning via Human Intervention](https://arxiv.org/abs/1707.05173)
+  * [Blog](https://owainevans.github.io/blog/hirl_blog.html)
+  * Very nice idea of having a layer between the agent and the environment for preventing disastrous behavior.
+  * Initially handled by a human but later by a learned system.
+* [Bayesian Neural Networks with Random Inputs for Model Based Reinforcement Learning](https://medium.com/towards-data-science/bayesian-neural-networks-with-random-inputs-for-model-based-reinforcement-learning-36606a9399b4)
+  * I read through this once, but don't understand most of it.
+* [Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347)
+  * From OpenAI.org: "outperforms other online policy gradient methods"
+* [A Distributional Perspective on Reinforcement Learning](https://arxiv.org/abs/1707.06887)
+* [Deep Learning in Robotics: A Review of Recent Research](https://arxiv.org/abs/1707.07217)
+* [Better Exploration with Parameter Noise](https://blog.openai.com/better-exploration-with-parameter-noise/)
+  * Looks like I would need [Layer Normalization](https://arxiv.org/abs/1607.06450) first.
 
 ### Not as relevant to MaLPi, but interesting
 
@@ -83,3 +97,8 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [Bayesian Reinforcement Learning: A Survey](https://arxiv.org/abs/1609.04436)
 * [Beyond Monte Carlo Tree Search: Playing Go with Deep Alternative Neural Network and Long-Term Evaluation](https://arxiv.org/abs/1706.04052)
 * [Meta learning Framework for Automated Driving](https://arxiv.org/abs/1706.04038)
+* [Representation Learning for Grounded Spatial Reasoning](https://arxiv.org/pdf/1707.03938.pdf)
+  * Instruction text -> LSTM -> vectors 1 and 2
+  * V1 is used as a kernel in a convolution over the state space object embeddings (hand built?)
+  * V2 is used to make a global map representation of the input
+  * both outputs are concatenated and input to a CNN to predict the final map value

@@ -6,7 +6,7 @@ redirect_from:
   - /notes.html
 ---
 
-# Math
+# Miscellaneous
 
 [Derivative Rules](http://www.mathsisfun.com/calculus/derivatives-rules.html)
 
@@ -18,6 +18,12 @@ redirect_from:
 
 [Long explanation of RNN's and LSTM's](https://ayearofai.com/rohan-lenny-3-recurrent-neural-networks-10300100899b)
 
+[Tips for Training Recurrent Neural Networks](http://danijar.com/tips-for-training-recurrent-neural-networks/)
+
+[MathJax Tutorial](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference)
+
+[37 Reasons why your Neural Network is not working](https://blog.slavv.com/37-reasons-why-your-neural-network-is-not-working-4020854bd607)
+
 # History
 From [this article](http://sdtimes.com/realities-machine-learning-systems/):
 
@@ -28,6 +34,22 @@ Find or write up a brief description of the Perceptron and maybe a couple of oth
 
 # Classes/Education
 
+## Statistics
+
+From [this reddit comment](https://www.reddit.com/r/MachineLearning/comments/6llhit/d_softmax_interpretation_with_non_1hot_labels/djvsw88/).
+
+I'm not sure about any online courses (I've only done the same two as you) but in regards to books I'd suggest (to be read in this order):
+
+1. An Introduction to Statistical Learning by Hastie et al
+1. The Elements of Statistical Learning by Hastie et al
+1. Machine Learning A Probabilistic Perspective by Murphy
+1. Deep Learning by Goodfellow et al.
+
+You've probably seen these suggested a million times before, but I read through these while I was (and still am!) struggling to get to grips with the maths behind the ML concepts and they cleared up some stuff!
+
+Edit: I also really enjoyed http://u.cs.biu.ac.il/~yogo/nnlp.pdf and https://arxiv.org/pdf/1511.07916 too. Both are more 'tutorials' than books and are both focussed on NLP but are (IMO) incredibly well written (even I could understand them both!) and not too long. Would definitely recommend.
+
+
 [How to Learn Deep Learning when you're not a CS PhD](https://vimeo.com/214233053)
 
 [A concise introductory course on probabilistic graphical models](https://ermongroup.github.io/cs228-notes/)
@@ -35,6 +57,8 @@ Find or write up a brief description of the Perceptron and maybe a couple of oth
 [CS 294: Deep Reinforcement Learning](http://rll.berkeley.edu/deeprlcourse/)
 
 [Bayes, SVM, Decision Trees, and Ensembles in sklearn](https://github.com/savan77/Practical-Machine-Learning-With-Python/blob/master/Part%20-%202/Practical%20Machine%20Learning%20With%20Python%20-%20Part%202.ipynb)
+
+[Free electronics textbook](https://www.circuitlab.com/textbook/), work in progress.
 
 # [The Myth of a Superhuman AI](https://backchannel.com/the-myth-of-a-superhuman-ai-59282b686c62)
 
