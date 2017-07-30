@@ -56,4 +56,4 @@ p.algo {
 </div>
 
 
-They only talk about using it with a linear combination of state features so I have no idea how well it would translate to a neural network.
+They only talk about using elegibility traces with a linear combination of state features so I have no idea how well they would work with a neural network. I'm also not sure what the w weights are. They aren't mentioned anywhere in the paper.
