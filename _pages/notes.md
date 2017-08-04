@@ -24,6 +24,8 @@ redirect_from:
 
 [37 Reasons why your Neural Network is not working](https://blog.slavv.com/37-reasons-why-your-neural-network-is-not-working-4020854bd607)
 
+[Increasing the Action Gap: New Operators for Reinforcement Learning](https://arxiv.org/abs/1512.04860). This looked interesting, but it wasn't clear enough for me to figure out how to implement it in my own code. I think the idea is to replace the Q-Learning update with one that increases the gap between the optimal action and sub-optimal actions. Their results show better performance on Atari games.
+
 # History
 From [this article](http://sdtimes.com/realities-machine-learning-systems/):
 
@@ -59,6 +61,8 @@ Edit: I also really enjoyed http://u.cs.biu.ac.il/~yogo/nnlp.pdf and https://arx
 [Bayes, SVM, Decision Trees, and Ensembles in sklearn](https://github.com/savan77/Practical-Machine-Learning-With-Python/blob/master/Part%20-%202/Practical%20Machine%20Learning%20With%20Python%20-%20Part%202.ipynb)
 
 [Free electronics textbook](https://www.circuitlab.com/textbook/), work in progress.
+
+[How to Read a Paper](http://ccr.sigcomm.org/online/files/p83-keshavA.pdf)
 
 # [The Myth of a Superhuman AI](https://backchannel.com/the-myth-of-a-superhuman-ai-59282b686c62)
 

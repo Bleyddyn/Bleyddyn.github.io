@@ -83,6 +83,9 @@ author_profile: true
 * [Deep Learning in Robotics: A Review of Recent Research](https://arxiv.org/abs/1707.07217)
 * [Better Exploration with Parameter Noise](https://blog.openai.com/better-exploration-with-parameter-noise/)
   * Looks like I would need [Layer Normalization](https://arxiv.org/abs/1607.06450) first.
+* [Guiding Reinforcement Learning Exploration Using Natural Language](https://arxiv.org/abs/1707.08616)
+* [Leveraging Demonstrations for Deep Reinforcement Learning on Robotics Problems with Sparse Rewards](https://arxiv.org/abs/1707.08817)
+* [DARLA: Improving Zero-Shot Transfer in Reinforcement Learning](https://arxiv.org/abs/1707.08475)
 
 ### Not as relevant to MaLPi, but interesting
 
