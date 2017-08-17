@@ -34,7 +34,8 @@ author_profile: true
 
 ### Relevant to MaLPi
 
-* [Learning Atari: An Exploration of the A3C Reinforcement Learning Method](https://instructure-uploads.s3.amazonaws.com/account_10720000000090242/attachments/70223081/learning-atari-exploration.pdf?response-content-disposition=attachment%3B%20filename%3D%22AtariReport.pdf%22%3B%20filename%2A%3DUTF-8%27%27AtariReport.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJFNFXH2V2O7RPCAA%2F20170617%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20170617T002647Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=6d0f68826df0ae0c3c35de54aa8387701592a4ea64e7d06dd74efc7972ff20d9)
+* Learning Atari: An Exploration of the A3C Reinforcement Learning Methoda
+  * This paper is from Berkeley class, but I don't have a direct link for it. Google search should work.
 * [Safe and efficient off-policy reinforcement learning](https://arxiv.org/abs/1606.02647)
 * [A Robust Adaptive Stochastic Gradient Method for Deep Learning](https://arxiv.org/abs/1703.00788)
 * [Bridging the Gap Between Value and Policy Based Reinforcement Learning](https://arxiv.org/abs/1702.08892)
@@ -86,6 +87,8 @@ author_profile: true
 * [Guiding Reinforcement Learning Exploration Using Natural Language](https://arxiv.org/abs/1707.08616)
 * [Leveraging Demonstrations for Deep Reinforcement Learning on Robotics Problems with Sparse Rewards](https://arxiv.org/abs/1707.08817)
 * [DARLA: Improving Zero-Shot Transfer in Reinforcement Learning](https://arxiv.org/abs/1707.08475)
+* [An Information-Theoretic Optimality Principle for Deep Reinforcement Learning](https://arxiv.org/abs/1708.01867)
+* [Decoupled Learning of Environment Characteristics for Safe Exploration](https://arxiv.org/abs/1708.02838)
 
 ### Not as relevant to MaLPi, but interesting
 
@@ -105,3 +108,7 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
   * V1 is used as a kernel in a convolution over the state space object embeddings (hand built?)
   * V2 is used to make a global map representation of the input
   * both outputs are concatenated and input to a CNN to predict the final map value
+* [Early Stage Malware Prediction Using Recurrent Neural Networks](https://arxiv.org/abs/1708.03513)
+* Hwang J, Jung M, Madapana N, et al. Achieving "synergy" in cognitive behavior of humanoids via deep learning of dynamic visuo-motor-attentional coordination. Humanoid Robots (Humanoids), 2015 IEEE-RAS 15th International Conference on; Seoul. 2015. p. 817-824.
+  * Combined human gesture recogniztion, attention, object detection and grasping.
+  * [Arxiv page](https://arxiv.org/abs/1507.02347)
