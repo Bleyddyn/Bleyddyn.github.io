@@ -17,6 +17,12 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}
 
+## Papers read, without notes
+
+* [Revisiting natural gradient for deep networks](https://arxiv.org/abs/1301.3584v7)
+  * Lots of math I didn't understand, but it does seem like natural gradients would be a better choice for RL.
+* [Notes on Gradient Descent](https://ipvs.informatik.uni-stuttgart.de/mlr/marc/notes/gradientDescent.pdf)
+
 ## Papers to read
 
 ### Actor/Critic papers
@@ -31,6 +37,16 @@ author_profile: true
   * 2010, maybe?
 * [ON ACTOR-CRITIC ALGORITHMS](http://www.mit.edu/~jnt/Papers/J094-03-kon-actors.pdf)
   * 2003
+* [Scalable trust-region method for deep reinforcement learning using Kronecker-factored approximation](https://arxiv.org/abs/1708.05144)
+  * This algorithm is in OpenAI's baseline repo.
+  * It's a natural gradient actor critic method ([Natural Gradients](http://kvfrans.com/a-intuitive-explanation-of-natural-gradient-descent/)).
+
+### Reviews
+
+* [Deep Learning in Robotics: A Review of Recent Research](https://arxiv.org/abs/1707.07217)
+  * [Notes](/publications/2017-08-15-deep-learning-in-robotics)
+* [Deep Reinforcement Learning: An Overview](https://arxiv.org/abs/1701.07274)
+* [A Brief Survey of Deep Reinforcement Learning](https://arxiv.org/abs/1708.05866)
 
 ### Relevant to MaLPi
 
@@ -81,7 +97,6 @@ author_profile: true
 * [Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347)
   * From OpenAI.org: "outperforms other online policy gradient methods"
 * [A Distributional Perspective on Reinforcement Learning](https://arxiv.org/abs/1707.06887)
-* [Deep Learning in Robotics: A Review of Recent Research](https://arxiv.org/abs/1707.07217)
 * [Better Exploration with Parameter Noise](https://blog.openai.com/better-exploration-with-parameter-noise/)
   * Looks like I would need [Layer Normalization](https://arxiv.org/abs/1607.06450) first.
 * [Guiding Reinforcement Learning Exploration Using Natural Language](https://arxiv.org/abs/1707.08616)
@@ -112,3 +127,7 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * Hwang J, Jung M, Madapana N, et al. Achieving "synergy" in cognitive behavior of humanoids via deep learning of dynamic visuo-motor-attentional coordination. Humanoid Robots (Humanoids), 2015 IEEE-RAS 15th International Conference on; Seoul. 2015. p. 817-824.
   * Combined human gesture recogniztion, attention, object detection and grasping.
   * [Arxiv page](https://arxiv.org/abs/1507.02347)
+* Deep Mixture Density Network (MDN)
+  *  "MDNs combine the benefits of DNNs and GMMs (Gaussian mixture model)  by using the DNN to model the complex relationship between input and output data, but providing probability distributions as output"
+  * C. Bishop. Mixture density networks, Tech. Rep. NCRG/94/004, Neural Computing Research Group. Aston University, 1994.
+  * H. Zen, A. Senior. Deep mixture density networks for acoustic modeling in statistical parametric speech synthesis, ICASSP, 2014.

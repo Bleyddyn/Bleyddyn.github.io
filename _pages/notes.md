@@ -8,6 +8,8 @@ redirect_from:
 
 # Miscellaneous
 
+The end of [this OpenAI blog post](https://blog.openai.com/baselines-acktr-a2c/) says that their baselines repo includes LSTM implementations. Mabye it's time to abandon my own code and start using one of their baselines.
+
 [Derivative Rules](http://www.mathsisfun.com/calculus/derivatives-rules.html)
 
 [And](https://en.wikipedia.org/wiki/Differentiation_rules)
@@ -36,6 +38,13 @@ Find or write up a brief description of the Perceptron and maybe a couple of oth
 
 # Classes/Education
 
+## University Reinforcement Learning classes
+
+* [CS 294: Deep Reinforcement Learning](http://rll.berkeley.edu/deeprlcourse/)
+* [CMU 10703, Spring 2017 Deep Reinforcement Learning and Control](https://katefvision.github.io)
+* [Stanford CS234: Reinforcement Learning](http://web.stanford.edu/class/cs234/index.html)
+* [David Silver's UCL Course on RL](http://www0.cs.ucl.ac.uk/staff/D.Silver/web/Teaching.html)
+
 ## Statistics
 
 From [this reddit comment](https://www.reddit.com/r/MachineLearning/comments/6llhit/d_softmax_interpretation_with_non_1hot_labels/djvsw88/).
@@ -55,8 +64,6 @@ Edit: I also really enjoyed http://u.cs.biu.ac.il/~yogo/nnlp.pdf and https://arx
 [How to Learn Deep Learning when you're not a CS PhD](https://vimeo.com/214233053)
 
 [A concise introductory course on probabilistic graphical models](https://ermongroup.github.io/cs228-notes/)
-
-[CS 294: Deep Reinforcement Learning](http://rll.berkeley.edu/deeprlcourse/)
 
 [Bayes, SVM, Decision Trees, and Ensembles in sklearn](https://github.com/savan77/Practical-Machine-Learning-With-Python/blob/master/Part%20-%202/Practical%20Machine%20Learning%20With%20Python%20-%20Part%202.ipynb)
 
