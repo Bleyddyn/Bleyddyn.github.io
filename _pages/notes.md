@@ -28,6 +28,8 @@ The end of [this OpenAI blog post](https://blog.openai.com/baselines-acktr-a2c/)
 
 [Increasing the Action Gap: New Operators for Reinforcement Learning](https://arxiv.org/abs/1512.04860). This looked interesting, but it wasn't clear enough for me to figure out how to implement it in my own code. I think the idea is to replace the Q-Learning update with one that increases the gap between the optimal action and sub-optimal actions. Their results show better performance on Atari games.
 
+[Tips to get RL to work](https://github.com/williamFalcon/DeepRLHacks)
+
 # History
 From [this article](http://sdtimes.com/realities-machine-learning-systems/):
 
@@ -44,6 +46,7 @@ Find or write up a brief description of the Perceptron and maybe a couple of oth
 * [CMU 10703, Spring 2017 Deep Reinforcement Learning and Control](https://katefvision.github.io)
 * [Stanford CS234: Reinforcement Learning](http://web.stanford.edu/class/cs234/index.html)
 * [David Silver's UCL Course on RL](http://www0.cs.ucl.ac.uk/staff/D.Silver/web/Teaching.html)
+* [Deep Learning (DLSS) and Reinforcement Learning (RLSS) Summer School, Montreal 2017 (videos)](http://videolectures.net/deeplearning2017_montreal/)
 
 ## Statistics
 

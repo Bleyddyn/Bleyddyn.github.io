@@ -22,6 +22,8 @@ author_profile: true
 * [Revisiting natural gradient for deep networks](https://arxiv.org/abs/1301.3584v7)
   * Lots of math I didn't understand, but it does seem like natural gradients would be a better choice for RL.
 * [Notes on Gradient Descent](https://ipvs.informatik.uni-stuttgart.de/mlr/marc/notes/gradientDescent.pdf)
+* [Gradual Learning of Deep Recurrent Neural Networks](https://arxiv.org/pdf/1708.08863.pdf)
+  * This suggests it should be possible to start MaLPi with a one-layer LSTM, then add more layers and continue training. See Figure 1.
 
 ## Papers to read
 
@@ -131,3 +133,6 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
   *  "MDNs combine the benefits of DNNs and GMMs (Gaussian mixture model)  by using the DNN to model the complex relationship between input and output data, but providing probability distributions as output"
   * C. Bishop. Mixture density networks, Tech. Rep. NCRG/94/004, Neural Computing Research Group. Aston University, 1994.
   * H. Zen, A. Senior. Deep mixture density networks for acoustic modeling in statistical parametric speech synthesis, ICASSP, 2014.
+* [Anytime Neural Networks via Joint Optimization of Auxiliary Losses](https://arxiv.org/abs/1708.06832)
+* [Language Grounding for Robotics accepted papers](https://robonlp2017.github.io/accepted.html)
+* Yuke Zhu, Roozbeh Mottaghi, Eric Kolve, Joseph J Lim, Abhinav Gupta, Li Fei- Fei, and Ali Farhadi. Target-driven Visual Navigation in Indoor Scenes using Deep Reinforcement Learning. In ICRA, 2017.
