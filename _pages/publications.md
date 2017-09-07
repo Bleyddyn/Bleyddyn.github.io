@@ -24,6 +24,7 @@ author_profile: true
 * [Notes on Gradient Descent](https://ipvs.informatik.uni-stuttgart.de/mlr/marc/notes/gradientDescent.pdf)
 * [Gradual Learning of Deep Recurrent Neural Networks](https://arxiv.org/pdf/1708.08863.pdf)
   * This suggests it should be possible to start MaLPi with a one-layer LSTM, then add more layers and continue training. See Figure 1.
+* [A Brief Survey of Deep Reinforcement Learning](https://arxiv.org/abs/1708.05866)
 
 ## Papers to read
 
@@ -45,10 +46,7 @@ author_profile: true
 
 ### Reviews
 
-* [Deep Learning in Robotics: A Review of Recent Research](https://arxiv.org/abs/1707.07217)
-  * [Notes](/publications/2017-08-15-deep-learning-in-robotics)
 * [Deep Reinforcement Learning: An Overview](https://arxiv.org/abs/1701.07274)
-* [A Brief Survey of Deep Reinforcement Learning](https://arxiv.org/abs/1708.05866)
 
 ### Relevant to MaLPi
 
@@ -108,6 +106,8 @@ author_profile: true
 * [An Information-Theoretic Optimality Principle for Deep Reinforcement Learning](https://arxiv.org/abs/1708.01867)
 * [Decoupled Learning of Environment Characteristics for Safe Exploration](https://arxiv.org/abs/1708.02838)
 * [Knowledge Sharing for Reinforcement Learning: Writing a BOOK](https://arxiv.org/abs/1709.01308)
+* [A Theoretically Grounded Application of Dropout in Recurrent Neural Networks](https://arxiv.org/abs/1512.05287)
+  * Variational or Bayesian Dropout, for use with RNN's.
 
 ### Not as relevant to MaLPi, but interesting
 
