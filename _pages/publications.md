@@ -25,6 +25,8 @@ author_profile: true
 * [Gradual Learning of Deep Recurrent Neural Networks](https://arxiv.org/pdf/1708.08863.pdf)
   * This suggests it should be possible to start MaLPi with a one-layer LSTM, then add more layers and continue training. See Figure 1.
 * [A Brief Survey of Deep Reinforcement Learning](https://arxiv.org/abs/1708.05866)
+* [An Information-Theoretic Optimality Principle for Deep Reinforcement Learning](https://arxiv.org/abs/1708.01867)
+  * Their algorithm outperforms DQN and DDQN in terms of game-play and sample complexity.
 
 ## Papers to read
 
@@ -103,11 +105,11 @@ author_profile: true
 * [Guiding Reinforcement Learning Exploration Using Natural Language](https://arxiv.org/abs/1707.08616)
 * [Leveraging Demonstrations for Deep Reinforcement Learning on Robotics Problems with Sparse Rewards](https://arxiv.org/abs/1707.08817)
 * [DARLA: Improving Zero-Shot Transfer in Reinforcement Learning](https://arxiv.org/abs/1707.08475)
-* [An Information-Theoretic Optimality Principle for Deep Reinforcement Learning](https://arxiv.org/abs/1708.01867)
 * [Decoupled Learning of Environment Characteristics for Safe Exploration](https://arxiv.org/abs/1708.02838)
 * [Knowledge Sharing for Reinforcement Learning: Writing a BOOK](https://arxiv.org/abs/1709.01308)
 * [A Theoretically Grounded Application of Dropout in Recurrent Neural Networks](https://arxiv.org/abs/1512.05287)
   * Variational or Bayesian Dropout, for use with RNN's.
+* [Training RNNs as Fast as CNNs](https://arxiv.org/abs/1709.02755)
 
 ### Not as relevant to MaLPi, but interesting
 
