@@ -27,6 +27,8 @@ author_profile: true
 * [A Brief Survey of Deep Reinforcement Learning](https://arxiv.org/abs/1708.05866)
 * [An Information-Theoretic Optimality Principle for Deep Reinforcement Learning](https://arxiv.org/abs/1708.01867)
   * Their algorithm outperforms DQN and DDQN in terms of game-play and sample complexity.
+* [Asynchronous Methods for Deep Reinforcement Learning](https://arxiv.org/pdf/1602.01783.pdf)
+  * This paper included a comparison of A3C with A3C+LSTM, and it looks to me like the LSTM version performs better on many games.
 
 ## Papers to read
 
