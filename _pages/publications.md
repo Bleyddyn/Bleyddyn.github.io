@@ -29,6 +29,13 @@ author_profile: true
   * Their algorithm outperforms DQN and DDQN in terms of game-play and sample complexity.
 * [Asynchronous Methods for Deep Reinforcement Learning](https://arxiv.org/pdf/1602.01783.pdf)
   * This paper included a comparison of A3C with A3C+LSTM, and it looks to me like the LSTM version performs better on many games.
+* [Revisiting the Arcade Learning Environment: Evaluation Protocols and Open Problems for General Agents](https://arxiv.org/abs/1709.06009)
+  * Score using the average of the last n games, both during training and afterward.
+  * Add stochasticity by having 'sticky actions.'
+* [Online Learning of a Memory for Learning Rates](https://arxiv.org/pdf/1709.06709.pdf)
+  * Learns a memory that's used to set the learning rate.
+  * Something to look for as an option in Keras or Tensorflow.
+  * Was compared with an optimizer learning system called L2LBGDBGD.
 
 ## Papers to read
 
@@ -54,6 +61,8 @@ author_profile: true
 
 ### Relevant to MaLPi
 
+* [Curiosity-driven Exploration by Self-supervised Prediction](https://pathak22.github.io/noreward-rl/)
+  * [Arxiv link](https://arxiv.org/abs/1705.05363)
 * Learning Atari: An Exploration of the A3C Reinforcement Learning Methoda
   * This paper is from Berkeley class, but I don't have a direct link for it. Google search should work.
 * [Safe and efficient off-policy reinforcement learning](https://arxiv.org/abs/1606.02647)
@@ -71,7 +80,6 @@ author_profile: true
   * Replacing epsilon greedy exploration with a generalized count-based exploration strategy.
 * [Learning to act by predicting the future](https://openreview.net/forum?id=rJLS7qKel&noteId=rJLS7qKel)
   * Predicting the future as a supervised learning task
-* [Curiosity-driven Exploration by Self-supervised Prediction](https://pathak22.github.io/noreward-rl/)
 * [One-Shot Imitation Learning](https://arxiv.org/abs/1703.07326)
 * [Efficient Parallel Methods for Deep Reinforcement Learning](https://arxiv.org/abs/1705.04862v2)
 * [Recurrent Additive Networks](http://www.kentonl.com/pub/llz.2017.pdf)
@@ -112,6 +120,8 @@ author_profile: true
 * [A Theoretically Grounded Application of Dropout in Recurrent Neural Networks](https://arxiv.org/abs/1512.05287)
   * Variational or Bayesian Dropout, for use with RNN's.
 * [Training RNNs as Fast as CNNs](https://arxiv.org/abs/1709.02755)
+* [The Uncertainty Bellman Equation and Exploration](https://arxiv.org/abs/1709.05380)
+* [Lifelong Learning with Dynamically Expandable Networks](https://arxiv.org/abs/1708.01547)
 
 ### Not as relevant to MaLPi, but interesting
 
@@ -142,3 +152,4 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [Anytime Neural Networks via Joint Optimization of Auxiliary Losses](https://arxiv.org/abs/1708.06832)
 * [Language Grounding for Robotics accepted papers](https://robonlp2017.github.io/accepted.html)
 * Yuke Zhu, Roozbeh Mottaghi, Eric Kolve, Joseph J Lim, Abhinav Gupta, Li Fei- Fei, and Ali Farhadi. Target-driven Visual Navigation in Indoor Scenes using Deep Reinforcement Learning. In ICRA, 2017.
+* [Augmenting End-to-End Dialog Systems with Commonsense Knowledge](https://arxiv.org/abs/1709.05453)
