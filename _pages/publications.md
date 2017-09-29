@@ -36,6 +36,18 @@ author_profile: true
   * Learns a memory that's used to set the learning rate.
   * Something to look for as an option in Keras or Tensorflow.
   * Was compared with an optimizer learning system called L2LBGDBGD.
+* [Multi-Task Learning Objectives for Natural Language Processing](http://ruder.io/multi-task-learning-nlp/index.html)
+  * Specifically about NLP, but some ideas might be useful for MaLPi.
+  * Auxilliary tasks should complement the main task.
+  * Adversarial loss
+    * (Ganin, Y., & Lempitsky, V. (2015). Unsupervised Domain Adaptation by Backpropagation. In Proceedings of the 32nd International Conference on Machine Learning. (Vol. 37).
+    * [Domain-Adversarial Training of Neural Networks](http://www.jmlr.org/papers/volume17/15-239/source/15-239.pdf)
+  * Predicting the next frame in video, [Grounded Language Learning in a Simulated 3D World](https://arxiv.org/abs/1706.06551).
+* [Probabilistic machine learning and artificial intelligence](https://www.cse.iitk.ac.in/users/piyush/courses/pml_winter16/nature14541.pdf)
+  * Review article. Basically an add for why all ML should be probabilistic.
+* [Deep Reinforcement Learning that Matters](https://arxiv.org/abs/1709.06560)
+  * Everything seems to have a large effect on performance: network architecture, hyperparameters, reward scaling, random seeds, number of trials, algorithm and implementation details.
+  * Evaluation metrics might include: confidence bounds, power analysis, and significance of the metric.
 
 ## Papers to read
 
@@ -63,7 +75,7 @@ author_profile: true
 
 * [Curiosity-driven Exploration by Self-supervised Prediction](https://pathak22.github.io/noreward-rl/)
   * [Arxiv link](https://arxiv.org/abs/1705.05363)
-* Learning Atari: An Exploration of the A3C Reinforcement Learning Methoda
+* Learning Atari: An Exploration of the A3C Reinforcement Learning Methods.
   * This paper is from Berkeley class, but I don't have a direct link for it. Google search should work.
 * [Safe and efficient off-policy reinforcement learning](https://arxiv.org/abs/1606.02647)
 * [A Robust Adaptive Stochastic Gradient Method for Deep Learning](https://arxiv.org/abs/1703.00788)
@@ -122,6 +134,8 @@ author_profile: true
 * [Training RNNs as Fast as CNNs](https://arxiv.org/abs/1709.02755)
 * [The Uncertainty Bellman Equation and Exploration](https://arxiv.org/abs/1709.05380)
 * [Lifelong Learning with Dynamically Expandable Networks](https://arxiv.org/abs/1708.01547)
+* [Overcoming Exploration in Reinforcement Learning with Demonstrations](https://arxiv.org/abs/1709.10089)
+  * Mentions something called Hindsight Experience Replay.
 
 ### Not as relevant to MaLPi, but interesting
 
