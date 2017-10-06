@@ -48,6 +48,14 @@ author_profile: true
 * [Deep Reinforcement Learning that Matters](https://arxiv.org/abs/1709.06560)
   * Everything seems to have a large effect on performance: network architecture, hyperparameters, reward scaling, random seeds, number of trials, algorithm and implementation details.
   * Evaluation metrics might include: confidence bounds, power analysis, and significance of the metric.
+* [Learning Diverse Skills via Maximum Entropy Deep Reinforcement Learning](http://bair.berkeley.edu/blog/2017/10/06/soft-q-learning/)
+  * Soft Q-Learning, also called Maximal Entropy Models. Benefits:
+    * Better Exploration
+    * Fine-Tuning Maximum Entropy Policies
+    * Compositionality
+    * Robustness
+    * Paper: https://arxiv.org/abs/1702.08165
+    * Code: https://github.com/haarnoja/softqlearning
 
 ## Papers to read
 
@@ -167,3 +175,5 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [Language Grounding for Robotics accepted papers](https://robonlp2017.github.io/accepted.html)
 * Yuke Zhu, Roozbeh Mottaghi, Eric Kolve, Joseph J Lim, Abhinav Gupta, Li Fei- Fei, and Ali Farhadi. Target-driven Visual Navigation in Indoor Scenes using Deep Reinforcement Learning. In ICRA, 2017.
 * [Augmenting End-to-End Dialog Systems with Commonsense Knowledge](https://arxiv.org/abs/1709.05453)
+* [Predictive representations can link model-based reinforcement learning to model-free mechanisms](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005768)
+* [Neural Task Programming: Learning to Generalize Across Hierarchical Tasks](https://arxiv.org/abs/1710.01813)
