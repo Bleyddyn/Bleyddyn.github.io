@@ -54,8 +54,12 @@ author_profile: true
     * Fine-Tuning Maximum Entropy Policies
     * Compositionality
     * Robustness
-    * Paper: https://arxiv.org/abs/1702.08165
+    * Paper: [Reinforcement Learning with Deep Energy-Based Policies](https://arxiv.org/abs/1702.08165)
     * Code: https://github.com/haarnoja/softqlearning
+* [Interpretable ML](https://medium.com/south-park-commons/how-to-make-your-data-and-models-interpretable-by-learning-from-cognitive-science-a6a29867790)
+  * Generate prototypes and critics of a cluster for visualizing data in a human-centric way: [MMD-critic](https://github.com/BeenKim/MMD-critic)
+* [Learning Long Duration Sequential Task Structure From Demonstrations with Application in Surgical Robotics](http://bair.berkeley.edu/blog/2017/10/17/lfd-surgical-robots/)
+  * The last section describes a policy that chooses sub-policies. I think.
 
 ## Papers to read
 
@@ -74,6 +78,7 @@ author_profile: true
 * [Scalable trust-region method for deep reinforcement learning using Kronecker-factored approximation](https://arxiv.org/abs/1708.05144)
   * This algorithm is in OpenAI's baseline repo.
   * It's a natural gradient actor critic method ([Natural Gradients](http://kvfrans.com/a-intuitive-explanation-of-natural-gradient-descent/)).
+* [Hindsight Experience Replay](https://arxiv.org/pdf/1707.01495.pdf)
 
 ### Reviews
 
@@ -144,6 +149,7 @@ author_profile: true
 * [Lifelong Learning with Dynamically Expandable Networks](https://arxiv.org/abs/1708.01547)
 * [Overcoming Exploration in Reinforcement Learning with Demonstrations](https://arxiv.org/abs/1709.10089)
   * Mentions something called Hindsight Experience Replay.
+* [Self-supervised Deep Reinforcement Learning with Generalized Computation Graphs for Robot Navigation](https://arxiv.org/abs/1709.10489)
 
 ### Not as relevant to MaLPi, but interesting
 
@@ -177,3 +183,9 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [Augmenting End-to-End Dialog Systems with Commonsense Knowledge](https://arxiv.org/abs/1709.05453)
 * [Predictive representations can link model-based reinforcement learning to model-free mechanisms](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005768)
 * [Neural Task Programming: Learning to Generalize Across Hierarchical Tasks](https://arxiv.org/abs/1710.01813)
+* [Understanding Generalization and Stochastic Gradient Descent](https://arxiv.org/abs/1710.06451)
+  * Includes how to choose the best batch size for test set accuracy.
+
+## Classes
+
+* [Deep RL Bootcamp (Aug 2017, Berkeley](https://sites.google.com/view/deep-rl-bootcamp/lectures)
