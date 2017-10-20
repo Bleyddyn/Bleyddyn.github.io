@@ -48,14 +48,14 @@ timesteps = 10
 images = np.reshape( images, (num_samples/timesteps, timesteps) + input_dim )
 y = np.reshape( y, (num_samples/timesteps, timesteps, num_actions) )
 
-model = model_keras.make_model_lstm_simple( num_actions, input_dim, stateful=False )
+model = make_model_lstm_simple( num_actions, input_dim, stateful=False )
 model.fit( images, y, validation_split=0.25, epochs=epochs, shuffle=False )
 model.save_weights('model_weights.h5')
 
 # There's probably some way to transfer the weights without writing to file, but for my purposes it doesn't matter much
 
 # Run-time on the robot
-model2 = model_keras.make_model_lstm_simple( num_actions, input_dim, batch_size=1, timesteps=1, stateful=True )
+model2 = make_model_lstm_simple( num_actions, input_dim, batch_size=1, timesteps=1, stateful=True )
 model2.load_weights( 'model_weights.h5' )
 while True:
     obs = getImageFromCamera()
