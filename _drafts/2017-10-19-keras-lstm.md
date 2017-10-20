@@ -10,7 +10,13 @@ tags:
 
 When I started trying to use Keras' LSTM layer I realized that the straightforward way to create, train and use a Keras model wasn't going to work. The problem is that the LSTM layer requires either the batch size or the timesteps (e.g. sequence length) to be hard coded in the model. That wasn't going to work when you want to train on large batch sizes and/or sequence lengths, but you need to be able to run one input at a time through the network when it's running on a robot, while maintaining the LSTM's internal state between calls.
 
-I asked about this on [Reddit](https://www.reddit.com/r/MLQuestions/comments/72lzxt/keras_lstm_predict_question/) and [StackOverflow](https://stackoverflow.com/questions/46459843/keras-lstm-predict-1-timestep-at-a-time) without getting completely working answers so I kept experimenting on my own and eventually found a method that I think will work. Having said that, I haven't actually tested this on MaLPi because I don't have enough training data collected, yet.
+I asked about this on [Reddit](https://www.reddit.com/r/MLQuestions/comments/72lzxt/keras_lstm_predict_question/) and [StackOverflow](https://stackoverflow.com/questions/46459843/keras-lstm-predict-1-timestep-at-a-time) (plus numerous Google searches) without getting completely working answers. So I kept experimenting on my own and eventually found a method that I think will work. Having said that, I haven't actually tested this on MaLPi because I don't have enough training data collected, yet.
+
+The short version is that you train on a network with stateful set to False and a fixed timestep/sequence-length, then you copy the weights to a new network that has stateful set to True and a batch size of one and a timesteps of one. If necessary you can call model.reset_states() in between episodes, or whenever you want the robot to forget what it was doing. E.g. if you pick it up and move it someplace new.
+
+I've simplified this code as much as possible, but hopefully not so much that I introduced other problems.
+
+I'm also not completely sure that stateful=True works the way I think it works, especially in combination with a Sequential model's predict method. And I'm not even sure how to test it.
 
 ```python
 def make_model_lstm_simple( num_actions, input_dim, batch_size=1, timesteps=None, stateful=False ):
