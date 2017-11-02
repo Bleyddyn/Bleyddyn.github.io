@@ -60,6 +60,14 @@ author_profile: true
   * Generate prototypes and critics of a cluster for visualizing data in a human-centric way: [MMD-critic](https://github.com/BeenKim/MMD-critic)
 * [Learning Long Duration Sequential Task Structure From Demonstrations with Application in Surgical Robotics](http://bair.berkeley.edu/blog/2017/10/17/lfd-surgical-robots/)
   * The last section describes a policy that chooses sub-policies. I think.
+* [Mixup](https://twitter.com/hardmaru/status/925145276016345088)
+  * Data augmentation by linear interpretation between two x's and two y's.
+  * They suggest randomly selected samples, but I would probably need to keep them close in time.
+  * Yes, I'm referencing a tweet. Haven't found the original paper.
+* [Does batch size matter?](https://blog.janestreet.com/does-batch-size-matter/)
+  * Interesting but I'm still not sure how it helps me pick a learning rate, especially if I'm using RMSProp or Adam.
+  * lr = BatchSize / NumberOfSamples?
+  * What about learning rate decay?
 
 ## Papers to read
 
@@ -135,6 +143,8 @@ author_profile: true
 * [Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347)
   * From OpenAI.org: "outperforms other online policy gradient methods"
 * [A Distributional Perspective on Reinforcement Learning](https://arxiv.org/abs/1707.06887)
+  * [A blog post about it](https://flyyufelix.github.io/2017/10/24/distributional-bellman.html)
+  * [And Keras code](https://github.com/flyyufelix/C51-DDQN-Keras)
 * [Better Exploration with Parameter Noise](https://blog.openai.com/better-exploration-with-parameter-noise/)
   * Looks like I would need [Layer Normalization](https://arxiv.org/abs/1607.06450) first.
 * [Guiding Reinforcement Learning Exploration Using Natural Language](https://arxiv.org/abs/1707.08616)
@@ -159,6 +169,7 @@ author_profile: true
 * [Hybrid computing using a neural network with dynamic external memory](https://www.nature.com/articles/nature20101.epdf?author_access_token=ImTXBI8aWbYxYQ51Plys8NRgN0jAjWel9jnR3ZoTv0MggmpDmwljGswxVdeocYSurJ3hxupzWuRNeGvvXnoO8o4jTJcnAyhGuZzXJ1GEaD-Z7E6X_a9R-xqJ9TfJWBqz)
 * [Bayesian Recurrent Neural Networks](https://arxiv.org/abs/1704.02798)
   * [A Tensorflow implementation](https://github.com/DeNeutoy/bayesian-rnn)
+  * [Another TF implementation](https://github.com/mirceamironenco/BayesianRecurrentNN)
 * [ML for analyzing unix log files](https://www.google.com/#safe=off&q=unix+log+files+machine+learning+detect+outliers)
 ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [Bayesian Reinforcement Learning: A Survey](https://arxiv.org/abs/1609.04436)
@@ -185,6 +196,7 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [Neural Task Programming: Learning to Generalize Across Hierarchical Tasks](https://arxiv.org/abs/1710.01813)
 * [Understanding Generalization and Stochastic Gradient Descent](https://arxiv.org/abs/1710.06451)
   * Includes how to choose the best batch size for test set accuracy.
+* [A generative vision model that trains with high data efficiency and breaks text-based CAPTCHAs](http://science.sciencemag.org/content/early/2017/10/25/science.aag2612.full)
 
 ## Classes
 
