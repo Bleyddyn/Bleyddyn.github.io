@@ -38,16 +38,6 @@ From [this article](http://sdtimes.com/realities-machine-learning-systems/):
 Find or write up a brief description of the Perceptron and maybe a couple of other important ML advances.
 
 
-# Classes/Education
-
-## University Reinforcement Learning classes
-
-* [CS 294: Deep Reinforcement Learning](http://rll.berkeley.edu/deeprlcourse/)
-* [CMU 10703, Spring 2017 Deep Reinforcement Learning and Control](https://katefvision.github.io)
-* [Stanford CS234: Reinforcement Learning](http://web.stanford.edu/class/cs234/index.html)
-* [David Silver's UCL Course on RL](http://www0.cs.ucl.ac.uk/staff/D.Silver/web/Teaching.html)
-* [Deep Learning (DLSS) and Reinforcement Learning (RLSS) Summer School, Montreal 2017 (videos)](http://videolectures.net/deeplearning2017_montreal/)
-
 ## Statistics
 
 From [this reddit comment](https://www.reddit.com/r/MachineLearning/comments/6llhit/d_softmax_interpretation_with_non_1hot_labels/djvsw88/).

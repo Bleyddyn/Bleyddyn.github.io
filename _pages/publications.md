@@ -68,6 +68,8 @@ author_profile: true
   * Interesting but I'm still not sure how it helps me pick a learning rate, especially if I'm using RMSProp or Adam.
   * lr = BatchSize / NumberOfSamples?
   * What about learning rate decay?
+* [HoME: a Household Multimodal Environment](https://arxiv.org/abs/1711.11017)
+  * [Github](https://github.com/HoME-Platform/home-platform), [Website](https://home-platform.github.io)
 
 ## Papers to read
 
@@ -160,6 +162,8 @@ author_profile: true
 * [Overcoming Exploration in Reinforcement Learning with Demonstrations](https://arxiv.org/abs/1709.10089)
   * Mentions something called Hindsight Experience Replay.
 * [Self-supervised Deep Reinforcement Learning with Generalized Computation Graphs for Robot Navigation](https://arxiv.org/abs/1709.10489)
+* [Embodied Question Answering](http://embodiedqa.org)
+  * [Paper](http://embodiedqa.org/paper.pdf)
 
 ### Not as relevant to MaLPi, but interesting
 
@@ -198,6 +202,12 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
   * Includes how to choose the best batch size for test set accuracy.
 * [A generative vision model that trains with high data efficiency and breaks text-based CAPTCHAs](http://science.sciencemag.org/content/early/2017/10/25/science.aag2612.full)
 
-## Classes
+## Classes/Education
 
+* [CS 294: Deep Reinforcement Learning](http://rll.berkeley.edu/deeprlcourse/)
+* [CMU 10703, Spring 2017 Deep Reinforcement Learning and Control](https://katefvision.github.io)
+* [Stanford CS234: Reinforcement Learning](http://web.stanford.edu/class/cs234/index.html)
+* [David Silver's UCL Course on RL](http://www0.cs.ucl.ac.uk/staff/D.Silver/web/Teaching.html)
+* [Deep Learning (DLSS) and Reinforcement Learning (RLSS) Summer School, Montreal 2017 (videos)](http://videolectures.net/deeplearning2017_montreal/)
 * [Deep RL Bootcamp (Aug 2017, Berkeley](https://sites.google.com/view/deep-rl-bootcamp/lectures)
+* [Theories of Deep Learning (STATS 385), Stanford 2017](https://stats385.github.io)
