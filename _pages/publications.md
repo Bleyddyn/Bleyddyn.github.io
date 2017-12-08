@@ -68,8 +68,7 @@ author_profile: true
   * Interesting but I'm still not sure how it helps me pick a learning rate, especially if I'm using RMSProp or Adam.
   * lr = BatchSize / NumberOfSamples?
   * What about learning rate decay?
-* [HoME: a Household Multimodal Environment](https://arxiv.org/abs/1711.11017)
-  * [Github](https://github.com/HoME-Platform/home-platform), [Website](https://home-platform.github.io)
+* [The impossibility of intelligence explosion](https://medium.com/@francois.chollet/the-impossibility-of-intelligence-explosion-5be4a9eda6ec)
 
 ## Papers to read
 
@@ -164,6 +163,12 @@ author_profile: true
 * [Self-supervised Deep Reinforcement Learning with Generalized Computation Graphs for Robot Navigation](https://arxiv.org/abs/1709.10489)
 * [Embodied Question Answering](http://embodiedqa.org)
   * [Paper](http://embodiedqa.org/paper.pdf)
+* [Time Limits in Reinforcement Learning](https://arxiv.org/abs/1712.00378)
+  * For value networks that will be used in a non-episodic way, don't end bootstraping at training episode boundaries.
+* [HoME: a Household Multimodal Environment](https://arxiv.org/abs/1711.11017)
+  * [Github](https://github.com/HoME-Platform/home-platform), [Website](https://home-platform.github.io)
+* [Time-Contrastive Networks: Self-Supervised Learning from Video](https://arxiv.org/abs/1704.06888)
+  * [Website](https://sermanet.github.io/imitate/)
 
 ### Not as relevant to MaLPi, but interesting
 
@@ -201,6 +206,7 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [Understanding Generalization and Stochastic Gradient Descent](https://arxiv.org/abs/1710.06451)
   * Includes how to choose the best batch size for test set accuracy.
 * [A generative vision model that trains with high data efficiency and breaks text-based CAPTCHAs](http://science.sciencemag.org/content/early/2017/10/25/science.aag2612.full)
+* [Generalized Grounding Graphs: A Probabilistic Framework for Understanding Grounded Commands](https://arxiv.org/abs/1712.01097)
 
 ## Classes/Education
 

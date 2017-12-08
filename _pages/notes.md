@@ -30,6 +30,8 @@ The end of [this OpenAI blog post](https://blog.openai.com/baselines-acktr-a2c/)
 
 [Tips to get RL to work](https://github.com/williamFalcon/DeepRLHacks)
 
+[How to approximate a Bayesian Neural Network with dropout](https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-7-action-selection-strategies-for-exploration-d3a97b7cceaf)
+
 # History
 From [this article](http://sdtimes.com/realities-machine-learning-systems/):
 
