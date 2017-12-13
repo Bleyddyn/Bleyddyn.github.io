@@ -165,10 +165,14 @@ author_profile: true
   * [Paper](http://embodiedqa.org/paper.pdf)
 * [Time Limits in Reinforcement Learning](https://arxiv.org/abs/1712.00378)
   * For value networks that will be used in a non-episodic way, don't end bootstraping at training episode boundaries.
-* [HoME: a Household Multimodal Environment](https://arxiv.org/abs/1711.11017)
-  * [Github](https://github.com/HoME-Platform/home-platform), [Website](https://home-platform.github.io)
 * [Time-Contrastive Networks: Self-Supervised Learning from Video](https://arxiv.org/abs/1704.06888)
   * [Website](https://sermanet.github.io/imitate/)
+
+#### Simulators
+
+* [HoME: a Household Multimodal Environment](https://arxiv.org/abs/1711.11017)
+  * [Github](https://github.com/HoME-Platform/home-platform), [Website](https://home-platform.github.io)
+* [MINOS: Multimodal Indoor Simulator](https://minosworld.github.io)
 
 ### Not as relevant to MaLPi, but interesting
 
@@ -207,6 +211,7 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
   * Includes how to choose the best batch size for test set accuracy.
 * [A generative vision model that trains with high data efficiency and breaks text-based CAPTCHAs](http://science.sciencemag.org/content/early/2017/10/25/science.aag2612.full)
 * [Generalized Grounding Graphs: A Probabilistic Framework for Understanding Grounded Commands](https://arxiv.org/abs/1712.01097)
+* [Peephole: Predicting Network Performance Before Training](https://arxiv.org/abs/1712.03351)
 
 ## Classes/Education
 

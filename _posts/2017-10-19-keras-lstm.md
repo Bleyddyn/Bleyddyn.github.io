@@ -2,6 +2,7 @@
 title: 'Getting a Keras LSTM layer to work on MaLPi'
 date: 2017-10-19
 permalink: /posts/2017/10/keras-lstm/
+excerpt: Training on batch sizes and/or sequence lengths longer than one, while still being able to run one image at a time on the robot.
 tags:
   - keras
   - lstm
