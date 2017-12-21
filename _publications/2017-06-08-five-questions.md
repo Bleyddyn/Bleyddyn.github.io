@@ -5,7 +5,7 @@ permalink: /publications/2017-06-08-five-questions
 excerpt: 'Five questions to ask about your deep learning project.'
 date: 2017-05-09
 paperurl: https://blog.semantics3.com/questions-intuition-for-tackling-deep-learning-problems-2b3a22b32309
-use_math: false
+usemath: false
 ---
 
 ## Notes

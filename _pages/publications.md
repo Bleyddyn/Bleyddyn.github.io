@@ -69,6 +69,8 @@ author_profile: true
   * lr = BatchSize / NumberOfSamples?
   * What about learning rate decay?
 * [The impossibility of intelligence explosion](https://medium.com/@francois.chollet/the-impossibility-of-intelligence-explosion-5be4a9eda6ec)
+* [NIPS 2017 Notes](https://cs.brown.edu/%7Edabel/blog/posts/misc/nips_2017.pdf)
+* [Machine Teaching: A New Paradigm for Building Machine Learning Systems](https://arxiv.org/abs/1707.06742)
 
 ## Papers to read
 
@@ -88,6 +90,7 @@ author_profile: true
   * This algorithm is in OpenAI's baseline repo.
   * It's a natural gradient actor critic method ([Natural Gradients](http://kvfrans.com/a-intuitive-explanation-of-natural-gradient-descent/)).
 * [Hindsight Experience Replay](https://arxiv.org/pdf/1707.01495.pdf)
+* [SOFT ACTOR-CRITIC: OFF-POLICY MAXIMUM ENTROPY DEEP REINFORCEMENT LEARNING WITH A STOCHASTIC ACTOR](https://openreview.net/pdf?id=HJjvxl-Cb)
 
 ### Reviews
 
@@ -167,6 +170,12 @@ author_profile: true
   * For value networks that will be used in a non-episodic way, don't end bootstraping at training episode boundaries.
 * [Time-Contrastive Networks: Self-Supervised Learning from Video](https://arxiv.org/abs/1704.06888)
   * [Website](https://sermanet.github.io/imitate/)
+* [Reverse Curriculum Generation for Reinforcement Learning Agents](http://bair.berkeley.edu/blog/2017/12/20/reverse-curriculum/)
+  * This could be very useful when I try to train MaLPi to find its charging station.
+  * Paper: [Reverse Curriculum Generation for Reinforcement Learning](http://proceedings.mlr.press/v78/florensa17a/florensa17a.pdf)
+  * [Code](https://sites.google.com/view/reversecurriculum)
+* [Deep reinforcement learning from human preferences](https://arxiv.org/abs/1706.03741)
+* [HIERARCHICAL AND INTERPRETABLE SKILL ACQUI-SITION IN MULTI-TASK REINFORCEMENT LEARNING](https://einstein.ai/static/images/pages/research/hierarchical-reinforcement-learning/iclr2018_HRL.pdf)
 
 #### Simulators
 

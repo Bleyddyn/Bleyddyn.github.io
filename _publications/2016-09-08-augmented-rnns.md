@@ -5,7 +5,7 @@ permalink: /publications/2016-09-08-augmented-rnns
 excerpt: 'Overview (with references) of attention and several types of augmentation for RNNs.'
 date: 2016-09-08
 paperurl: https://distill.pub/2016/augmented-rnns/
-use_math: true
+usemath: true
 ---
 
 Authors: Olah and Carter

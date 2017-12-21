@@ -5,7 +5,7 @@ permalink: /publications/2017-10-26-alphago-zero
 excerpt: "AlphaGo Zero, all RL self-play."
 date: 2017-10-26
 paperurl: https://www.nature.com/nature/journal/v550/n7676/full/nature24270.html
-use_math: true
+usemath: true
 ---
 
 
@@ -17,9 +17,9 @@ Value head: Conv-1 stride 1, BN, Relu, FC 256, Relu, FC with one output, tanh ([
 
 Loss function:
 
-l=(z−v)2 −πT logp + c||θ||^2
+$l = (z−v)^2 − \pi T logp + c\|\|\theta\|\|^2$
 
-MSE for the value output, Categorical cross entry for the policy and L2 regularizer with c=10-4
+MSE for the value output, Categorical cross entry for the policy and L2 regularizer with c=10e-4
 
 > By using a combined policy and value network architecture, and by using a low weight on the value component, it was possible to avoid overfitting to the values (a problem described in previous work12).
 

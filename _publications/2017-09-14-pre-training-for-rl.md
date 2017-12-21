@@ -5,7 +5,7 @@ permalink: /publications/2017-09-14-pre-training-for-rl
 excerpt: "Pre-train using supervised learning on human provided demonstations."
 date: 2017-09-14
 paperurl: https://arxiv.org/abs/1709.04083
-use_math: false
+usemath: false
 ---
 
 The idea is to generate experience data from a human demonstration (playing a game or in my case manually driving MaLPi around) and use it to pre-train the network, or most of it, using supervised learning. This step is essentially how [Donkey Car](http://www.donkeycar.com) works. Once that step is done, use the pre-trained weights to initialize the network and continue training using Reinforcement Learning.

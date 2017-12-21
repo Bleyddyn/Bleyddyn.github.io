@@ -5,7 +5,7 @@ permalink: /publications/2017-08-15-deep-learning-in-robotics
 excerpt: "A long review of the use of DL in robotics"
 date: 2017-08-15
 paperurl: https://arxiv.org/abs/1707.07217
-use_math: false
+usemath: false
 ---
 
 ## Four broad categories of Neural Networks

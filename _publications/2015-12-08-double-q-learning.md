@@ -5,7 +5,7 @@ permalink: /publications/2015-12-08-double-q-learning
 excerpt: "Improved Q-value estimation by reducing overestimates of Deep Q-networks."
 date: 2015-12-08
 paperurl: https://arxiv.org/abs/1509.06461v3
-use_math: true
+usemath: true
 ---
 
 ## Notes

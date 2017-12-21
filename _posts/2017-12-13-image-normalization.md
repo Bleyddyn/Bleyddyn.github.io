@@ -12,7 +12,7 @@ tags:
 
 I had completely forgotten to normalize the images I'm feeding into MaLPi's network, so I thought I'd try to be a bit more formal about it than my usual.
 
-Below are results from three different image preprocessing methods, each trained five times with five different weight initializations and five different batch randomizations. Lines are the mean of the five runs, with error bars showing one standard deviation. 'test' in the plots below is actually the results on validation data generated using Keras's validation_split argument to the fit method.
+Below are results from three different image preprocessing methods, each trained five times with five different weight initializations and five different batch randomizations. Lines are the mean of the five runs, with error bars showing one standard deviation. 'test' in the plots below is actually the results on validation data generated using Keras's validation\_split argument to the fit method.
 
 # Methods and Results
 
@@ -55,6 +55,8 @@ images[:,:,:,2] /= np.std(images[:,:,:,2])
 
 ![With Normalization](/images/blog/2017-12-norm-std.png  "Mean Centered on Zero and divide by the Standard Deviation")
 
+The code used to run these experiments was [this commit](https://github.com/Bleyddyn/malpi/commit/94cf17c82b90910b2b44f2e82b5c0cca289be47f). I manually changed the lines listed above for the three separate runs. Total number of training samples was approximately 7000.
+
 # Conclusions
 
 While I would prefer to focus on validation accuracy as my main metric, I can't because my model apparently isn't generalizing at all. Considering these were all trained on only about seven thousand samples, I'm not surprised.
@@ -64,6 +66,6 @@ Go figure, but normalization of the inputs helps. I was a bit surprised that div
 # Future
 
 * Collect more data.
-* Repeat all of the above with my LSTM model.
+* [Repeat all of the above with my LSTM model](/2017-12-21-normalization-lstm).
 
 ------

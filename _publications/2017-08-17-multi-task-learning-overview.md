@@ -5,7 +5,7 @@ permalink: /publications/2017-08-17-multi-task-learning-overview
 excerpt: "A long review of the use of DL in robotics"
 date: 2017-08-17
 paperurl: https://arxiv.org/abs/1706.05098
-use_math: false
+usemath: false
 ---
 
 ## Older ideas

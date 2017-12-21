@@ -5,7 +5,7 @@ permalink: /publications/2017-06-20-multi-model
 excerpt: 'A single ML model used for very different tasks.'
 date: 2017-06-16
 paperurl: https://arxiv.org/abs/1706.05137
-use_math: true
+usemath: false
 ---
 
 ## Notes

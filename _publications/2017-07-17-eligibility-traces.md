@@ -5,7 +5,7 @@ permalink: /publications/2017-07-17-eligibility-traces
 excerpt: "Notes on using Eligibility Traces with neural networks"
 date: 2017-07-17
 paperurl: /publications/2017-07-17-eligibility-traces
-use_math: true
+usemath: true
 ---
 
 ## From ME539, Oregon State
