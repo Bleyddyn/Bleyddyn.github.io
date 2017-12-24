@@ -7,26 +7,35 @@ date: 2017-12-18
 paperurl: https://arxiv.org/abs/1711.01577
 usemath: true
 ---
-Warning! Work in progress.
 
-First paper: [Wider and Deeper, Cheaper and Faster: Tensorized LSTMs for Sequence Learning](https://arxiv.org/abs/1711.01577)
+# First paper
+
+[Wider and Deeper, Cheaper and Faster: Tensorized LSTMs for Sequence Learning](https://arxiv.org/abs/1711.01577)
 
 > we introduce a way to both widen and deepen the LSTM whilst keeping the parameter number and runtime largely unchanged.
 
 I wanted to quote this directly because it sums up why I'm interested in these papers.
 
-Their three novel contributions are:
+This paper's three novel contributions are:
 
 * Tensorize hidden state vectors into higher dimensional tensors.
 * Merge RNN deep computations into its temporal computations.
 * Integrate a new memory cell convolution when extending the previous two to LSTMs.
 
 
-More papers, some of which probably aren't relevant:
+# Two more related papers
+
 * [Learning Compact Recurrent Neural Networks with Block-Term Tensor Decomposition](https://arxiv.org/abs/1712.05134). BTD is a combination of:
   * CP decomposition: J. D. Carroll and J.-J. Chang. Analysis of individual dif- ferences in multidimensional scaling via an n-way gener- alization of eckart-young decomposition. Psychometrika, 35(3):283–319, 1970.
   * Tucker decomposition: L.R. Tucker. Some mathematical notes on three-mode factor analysis. Psychometrika, 31(3):279–311, 1966.
 * [Tensorizing Neural Networks](https://arxiv.org/abs/1509.06569) (referenced from Wider and Deeper...)
+
+# Conclusion
+
+I don't know nearly enough of the relevant math to implement this idea myself.
+
+# More papers
+
 * Luca Bertinetto, João F Henriques, Jack Valmadre, Philip Torr, and Andrea Vedaldi. Learning feed-forward one-shot learners. In NIPS, 2016
 * Misha Denil, Babak Shakibi, Laurent Dinh, Nando de Freitas, et al. Predicting parameters in deep learning.  In NIPS, 2013.
 * Timur Garipov, Dmitry Podoprikhin, Alexander Novikov, and Dmitry Vetrov. Ultimate tensorization: compressing convolutional and fc layers alike. In NIPS Workshop, 2016.
@@ -40,4 +49,5 @@ More papers, some of which probably aren't relevant:
 * A. Tjandra, S. Sakti, and S. Nakamura. Compressing recurrent neural network with tensor train. arXiv preprint arXiv:1705.08052, 2017.
 * Y. Yang, D. Krompass, and V. Tresp. Tensor-train recurrent neural networks for video classification. arXiv preprint arXiv:1707.01786, 2017.
 * R. Yu, S. Zheng, A. Anandkumar, and Y. Yue. Long-term forecasting using tensor-train rnns. arXiv preprint arXiv:1711.00073, 2017.
+
 ---
