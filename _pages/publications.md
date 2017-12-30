@@ -162,6 +162,7 @@ author_profile: true
   * [Code](https://sites.google.com/view/reversecurriculum)
 * [Deep reinforcement learning from human preferences](https://arxiv.org/abs/1706.03741)
 * [Hierarchical and Interpretable Skill Acquisition in Multi-Task Reinforcement Learning](https://einstein.ai/static/images/pages/research/hierarchical-reinforcement-learning/iclr2018_HRL.pdf)
+* [Ray RLLib](https://t.co/7pfYViDchA)
 
 ### Not as relevant to MaLPi, but interesting
 
