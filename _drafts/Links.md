@@ -1,5 +1,5 @@
 # New
-[Active Robotic Mapping through Deep Reinforcement Learning](htps://arxiv.org/abs/1712.10069)
+[Active Robotic Mapping through Deep Reinforcement Learning](https://arxiv.org/abs/1712.10069)
 
 # Moved
 
