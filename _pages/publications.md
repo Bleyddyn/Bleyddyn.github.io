@@ -11,6 +11,8 @@ author_profile: true
 
 {% include base_path %}
 
+{% include toc %}
+
 ## Papers read, with notes
 
 {% for post in site.publications reversed %}
@@ -72,25 +74,10 @@ author_profile: true
 * [NIPS 2017 Notes](https://cs.brown.edu/%7Edabel/blog/posts/misc/nips_2017.pdf)
 * [Machine Teaching: A New Paradigm for Building Machine Learning Systems](https://arxiv.org/abs/1707.06742)
 
-## Papers to read
+## Papers to Read, by Category
 
-### Actor/Critic papers
-
-* [Sample Efficient Actor-Critic With Experience Replay](https://arxiv.org/abs/1611.01224)
-  * [ACER implementation](https://github.com/pfnet/chainerrl/blob/master/chainerrl/agents/acer.py)
-* [The Reactor: A Sample-Efficient Actor-Critic Architecture](https://arxiv.org/abs/1704.04651)
-  * Also compares time stacked inputs versus LSTMs in section 3.3.
-* [Asynchronous Methods for Deep Reinforcement Learning](https://arxiv.org/abs/1602.01783)
-  * The A3C paper.
-* [A Survey of Actor-Critic Reinforcement Learning: Standard and Natural Policy Gradients](https://pdfs.semanticscholar.org/145a/42e83ec142a125da3ad845ee95027ef702e5.pdf)
-  * 2010, maybe?
-* [ON ACTOR-CRITIC ALGORITHMS](http://www.mit.edu/~jnt/Papers/J094-03-kon-actors.pdf)
-  * 2003
-* [Scalable trust-region method for deep reinforcement learning using Kronecker-factored approximation](https://arxiv.org/abs/1708.05144)
-  * This algorithm is in OpenAI's baseline repo.
-  * It's a natural gradient actor critic method ([Natural Gradients](http://kvfrans.com/a-intuitive-explanation-of-natural-gradient-descent/)).
-* [Hindsight Experience Replay](https://arxiv.org/pdf/1707.01495.pdf)
-* [SOFT ACTOR-CRITIC: OFF-POLICY MAXIMUM ENTROPY DEEP REINFORCEMENT LEARNING WITH A STOCHASTIC ACTOR](https://openreview.net/pdf?id=HJjvxl-Cb)
+* [Bayesian Neural Nets](/bayesian-nets)
+* [Actor/Critic papers](/actor-critic)
 
 ### Reviews
 
@@ -110,7 +97,6 @@ author_profile: true
 * [On Generalized Bellman Equations and Temporal-Difference Learning](https://arxiv.org/abs/1704.04463)
 * [Learning to Act By Predicting the Future](https://arxiv.org/abs/1611.01779)
 * [Neural Episodic Control](https://arxiv.org/abs/1703.01988)
-* [Mean Actor Critic](https://arxiv.org/abs/1709.00503)
 * [Equivalence Between Policy Gradients and Soft Q-Learning](https://arxiv.org/abs/1704.06440)
   * [Reddit discussion](https://www.reddit.com/r/MachineLearning/comments/6bi6np/d_glearning_taming_the_noise_in_reinforcement/)
 * [Count-Based Exploration with Neural Density Models](https://arxiv.org/abs/1703.01310)
@@ -176,13 +162,8 @@ author_profile: true
   * Paper: [Reverse Curriculum Generation for Reinforcement Learning](http://proceedings.mlr.press/v78/florensa17a/florensa17a.pdf)
   * [Code](https://sites.google.com/view/reversecurriculum)
 * [Deep reinforcement learning from human preferences](https://arxiv.org/abs/1706.03741)
-* [HIERARCHICAL AND INTERPRETABLE SKILL ACQUI-SITION IN MULTI-TASK REINFORCEMENT LEARNING](https://einstein.ai/static/images/pages/research/hierarchical-reinforcement-learning/iclr2018_HRL.pdf)
-
-#### Simulators
-
-* [HoME: a Household Multimodal Environment](https://arxiv.org/abs/1711.11017)
-  * [Github](https://github.com/HoME-Platform/home-platform), [Website](https://home-platform.github.io)
-* [MINOS: Multimodal Indoor Simulator](https://minosworld.github.io)
+* [Hierarchical and Interpretable Skill Acquisition in Multi-Task Reinforcement Learning](https://einstein.ai/static/images/pages/research/hierarchical-reinforcement-learning/iclr2018_HRL.pdf)
+* [Ray RLLib](https://t.co/7pfYViDchA)
 
 ### Not as relevant to MaLPi, but interesting
 
@@ -232,3 +213,12 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [Deep Learning (DLSS) and Reinforcement Learning (RLSS) Summer School, Montreal 2017 (videos)](http://videolectures.net/deeplearning2017_montreal/)
 * [Deep RL Bootcamp (Aug 2017, Berkeley](https://sites.google.com/view/deep-rl-bootcamp/lectures)
 * [Theories of Deep Learning (STATS 385), Stanford 2017](https://stats385.github.io)
+* [Bayesian Deeplearning](http://bayesiandeeplearning.org)
+
+## Simulators
+
+* [HoME: a Household Multimodal Environment](https://arxiv.org/abs/1711.11017)
+  * [Github](https://github.com/HoME-Platform/home-platform), [Website](https://home-platform.github.io)
+* [MINOS: Multimodal Indoor Simulator](https://minosworld.github.io)
+
+---
