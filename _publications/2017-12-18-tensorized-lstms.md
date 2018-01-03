@@ -27,6 +27,7 @@ More papers, some of which probably aren't relevant:
   * CP decomposition: J. D. Carroll and J.-J. Chang. Analysis of individual dif- ferences in multidimensional scaling via an n-way gener- alization of eckart-young decomposition. Psychometrika, 35(3):283–319, 1970.
   * Tucker decomposition: L.R. Tucker. Some mathematical notes on three-mode factor analysis. Psychometrika, 31(3):279–311, 1966.
 * [Tensorizing Neural Networks](https://arxiv.org/abs/1509.06569) (referenced from Wider and Deeper...)
+  * Matlab implementation of a "Tensor Train" library: [TT-Toolbox](https://github.com/oseledets/TT-Toolbox)
 * Luca Bertinetto, João F Henriques, Jack Valmadre, Philip Torr, and Andrea Vedaldi. Learning feed-forward one-shot learners. In NIPS, 2016
 * Misha Denil, Babak Shakibi, Laurent Dinh, Nando de Freitas, et al. Predicting parameters in deep learning.  In NIPS, 2013.
 * Timur Garipov, Dmitry Podoprikhin, Alexander Novikov, and Dmitry Vetrov. Ultimate tensorization: compressing convolutional and fc layers alike. In NIPS Workshop, 2016.

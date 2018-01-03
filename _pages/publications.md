@@ -170,6 +170,7 @@ author_profile: true
   * For value networks that will be used in a non-episodic way, don't end bootstraping at training episode boundaries.
 * [Time-Contrastive Networks: Self-Supervised Learning from Video](https://arxiv.org/abs/1704.06888)
   * [Website](https://sermanet.github.io/imitate/)
+  * Upvote
 * [Reverse Curriculum Generation for Reinforcement Learning Agents](http://bair.berkeley.edu/blog/2017/12/20/reverse-curriculum/)
   * This could be very useful when I try to train MaLPi to find its charging station.
   * Paper: [Reverse Curriculum Generation for Reinforcement Learning](http://proceedings.mlr.press/v78/florensa17a/florensa17a.pdf)
