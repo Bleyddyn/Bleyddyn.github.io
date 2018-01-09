@@ -1,4 +1,6 @@
 # New
+* [Active Robotic Mapping through Deep Reinforcement Learning](https://arxiv.org/abs/1712.10069)
+* [Boosting the Actor with Dual Critic](https://arxiv.org/abs/1712.10282)
 
 * [DAgger algorithm](https://www.cs.cmu.edu/~sross1/publications/Ross-AIStats11-NoRegret.pdf)
 * Vision Based Multi-task Manipulation for Inexpensive Robots Using End-to-End Learning from Demonstration

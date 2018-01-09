@@ -162,6 +162,7 @@ author_profile: true
   * [Code](https://sites.google.com/view/reversecurriculum)
 * [Deep reinforcement learning from human preferences](https://arxiv.org/abs/1706.03741)
 * [Hierarchical and Interpretable Skill Acquisition in Multi-Task Reinforcement Learning](https://einstein.ai/static/images/pages/research/hierarchical-reinforcement-learning/iclr2018_HRL.pdf)
+* [Ray RLLib](https://t.co/7pfYViDchA)
 
 ### Not as relevant to MaLPi, but interesting
 
@@ -211,6 +212,7 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [Deep Learning (DLSS) and Reinforcement Learning (RLSS) Summer School, Montreal 2017 (videos)](http://videolectures.net/deeplearning2017_montreal/)
 * [Deep RL Bootcamp (Aug 2017, Berkeley](https://sites.google.com/view/deep-rl-bootcamp/lectures)
 * [Theories of Deep Learning (STATS 385), Stanford 2017](https://stats385.github.io)
+* [Bayesian Deeplearning](http://bayesiandeeplearning.org)
 
 ## Simulators
 
