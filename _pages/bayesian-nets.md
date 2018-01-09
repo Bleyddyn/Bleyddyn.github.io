@@ -14,5 +14,7 @@ author_profile: true
 * [Dropout as a bayesian approximation: Representing model uncertainty in deep learning](https://arxiv.org/abs/1506.02142)
 * [Bayesian Hypernetworks](https://arxiv.org/abs/1710.04759)
 * [An Approximate Bayesian Long Short-Term Memory Algorithm for Outlier Detection](https://arxiv.org/abs/1712.08773)
+* [Probabilistic supervised learning](https://arxiv.org/abs/1801.00753)
+* [Using Deep Neural Network Approximate Bayesian Network](https://arxiv.org/abs/1801.00282)
 
 ---

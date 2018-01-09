@@ -164,6 +164,9 @@ author_profile: true
 * [Deep reinforcement learning from human preferences](https://arxiv.org/abs/1706.03741)
 * [Hierarchical and Interpretable Skill Acquisition in Multi-Task Reinforcement Learning](https://einstein.ai/static/images/pages/research/hierarchical-reinforcement-learning/iclr2018_HRL.pdf)
 * [Ray RLLib](https://t.co/7pfYViDchA)
+* [Attention based neural networks](https://towardsdatascience.com/memory-attention-sequences-37456d271992)
+* [DAGGER](https://www.cs.cmu.edu/%7Esross1/publications/Ross-AIStats11-NoRegret.pdf)
+  * This is the imitation learning algorithm used in CS 294
 
 ### Not as relevant to MaLPi, but interesting
 
@@ -203,6 +206,9 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [A generative vision model that trains with high data efficiency and breaks text-based CAPTCHAs](http://science.sciencemag.org/content/early/2017/10/25/science.aag2612.full)
 * [Generalized Grounding Graphs: A Probabilistic Framework for Understanding Grounded Commands](https://arxiv.org/abs/1712.01097)
 * [Peephole: Predicting Network Performance Before Training](https://arxiv.org/abs/1712.03351)
+* [Peano-HASEL actuators: Muscle-mimetic, electrohydraulic transducers that linearly contract on activation](http://robotics.sciencemag.org/content/3/14/eaar3276)
+* [Hydraulically amplified self-healing electrostatic actuators with muscle-like performance](http://science.sciencemag.org/content/359/6371/61)
+* [Unsupervised Low-Dimensional Vector Representations for Words, Phrases and Text that are Transparent, Scalable, and produce Similarity Metrics that are Complementary to Neural Embeddings](https://arxiv.org/abs/1801.01884)
 
 ## Classes/Education
 
