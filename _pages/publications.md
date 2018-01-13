@@ -19,7 +19,17 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}
 
-## Papers read, without notes
+## Current
+
+* [Active Robotic Mapping through Deep Reinforcement Learning](https://arxiv.org/abs/1712.10069)
+* [Boosting the Actor with Dual Critic](https://arxiv.org/abs/1712.10282)
+* [DAgger algorithm](https://www.cs.cmu.edu/~sross1/publications/Ross-AIStats11-NoRegret.pdf)
+* [Vision Based Multi-task Manipulation for Inexpensive Robots Using End-to-End Learning from Demonstration](https://arxiv.org/abs/1707.02920)
+  * Includes a diagram for how to add a GAN to the network as an auxiliary task
+* [Robust Reinforcement Learning](https://papers.nips.cc/paper/1841-robust-reinforcement-learning.pdf)
+* [Robust Adversarial Reinforcement Learning](https://arxiv.org/abs/1703.02702)
+
+## Papers read, with minimal notes
 
 * [Revisiting natural gradient for deep networks](https://arxiv.org/abs/1301.3584v7)
   * Lots of math I didn't understand, but it does seem like natural gradients would be a better choice for RL.
@@ -73,6 +83,13 @@ author_profile: true
 * [The impossibility of intelligence explosion](https://medium.com/@francois.chollet/the-impossibility-of-intelligence-explosion-5be4a9eda6ec)
 * [NIPS 2017 Notes](https://cs.brown.edu/%7Edabel/blog/posts/misc/nips_2017.pdf)
 * [Machine Teaching: A New Paradigm for Building Machine Learning Systems](https://arxiv.org/abs/1707.06742)
+* [Recent Advances in Recurrent Neural Networks](https://arxiv.org/abs/1801.01078)
+  * High level overview of many different types of RNNs.
+  * [Tunable Efficient Unitary Neural Networks (EUNN) and their application to RNNs](https://arxiv.org/abs/1612.05231)
+  * Gated Orthogonal Recurrent Unit
+  * Two regularization methods I've never heard of:
+    * Activation Stabilization. D. Krueger and R. Memisevic, “Regularizing rnns by stabilizing activations,” arXiv preprint arXiv:1511.08400, 2015.
+    * Hidden Activation Preservation. D. Krueger, et al., “Zoneout: Regularizing rnns by randomly preserving hidden activations,” arXiv preprint arXiv:1606.01305, 2016.
 
 ## Papers to Read, by Category
 
@@ -167,6 +184,7 @@ author_profile: true
 * [Attention based neural networks](https://towardsdatascience.com/memory-attention-sequences-37456d271992)
 * [DAGGER](https://www.cs.cmu.edu/%7Esross1/publications/Ross-AIStats11-NoRegret.pdf)
   * This is the imitation learning algorithm used in CS 294
+* [Expected Policy Gradients for Reinforcement Learning](https://arxiv.org/abs/1801.03326)
 
 ### Not as relevant to MaLPi, but interesting
 
@@ -209,6 +227,7 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [Peano-HASEL actuators: Muscle-mimetic, electrohydraulic transducers that linearly contract on activation](http://robotics.sciencemag.org/content/3/14/eaar3276)
 * [Hydraulically amplified self-healing electrostatic actuators with muscle-like performance](http://science.sciencemag.org/content/359/6371/61)
 * [Unsupervised Low-Dimensional Vector Representations for Words, Phrases and Text that are Transparent, Scalable, and produce Similarity Metrics that are Complementary to Neural Embeddings](https://arxiv.org/abs/1801.01884)
+* [Emergent complexity via multi-agent competition](https://arxiv.org/abs/1710.03748)
 
 ## Classes/Education
 
@@ -220,6 +239,7 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [Deep RL Bootcamp (Aug 2017, Berkeley](https://sites.google.com/view/deep-rl-bootcamp/lectures)
 * [Theories of Deep Learning (STATS 385), Stanford 2017](https://stats385.github.io)
 * [Bayesian Deeplearning](http://bayesiandeeplearning.org)
+* [CS20: TensorFlow for Deep Learning Research](https://cs20.stanford.edu)
 
 ## Simulators
 
