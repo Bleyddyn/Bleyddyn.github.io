@@ -26,6 +26,7 @@ author_profile: true
   * It's a natural gradient actor critic method ([Natural Gradients](http://kvfrans.com/a-intuitive-explanation-of-natural-gradient-descent/)).
 * [Hindsight Experience Replay](https://arxiv.org/pdf/1707.01495.pdf)
 * [SOFT ACTOR-CRITIC: OFF-POLICY MAXIMUM ENTROPY DEEP REINFORCEMENT LEARNING WITH A STOCHASTIC ACTOR](https://openreview.net/pdf?id=HJjvxl-Cb)
+  * [arxiv](https://arxiv.org/abs/1801.01290)
 * [Mean Actor Critic](https://arxiv.org/abs/1709.00503)
 
 ---

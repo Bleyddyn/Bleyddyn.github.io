@@ -90,6 +90,7 @@ author_profile: true
   * Two regularization methods I've never heard of:
     * Activation Stabilization. D. Krueger and R. Memisevic, “Regularizing rnns by stabilizing activations,” arXiv preprint arXiv:1511.08400, 2015.
     * Hidden Activation Preservation. D. Krueger, et al., “Zoneout: Regularizing rnns by randomly preserving hidden activations,” arXiv preprint arXiv:1606.01305, 2016.
+* [Hierarchical and Interpretable Skill Acquisition in Multi-Task Reinforcement Learning](https://einstein.ai/static/images/pages/research/hierarchical-reinforcement-learning/iclr2018_HRL.pdf)
 
 ## Papers to Read, by Category
 
@@ -179,12 +180,13 @@ author_profile: true
   * Paper: [Reverse Curriculum Generation for Reinforcement Learning](http://proceedings.mlr.press/v78/florensa17a/florensa17a.pdf)
   * [Code](https://sites.google.com/view/reversecurriculum)
 * [Deep reinforcement learning from human preferences](https://arxiv.org/abs/1706.03741)
-* [Hierarchical and Interpretable Skill Acquisition in Multi-Task Reinforcement Learning](https://einstein.ai/static/images/pages/research/hierarchical-reinforcement-learning/iclr2018_HRL.pdf)
 * [Ray RLLib](https://t.co/7pfYViDchA)
 * [Attention based neural networks](https://towardsdatascience.com/memory-attention-sequences-37456d271992)
 * [DAGGER](https://www.cs.cmu.edu/%7Esross1/publications/Ross-AIStats11-NoRegret.pdf)
   * This is the imitation learning algorithm used in CS 294
 * [Expected Policy Gradients for Reinforcement Learning](https://arxiv.org/abs/1801.03326)
+* [Model-Based Action Exploration](http://arxiv.org/abs/1801.03954v1)
+* [Zero-Shot Task Generalization with Multi-Task Deep Reinforcement Learning](https://arxiv.org/abs/1706.05064)
 
 ### Not as relevant to MaLPi, but interesting
 
@@ -240,6 +242,7 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [Theories of Deep Learning (STATS 385), Stanford 2017](https://stats385.github.io)
 * [Bayesian Deeplearning](http://bayesiandeeplearning.org)
 * [CS20: TensorFlow for Deep Learning Research](https://cs20.stanford.edu)
+* [A list of fifteen more classes](https://sky2learn.com/deep-learning-reinforcement-learning-online-courses-and-tutorials-theory-and-applications.html) (Some overlap)
 
 ## Simulators
 
