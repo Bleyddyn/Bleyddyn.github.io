@@ -91,6 +91,10 @@ author_profile: true
     * Activation Stabilization. D. Krueger and R. Memisevic, “Regularizing rnns by stabilizing activations,” arXiv preprint arXiv:1511.08400, 2015.
     * Hidden Activation Preservation. D. Krueger, et al., “Zoneout: Regularizing rnns by randomly preserving hidden activations,” arXiv preprint arXiv:1606.01305, 2016.
 * [Hierarchical and Interpretable Skill Acquisition in Multi-Task Reinforcement Learning](https://einstein.ai/static/images/pages/research/hierarchical-reinforcement-learning/iclr2018_HRL.pdf)
+* [Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks](https://arxiv.org/abs/1703.03400)(MAML)
+* [Recasting Gradient-Based Meta-Learning as Hierarchical Bayes](https://arxiv.org/abs/1801.08930)
+  * Follow-up to MAML
+  * Reformulates MAML as Hierarchical Bayesian inference, and uses that to improve MAML.
 
 ## Papers to Read, by Category
 
@@ -187,6 +191,7 @@ author_profile: true
 * [Expected Policy Gradients for Reinforcement Learning](https://arxiv.org/abs/1801.03326)
 * [Model-Based Action Exploration](http://arxiv.org/abs/1801.03954v1)
 * [Zero-Shot Task Generalization with Multi-Task Deep Reinforcement Learning](https://arxiv.org/abs/1706.05064)
+* [Curiosity-driven reinforcement learning with homeostatic regulation](https://arxiv.org/abs/1801.07440)
 
 ### Not as relevant to MaLPi, but interesting
 
@@ -230,6 +235,10 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [Hydraulically amplified self-healing electrostatic actuators with muscle-like performance](http://science.sciencemag.org/content/359/6371/61)
 * [Unsupervised Low-Dimensional Vector Representations for Words, Phrases and Text that are Transparent, Scalable, and produce Similarity Metrics that are Complementary to Neural Embeddings](https://arxiv.org/abs/1801.01884)
 * [Emergent complexity via multi-agent competition](https://arxiv.org/abs/1710.03748)
+* [PRNN: Recurrent Neural Network with Persistent Memory](https://arxiv.org/abs/1801.08094)
+* [Convolutional Neural Networks for Sentence Classification](https://arxiv.org/abs/1408.5882)
+  * Might be useful to classify task descriptions for a multi-task system.
+* [Directly Estimating the Variance of the λ-Return Using Temporal-Difference Methods](https://arxiv.org/abs/1801.08287)
 
 ## Classes/Education
 
@@ -249,5 +258,6 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [HoME: a Household Multimodal Environment](https://arxiv.org/abs/1711.11017)
   * [Github](https://github.com/HoME-Platform/home-platform), [Website](https://home-platform.github.io)
 * [MINOS: Multimodal Indoor Simulator](https://minosworld.github.io)
+* [CHALET: Cornell House Agent Learning Environment](https://arxiv.org/abs/1801.07357)
 
 ---

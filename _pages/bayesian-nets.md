@@ -19,5 +19,6 @@ author_profile: true
 * [An Approximate Bayesian Long Short-Term Memory Algorithm for Outlier Detection](https://arxiv.org/abs/1712.08773)
 * [Probabilistic supervised learning](https://arxiv.org/abs/1801.00753)
 * [Using Deep Neural Network Approximate Bayesian Network](https://arxiv.org/abs/1801.00282)
+* [Bayesian Neural Networks](https://arxiv.org/abs/1801.07710)
 
 ---
