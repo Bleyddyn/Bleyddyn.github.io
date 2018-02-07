@@ -41,7 +41,7 @@ Model:
 
 All convolution and fully connected layers use relu activation, unless stated otherwise, and all of them use the same L2 regularization hyperparameter.
 
-I handle dropout layers a bit differently than DonkeyCar does. For my original model I started with a list of five dropout values that gets passed to the model making function, so I've carried that over to this model rather than rewriting all of my code. The default batch size is small because it's also used for my tests with RNN layers, where the combination of batch size and number of timesteps can't be too large.
+I handle dropout layers a bit differently than DonkeyCar does. For my original model I started with a list of five dropout values that gets passed to the model making function, so I've carried that over to this model rather than rewriting all of my code. The default batch size is small because it was also being used for my tests with RNN layers, where the combination of batch size and number of timesteps can't be too large.
 
 Default Hyperparameters:
 
@@ -52,7 +52,7 @@ Default Hyperparameters:
     optimizer: RMSprop
     validation_split: 0.20
 
-All experiments except the first report validation accuracies for all five runs. The reported value is the max of the running mean, with a window of five samples.
+All experiments except the first report validation accuracies for all five runs. The reported value is the max of the running mean within a training run, with a window of five samples.
 
 ##  Experiment One
 
@@ -81,8 +81,7 @@ The testing 'space' I used was:
               'l2_reg': hp.loguniform('l2_reg', -10, -3 ),
               'batch_size': hp.quniform('batch_size', 5, max_batch, 1),
               'dropouts': hp.choice('dropouts', ["low","mid","high","up","down"]),
-              'optimizer': hp.choice('optimizer', ["RMSProp", "Adagrad", "Adadelta", "Adam"]),
-              'epochs': 40 }
+              'optimizer': hp.choice('optimizer', ["RMSProp", "Adagrad", "Adadelta", "Adam"]) }
 
 For the dropout hyperparameter I use this code to convert from the categorical values to dropout layer probability:
 
@@ -100,7 +99,7 @@ For the dropout hyperparameter I use this code to convert from the categorical v
 ```
 
 
-The best validation accuracy was achieved after 100 trials with these hyperparameters:
+The best validation accuracy achieved after 100 hyperopt trials was with these hyperparameters:
 
     l2_reg: 0.00248097383585
     dropouts: [0.2, 0.3, 0.4, 0.5, 0.6]
@@ -140,11 +139,18 @@ Validation accuracies: [0.5972291300923532, 0.6239431615091768, 0.61364120627169
 
 # Conclusions
 
+Mostly this leaves me with more questions than answers. The first experiment doesn't make sense at all and I should probably re-run it with a more reasonable batch size. The second one is a bit more reasonable but there's so much variation from run to run that it's hard to say. Probably also ought to be repeated with a larger batch size.
+
+The 'best' set of hyperparameters found did use a larger batch size, but there's still a huge amount of variation. The learning rate on this one is ten times higher than the next two, which could be an issue.
+
+The last two look more reasonable even if the training and validation accuracies are still a lot lower than I would hope for.
 
 # Future
 
+* Plot each hyperparameter against the validation accuracy to see if there are any obvious trends.
+* Try again with skopt (SciKit Learn's optimization module).
 * Repeat all of the above with RNN layers?
-* Clean up the data with my dagger tool
+* Clean up the data with my dagger tool, retesting after each quarter of the data, maybe?
 
 ---
 
