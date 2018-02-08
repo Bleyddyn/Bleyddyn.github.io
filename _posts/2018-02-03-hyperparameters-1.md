@@ -136,6 +136,9 @@ Validation accuracies: [0.5972291300923532, 0.6239431615091768, 0.61364120627169
 
 ![](/images/blog/2018-02/Track_CW_FC_DK_256_opt3.png "With 3rd best optimized hyperparameters")
 
+Last but not least. A plot of all one hundred hyperplot runs versus validation accuracy. There's clearly some improvement going on, which suggests that hyperopt is doing better than just random or grid search. Equally as clearly, the absolute improvement is pretty small, Maybe from 0.52 to 0.55 or 0.56 at best. To me that suggests there are more fundamental issues with my training than un-optimized hyperparameters.
+
+![](images/blog/2018-02/Track_CW_FC_DK_256_hyperopt.png "100 hyperopt runs")
 
 # Conclusions
 
@@ -148,9 +151,14 @@ The last two look more reasonable even if the training and validation accuracies
 # Future
 
 * Plot each hyperparameter against the validation accuracy to see if there are any obvious trends.
+  * I had a quick look at this and batch size, learning rate and L2 regularization all show very faint curves with peaks about where hyperopt found then. I could almost certainly narrow the search spaces the next time I do this.
 * Try again with skopt (SciKit Learn's optimization module).
 * Repeat all of the above with RNN layers?
 * Clean up the data with my dagger tool, retesting after each quarter of the data, maybe?
+
+# Version
+
+Updated Feb 7, 2018 with the hyperopt plot and some details about individual hyperparameters.
 
 ---
 

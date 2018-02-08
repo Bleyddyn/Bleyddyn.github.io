@@ -192,6 +192,10 @@ author_profile: true
 * [Model-Based Action Exploration](http://arxiv.org/abs/1801.03954v1)
 * [Zero-Shot Task Generalization with Multi-Task Deep Reinforcement Learning](https://arxiv.org/abs/1706.05064)
 * [Curiosity-driven reinforcement learning with homeostatic regulation](https://arxiv.org/abs/1801.07440)
+* [Regret Minimization for Partially Observable Deep Reinforcement Learning](https://openreview.net/forum?id=BJoBhUUUG)
+* [IMPALA: Scalable Distributed Deep-RL with Importance Weighted Actor-Learner Architectures](https://arxiv.org/abs/1802.01561)
+* [One-shot Imitation from Humans via Domain-Adaptive Meta-Learning](https://arxiv.org/abs/1802.01557)
+* [Multi-task Learning for Continuous Control](https://arxiv.org/abs/1802.01034)
 
 ### Not as relevant to MaLPi, but interesting
 
