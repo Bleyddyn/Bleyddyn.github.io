@@ -196,6 +196,7 @@ author_profile: true
 * [IMPALA: Scalable Distributed Deep-RL with Importance Weighted Actor-Learner Architectures](https://arxiv.org/abs/1802.01561)
 * [One-shot Imitation from Humans via Domain-Adaptive Meta-Learning](https://arxiv.org/abs/1802.01557)
 * [Multi-task Learning for Continuous Control](https://arxiv.org/abs/1802.01034)
+* [Alleviating catastrophic forgetting using context-dependent gating and synaptic stabilization](https://arxiv.org/abs/1802.01569)
 
 ### Not as relevant to MaLPi, but interesting
 
@@ -243,6 +244,7 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [Convolutional Neural Networks for Sentence Classification](https://arxiv.org/abs/1408.5882)
   * Might be useful to classify task descriptions for a multi-task system.
 * [Directly Estimating the Variance of the λ-Return Using Temporal-Difference Methods](https://arxiv.org/abs/1801.08287)
+* [Scalable Meta-Learning for Bayesian Optimization](https://arxiv.org/abs/1802.02219)
 
 ## Classes/Education
 
