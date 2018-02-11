@@ -25,6 +25,8 @@ A robotics project for playing around with hardware and learning to use Machine 
 
 ## Hardware
 
+![](/images/MaLPi_1.png "MaLPi")
+
 * [Raspberry Pi 3 Model B](https://www.adafruit.com/products/3055) $39.95
 * [Raspberry Pi Camera Board v2 - 8 Megapixels](https://www.adafruit.com/products/3099) $29.95
 * [Raspberry Pi Camera Case for V2 8 Megapixel](https://www.amazon.com/gp/product/B00IJZJKK4) $8.49
