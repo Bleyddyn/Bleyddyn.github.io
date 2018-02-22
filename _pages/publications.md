@@ -11,7 +11,17 @@ author_profile: true
 
 {% include base_path %}
 
-{% include toc %}
+# Sections
+
+* [Papers read, with notes](#papers-read-with-notes)
+* [Current](#current)
+* [Papers read, with minimal notes](#papers-read-with-minimal-notes)
+* [Papers to Read, by Category](#papers-to-read-by-category)
+* [Reviews](#reviews)
+* [Relevant to MaLPi](#relevant-to-malpi)
+* [Not as relevant to MaLPi, but interesting](#not-as-relevant-to-malpi-but-interesting)
+* [Classes/Education](#classeseducation)
+* [Simulators](#simulators)
 
 ## Papers read, with notes
 
@@ -95,6 +105,26 @@ author_profile: true
 * [Recasting Gradient-Based Meta-Learning as Hierarchical Bayes](https://arxiv.org/abs/1801.08930)
   * Follow-up to MAML
   * Reformulates MAML as Hierarchical Bayesian inference, and uses that to improve MAML.
+* [IMPALA: Scalable Distributed Deep-RL with Importance Weighted Actor-Learner Architectures](https://arxiv.org/abs/1802.01561)
+  * Really should take notes on this and try to implement it.
+* [Learning Longer-Term Dependencies In RNNs With Auxiliary Losses](https://openreview.net/pdf?id=Hy9xDwyPM)
+  * They suggest having an RNN try to predict sequences from 'anchors' chosen at random as an unsupervized auxiliary task.
+  * Not much in the way of implementation details.
+  * [Unsupervised Pretraining for Sequence to Sequence Learning](https://arxiv.org/abs/1611.02683)
+  * and Andrew M. Dai and Quoc V. Le. [Semi-supervised sequence learning](https://papers.nips.cc/paper/5949-semi-supervised-sequence-learning)
+* [Deep Reinforcement Learning Doesn't Work Yet](https://www.alexirpan.com/2018/02/14/rl-hard.html)
+* [Semi-supervised Sequence Learning](https://papers.nips.cc/paper/5949-semi-supervised-sequence-learning) (NIPS 2015)
+  * Among other methods, they used a 'sequence autoencoder' to pre-train an LSTM.
+  * The autoencoder was trained to memorize input sequences and generate them as output.
+* [L4: Practical loss-based stepsize adaptation for deep learning](https://arxiv.org/abs/1802.05074)
+   * [Github with code](https://github.com/martius-lab/l4-optimizer/)
+   * Should be easy to try out with a Keras wrapper: keras.optimizers.TFOptimizer(optimizer)
+* [Multi-Task Sequence To Sequence Learning](https://arxiv.org/abs/1511.06114)
+   * All of the examples are for text related tasks.
+   * Sequence auto-encoders were one of the auxiliary tasks they used which showed benefit.
+* [Towards Principled Design of Deep Convolutional Networks: Introducing SimpNet]()
+  * Overall a pretty bad paper, far too wordy.
+  * My only takeaway is that I should try testing max-pooling versus my current strided convolutions.
 
 ## Papers to Read, by Category
 
@@ -193,7 +223,6 @@ author_profile: true
 * [Zero-Shot Task Generalization with Multi-Task Deep Reinforcement Learning](https://arxiv.org/abs/1706.05064)
 * [Curiosity-driven reinforcement learning with homeostatic regulation](https://arxiv.org/abs/1801.07440)
 * [Regret Minimization for Partially Observable Deep Reinforcement Learning](https://openreview.net/forum?id=BJoBhUUUG)
-* [IMPALA: Scalable Distributed Deep-RL with Importance Weighted Actor-Learner Architectures](https://arxiv.org/abs/1802.01561)
 * [One-shot Imitation from Humans via Domain-Adaptive Meta-Learning](https://arxiv.org/abs/1802.01557)
 * [Multi-task Learning for Continuous Control](https://arxiv.org/abs/1802.01034)
 * [Alleviating catastrophic forgetting using context-dependent gating and synaptic stabilization](https://arxiv.org/abs/1802.01569)

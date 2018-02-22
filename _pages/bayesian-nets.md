@@ -20,5 +20,10 @@ author_profile: true
 * [Probabilistic supervised learning](https://arxiv.org/abs/1801.00753)
 * [Using Deep Neural Network Approximate Bayesian Network](https://arxiv.org/abs/1801.00282)
 * [Bayesian Neural Networks](https://arxiv.org/abs/1801.07710)
+* [Efficient Exploration through Bayesian Deep Q-Networks](https://arxiv.org/abs/1802.04412)
+  * The last layer is a Bayesian Linear Regression Model
+  * Performs better than Double DQN and is easier to implement than others
+* [Bayesian Uncertainty Estimation for Batch Normalized Deep Networks](https://arxiv.org/abs/1802.06455)
+  * Similar to the 'Dropout as a bayesian approximation...' paper, but using Batch Norm layers to calculate uncertainty
 
 ---
