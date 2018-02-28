@@ -34,10 +34,12 @@ author_profile: true
 * [Active Robotic Mapping through Deep Reinforcement Learning](https://arxiv.org/abs/1712.10069)
 * [Boosting the Actor with Dual Critic](https://arxiv.org/abs/1712.10282)
 * [DAgger algorithm](https://www.cs.cmu.edu/~sross1/publications/Ross-AIStats11-NoRegret.pdf)
+  * This is the imitation learning algorithm used in CS 294
 * [Vision Based Multi-task Manipulation for Inexpensive Robots Using End-to-End Learning from Demonstration](https://arxiv.org/abs/1707.02920)
   * Includes a diagram for how to add a GAN to the network as an auxiliary task
 * [Robust Reinforcement Learning](https://papers.nips.cc/paper/1841-robust-reinforcement-learning.pdf)
 * [Robust Adversarial Reinforcement Learning](https://arxiv.org/abs/1703.02702)
+* [Unicorn: Continual Learning with a Universal, Off-policy Agent](https://arxiv.org/abs/1802.08294)
 
 ## Papers read, with minimal notes
 
@@ -122,9 +124,12 @@ author_profile: true
 * [Multi-Task Sequence To Sequence Learning](https://arxiv.org/abs/1511.06114)
    * All of the examples are for text related tasks.
    * Sequence auto-encoders were one of the auxiliary tasks they used which showed benefit.
-* [Towards Principled Design of Deep Convolutional Networks: Introducing SimpNet]()
+* [Towards Principled Design of Deep Convolutional Networks: Introducing SimpNet](https://arxiv.org/abs/1802.06205)
   * Overall a pretty bad paper, far too wordy.
   * My only takeaway is that I should try testing max-pooling versus my current strided convolutions.
+* [An Outsider’s Tour of Reinforcement Learning, part 4](http://www.argmin.net/2018/02/08/lqr/)
+  * And very similar: [Reinforcement Learning never worked, and 'deep' only helped a bit.](https://himanshusahni.github.io/2018/02/23/reinforcement-learning-never-worked.html)
+  * Having MaLPi learn a model and use it for planning seems like a very good idea.
 
 ## Papers to Read, by Category
 
@@ -134,6 +139,7 @@ author_profile: true
 ### Reviews
 
 * [Deep Reinforcement Learning: An Overview](https://arxiv.org/abs/1701.07274)
+* [Continual Lifelong Learning with Neural Networks: A Review](https://arxiv.org/abs/1802.07569)
 
 ### Relevant to MaLPi
 
@@ -216,8 +222,6 @@ author_profile: true
 * [Deep reinforcement learning from human preferences](https://arxiv.org/abs/1706.03741)
 * [Ray RLLib](https://t.co/7pfYViDchA)
 * [Attention based neural networks](https://towardsdatascience.com/memory-attention-sequences-37456d271992)
-* [DAGGER](https://www.cs.cmu.edu/%7Esross1/publications/Ross-AIStats11-NoRegret.pdf)
-  * This is the imitation learning algorithm used in CS 294
 * [Expected Policy Gradients for Reinforcement Learning](https://arxiv.org/abs/1801.03326)
 * [Model-Based Action Exploration](http://arxiv.org/abs/1801.03954v1)
 * [Zero-Shot Task Generalization with Multi-Task Deep Reinforcement Learning](https://arxiv.org/abs/1706.05064)
@@ -226,6 +230,9 @@ author_profile: true
 * [One-shot Imitation from Humans via Domain-Adaptive Meta-Learning](https://arxiv.org/abs/1802.01557)
 * [Multi-task Learning for Continuous Control](https://arxiv.org/abs/1802.01034)
 * [Alleviating catastrophic forgetting using context-dependent gating and synaptic stabilization](https://arxiv.org/abs/1802.01569)
+* [Temporal Difference Models: Model-Free Deep RL for Model-Based Control](https://arxiv.org/abs/1802.09081), Levine et.al.
+* [Multi-Goal Reinforcement Learning: Challenging Robotics Environments and Request for Research](https://arxiv.org/abs/1802.09464)
+* [Reinforcement and Imitation Learning for Diverse Visuomotor Skills](https://arxiv.org/abs/1802.09564)
 
 ### Not as relevant to MaLPi, but interesting
 
@@ -274,6 +281,7 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
   * Might be useful to classify task descriptions for a multi-task system.
 * [Directly Estimating the Variance of the λ-Return Using Temporal-Difference Methods](https://arxiv.org/abs/1801.08287)
 * [Scalable Meta-Learning for Bayesian Optimization](https://arxiv.org/abs/1802.02219)
+* [Learning to Play with Intrinsically-Motivated Self-Aware Agents](https://arxiv.org/abs/1802.07442)
 
 ## Classes/Education
 

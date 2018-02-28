@@ -25,5 +25,6 @@ author_profile: true
   * Performs better than Double DQN and is easier to implement than others
 * [Bayesian Uncertainty Estimation for Batch Normalized Deep Networks](https://arxiv.org/abs/1802.06455)
   * Similar to the 'Dropout as a bayesian approximation...' paper, but using Batch Norm layers to calculate uncertainty
+* [Variational Inference for Policy Gradient](https://arxiv.org/abs/1802.07833)
 
 ---
