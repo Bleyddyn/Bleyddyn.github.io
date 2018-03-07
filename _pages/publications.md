@@ -40,6 +40,7 @@ author_profile: true
 * [Robust Reinforcement Learning](https://papers.nips.cc/paper/1841-robust-reinforcement-learning.pdf)
 * [Robust Adversarial Reinforcement Learning](https://arxiv.org/abs/1703.02702)
 * [Unicorn: Continual Learning with a Universal, Off-policy Agent](https://arxiv.org/abs/1802.08294)
+* [Recurrent Predictive State Policy Networks](https://arxiv.org/abs/1803.01489)
 
 ## Papers read, with minimal notes
 
@@ -102,8 +103,9 @@ author_profile: true
   * Two regularization methods I've never heard of:
     * Activation Stabilization. D. Krueger and R. Memisevic, “Regularizing rnns by stabilizing activations,” arXiv preprint arXiv:1511.08400, 2015.
     * Hidden Activation Preservation. D. Krueger, et al., “Zoneout: Regularizing rnns by randomly preserving hidden activations,” arXiv preprint arXiv:1606.01305, 2016.
-* [Hierarchical and Interpretable Skill Acquisition in Multi-Task Reinforcement Learning](https://einstein.ai/static/images/pages/research/hierarchical-reinforcement-learning/iclr2018_HRL.pdf)
 * [Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks](https://arxiv.org/abs/1703.03400)(MAML)
+  * Meta-train a model so that it is good at quickly learning (fine-tuning) a new task
+  * [Code is available](https://github.com/cbfinn/maml_rl)
 * [Recasting Gradient-Based Meta-Learning as Hierarchical Bayes](https://arxiv.org/abs/1801.08930)
   * Follow-up to MAML
   * Reformulates MAML as Hierarchical Bayesian inference, and uses that to improve MAML.
@@ -130,6 +132,12 @@ author_profile: true
 * [An Outsider’s Tour of Reinforcement Learning, part 4](http://www.argmin.net/2018/02/08/lqr/)
   * And very similar: [Reinforcement Learning never worked, and 'deep' only helped a bit.](https://himanshusahni.github.io/2018/02/23/reinforcement-learning-never-worked.html)
   * Having MaLPi learn a model and use it for planning seems like a very good idea.
+* [The Mirage of Action-Dependent Baselines in Reinforcement Learning](https://arxiv.org/abs/1802.10031)
+  * They describe a Horizon Aware Value Function that takes into account discounting
+  * They also link to implementations of several Policy Gradient methods
+* [Deep Reinforcement Learning for Vision-Based Robotic Grasping: A Simulated Comparative Evaluation of Off-Policy Methods](https://arxiv.org/pdf/1802.10264.pdf)
+  * Deep-Q Learning was more stable than DDPG (an actor-critic method) over hyperparameter ranges and random seed.
+  * Monte Carlo and a novel Corrected MC both performed fairly well under high data conditions.
 
 ## Papers to Read, by Category
 
@@ -165,8 +173,6 @@ author_profile: true
 * [Efficient Parallel Methods for Deep Reinforcement Learning](https://arxiv.org/abs/1705.04862v2)
 * [Recurrent Additive Networks](http://www.kentonl.com/pub/llz.2017.pdf)
   * A simpler type of RNN. Not sure if/where it's been published. Only tested on language tasks?
-* [Feature Control as Intrinsic Motivation for Hierarchical Reinforcement Learning](https://arxiv.org/pdf/1705.06769.pdf)
-  * Followup to the auxiliary tasks paper.
 * [Non-Markovian Control with Gated End-to-End Memory Policy Networks](https://arxiv.org/abs/1705.10993)
 * [Experience Replay Using Transition Sequences](https://arxiv.org/abs/1705.10834)
 * [Self-Normalizing Neural Networks](https://arxiv.org/abs/1706.02515)
@@ -233,6 +239,12 @@ author_profile: true
 * [Temporal Difference Models: Model-Free Deep RL for Model-Based Control](https://arxiv.org/abs/1802.09081), Levine et.al.
 * [Multi-Goal Reinforcement Learning: Challenging Robotics Environments and Request for Research](https://arxiv.org/abs/1802.09464)
 * [Reinforcement and Imitation Learning for Diverse Visuomotor Skills](https://arxiv.org/abs/1802.09564)
+* [Learning and Querying Fast Generative Models for Reinforcement Learning](https://arxiv.org/abs/1802.03006)
+* [Learning by Playing - Solving Sparse Reward Tasks from Scratch](https://arxiv.org/abs/1802.10567)
+* [DiGrad: Multi-Task Reinforcement Learning with Shared Actions](https://arxiv.org/abs/1802.10463)
+* [Selective Experience Replay for Lifelong Learning](https://arxiv.org/abs/1802.10269)
+* [Semi-Parametric Topological Memory For Navigation](https://openreview.net/pdf?id=SygwwGbRW)
+* [MultiNet: Multi-Modal Multi-Task Learning for Autonomous Driving](https://arxiv.org/abs/1709.05581)
 
 ### Not as relevant to MaLPi, but interesting
 
@@ -282,6 +294,7 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [Directly Estimating the Variance of the λ-Return Using Temporal-Difference Methods](https://arxiv.org/abs/1801.08287)
 * [Scalable Meta-Learning for Bayesian Optimization](https://arxiv.org/abs/1802.02219)
 * [Learning to Play with Intrinsically-Motivated Self-Aware Agents](https://arxiv.org/abs/1802.07442)
+* [An Empirical Evaluation of Generic Convolutional and Recurrent Networks for Sequence Modeling](https://arxiv.org/abs/1803.01271)
 
 ## Classes/Education
 
@@ -295,6 +308,7 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [Bayesian Deeplearning](http://bayesiandeeplearning.org)
 * [CS20: TensorFlow for Deep Learning Research](https://cs20.stanford.edu)
 * [A list of fifteen more classes](https://sky2learn.com/deep-learning-reinforcement-learning-online-courses-and-tutorials-theory-and-applications.html) (Some overlap)
+* [Google's Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/) (15 hours, lessons, videos, exercises)
 
 ## Simulators
 
