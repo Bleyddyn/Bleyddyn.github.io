@@ -63,13 +63,6 @@ author_profile: true
   * Learns a memory that's used to set the learning rate.
   * Something to look for as an option in Keras or Tensorflow.
   * Was compared with an optimizer learning system called L2LBGDBGD.
-* [Multi-Task Learning Objectives for Natural Language Processing](http://ruder.io/multi-task-learning-nlp/index.html)
-  * Specifically about NLP, but some ideas might be useful for MaLPi.
-  * Auxilliary tasks should complement the main task.
-  * Adversarial loss
-    * (Ganin, Y., & Lempitsky, V. (2015). Unsupervised Domain Adaptation by Backpropagation. In Proceedings of the 32nd International Conference on Machine Learning. (Vol. 37).
-    * [Domain-Adversarial Training of Neural Networks](http://www.jmlr.org/papers/volume17/15-239/source/15-239.pdf)
-  * Predicting the next frame in video, [Grounded Language Learning in a Simulated 3D World](https://arxiv.org/abs/1706.06551).
 * [Probabilistic machine learning and artificial intelligence](https://www.cse.iitk.ac.in/users/piyush/courses/pml_winter16/nature14541.pdf)
   * Review article. Basically an add for why all ML should be probabilistic.
 * [Deep Reinforcement Learning that Matters](https://arxiv.org/abs/1709.06560)
@@ -105,7 +98,6 @@ author_profile: true
   * Two regularization methods I've never heard of:
     * Activation Stabilization. D. Krueger and R. Memisevic, “Regularizing rnns by stabilizing activations,” arXiv preprint arXiv:1511.08400, 2015.
     * Hidden Activation Preservation. D. Krueger, et al., “Zoneout: Regularizing rnns by randomly preserving hidden activations,” arXiv preprint arXiv:1606.01305, 2016.
-* [Hierarchical and Interpretable Skill Acquisition in Multi-Task Reinforcement Learning](https://einstein.ai/static/images/pages/research/hierarchical-reinforcement-learning/iclr2018_HRL.pdf)
 * [Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks](https://arxiv.org/abs/1703.03400)(MAML)
   * Meta-train a model so that it is good at quickly learning (fine-tuning) a new task
   * [Code is available](https://github.com/cbfinn/maml_rl)
@@ -126,9 +118,6 @@ author_profile: true
 * [L4: Practical loss-based stepsize adaptation for deep learning](https://arxiv.org/abs/1802.05074)
    * [Github with code](https://github.com/martius-lab/l4-optimizer/)
    * Should be easy to try out with a Keras wrapper: keras.optimizers.TFOptimizer(optimizer)
-* [Multi-Task Sequence To Sequence Learning](https://arxiv.org/abs/1511.06114)
-   * All of the examples are for text related tasks.
-   * Sequence auto-encoders were one of the auxiliary tasks they used which showed benefit.
 * [Towards Principled Design of Deep Convolutional Networks: Introducing SimpNet](https://arxiv.org/abs/1802.06205)
   * Overall a pretty bad paper, far too wordy.
   * My only takeaway is that I should try testing max-pooling versus my current strided convolutions.
@@ -201,7 +190,6 @@ author_profile: true
 * [Expected Policy Gradients](https://arxiv.org/abs/1706.05374)
 * [Noisy Networks for Exploration](https://arxiv.org/abs/1706.10295)
   * Replace e-greedy or entropy methods of exploration with noisy parameters
-* [Distral: Robust Multitask Reinforcement Learning](https://arxiv.org/abs/1707.04175)
 * [Learning from Demonstrations for Real World Reinforcement Learning](https://arxiv.org/abs/1704.03732)
 * [Trial without Error: Towards Safe Reinforcement Learning via Human Intervention](https://arxiv.org/abs/1707.05173)
   * [Blog](https://owainevans.github.io/blog/hirl_blog.html)
@@ -245,14 +233,11 @@ author_profile: true
 * [Attention based neural networks](https://towardsdatascience.com/memory-attention-sequences-37456d271992)
 * [Expected Policy Gradients for Reinforcement Learning](https://arxiv.org/abs/1801.03326)
 * [Model-Based Action Exploration](http://arxiv.org/abs/1801.03954v1)
-* [Zero-Shot Task Generalization with Multi-Task Deep Reinforcement Learning](https://arxiv.org/abs/1706.05064)
 * [Curiosity-driven reinforcement learning with homeostatic regulation](https://arxiv.org/abs/1801.07440)
 * [Regret Minimization for Partially Observable Deep Reinforcement Learning](https://openreview.net/forum?id=BJoBhUUUG)
 * [One-shot Imitation from Humans via Domain-Adaptive Meta-Learning](https://arxiv.org/abs/1802.01557)
-* [Multi-task Learning for Continuous Control](https://arxiv.org/abs/1802.01034)
 * [Alleviating catastrophic forgetting using context-dependent gating and synaptic stabilization](https://arxiv.org/abs/1802.01569)
 * [Temporal Difference Models: Model-Free Deep RL for Model-Based Control](https://arxiv.org/abs/1802.09081), Levine et.al.
-* [Multi-Goal Reinforcement Learning: Challenging Robotics Environments and Request for Research](https://arxiv.org/abs/1802.09464)
 * [Reinforcement and Imitation Learning for Diverse Visuomotor Skills](https://arxiv.org/abs/1802.09564)
 
 ### Not as relevant to MaLPi, but interesting
@@ -307,12 +292,13 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [Accelerated Methods for Deep Reinforcement Learning](http://arxiv.org/abs/1803.02811). Adam Stooke and Pieter Abbeel
 * [Learning and Querying Fast Generative Models for Reinforcement Learning](https://arxiv.org/abs/1802.03006)
 * [Learning by Playing - Solving Sparse Reward Tasks from Scratch](https://arxiv.org/abs/1802.10567)
-* [DiGrad: Multi-Task Reinforcement Learning with Shared Actions](https://arxiv.org/abs/1802.10463)
 * [Selective Experience Replay for Lifelong Learning](https://arxiv.org/abs/1802.10269)
 * [Semi-Parametric Topological Memory For Navigation](https://openreview.net/pdf?id=SygwwGbRW)
-* [MultiNet: Multi-Modal Multi-Task Learning for Autonomous Driving](https://arxiv.org/abs/1709.05581)
 * [Shifting Mean Activation Towards Zero with Bipolar Activation Functions](https://arxiv.org/abs/1709.04054)
   * Alternative to Batch Norm for normalization
+* [Strategic attentive writer for learning macro-actions](https://arxiv.org/abs/1606.04695)
+* [Averaging Weights Leads to Wider Optima and Better Generalization](https://arxiv.org/abs/1803.05407)
+  * Sounds like this has some of the benefits of model ensembles, but at training time instead of run/inference time.
 
 ## Classes/Education
 
