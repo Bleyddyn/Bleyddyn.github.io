@@ -33,8 +33,6 @@ author_profile: true
 
 * [Active Robotic Mapping through Deep Reinforcement Learning](https://arxiv.org/abs/1712.10069)
 * [Boosting the Actor with Dual Critic](https://arxiv.org/abs/1712.10282)
-* [DAgger algorithm](https://www.cs.cmu.edu/~sross1/publications/Ross-AIStats11-NoRegret.pdf)
-  * This is the imitation learning algorithm used in CS 294
 * [Vision Based Multi-task Manipulation for Inexpensive Robots Using End-to-End Learning from Demonstration](https://arxiv.org/abs/1707.02920)
   * Includes a diagram for how to add a GAN to the network as an auxiliary task
 * [Robust Reinforcement Learning](https://papers.nips.cc/paper/1841-robust-reinforcement-learning.pdf)
@@ -140,6 +138,13 @@ author_profile: true
 * [Deep Reinforcement Learning for Vision-Based Robotic Grasping: A Simulated Comparative Evaluation of Off-Policy Methods](https://arxiv.org/pdf/1802.10264.pdf)
   * Deep-Q Learning was more stable than DDPG (an actor-critic method) over hyperparameter ranges and random seed.
   * Monte Carlo and a novel Corrected MC both performed fairly well under high data conditions.
+* [Setting up a Reinforcement Learning Task with a Real-World Robot](https://arxiv.org/abs/1803.07067)
+  * Time delays can have a significant impact on ability to learn
+  * Actions closer to the hardware make learning easier. Velocity control versus positional control
+  * "Too small action cycle times make learning harder. Too long action cycle times also impede performance as they reduce precision and cause slow data collection."
+* [DAgger algorithm](https://www.cs.cmu.edu/~sross1/publications/Ross-AIStats11-NoRegret.pdf)
+  * This is the imitation learning algorithm used in CS 294
+  * [Blog Post 1](https://bleyddyn.github.io/2018-02-27-dagger-1) and [Blog Post 2](https://bleyddyn.github.io/2018-03-12-dagger-2)
 
 ## Papers to Read, by Category
 
@@ -150,6 +155,7 @@ author_profile: true
 
 * [Deep Reinforcement Learning: An Overview](https://arxiv.org/abs/1701.07274)
 * [Continual Lifelong Learning with Neural Networks: A Review](https://arxiv.org/abs/1802.07569)
+* [A Survey of Deep Learning Techniques for Mobile Robot Applications](https://arxiv.org/abs/1803.07608)
 
 ### Relevant to MaLPi
 
@@ -237,8 +243,13 @@ author_profile: true
 * [Regret Minimization for Partially Observable Deep Reinforcement Learning](https://openreview.net/forum?id=BJoBhUUUG)
 * [One-shot Imitation from Humans via Domain-Adaptive Meta-Learning](https://arxiv.org/abs/1802.01557)
 * [Alleviating catastrophic forgetting using context-dependent gating and synaptic stabilization](https://arxiv.org/abs/1802.01569)
-* [Temporal Difference Models: Model-Free Deep RL for Model-Based Control](https://arxiv.org/abs/1802.09081), Levine et.al.
+* [Temporal Difference Models: Model-Free Deep RL for Model-Based Control](https://arxiv.org/abs/1802.09081), BAIR
 * [Reinforcement and Imitation Learning for Diverse Visuomotor Skills](https://arxiv.org/abs/1802.09564)
+* [Kickstarting Deep Reinforcement Learning](https://arxiv.org/abs/1803.03835)
+* [Composable Deep Reinforcement Learning for Robotic Manipulation](https://arxiv.org/abs/1803.06773), BAIR
+* [Recall Traces: Backtracking Models for Efficient Reinforcement Learning](https://arxiv.org/abs/1804.00379), BAIR
+* [Universal Planning Networks](https://arxiv.org/abs/1804.00645)
+* [Reinforcement Learning With Unsupervised Auxiliary Tasks](https://arxiv.org/pdf/1611.05397.pdf)
 
 ### Not as relevant to MaLPi, but interesting
 
@@ -299,6 +310,11 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [Strategic attentive writer for learning macro-actions](https://arxiv.org/abs/1606.04695)
 * [Averaging Weights Leads to Wider Optima and Better Generalization](https://arxiv.org/abs/1803.05407)
   * Sounds like this has some of the benefits of model ensembles, but at training time instead of run/inference time.
+
+## Autoencoders
+
+* [Density Estimation: A Neurotically In-Depth Look At Variational Autoencoders](http://ruishu.io/2018/03/14/vae/)
+* [Variational autoencoders](https://www.jeremyjordan.me/variational-autoencoders/)
 
 ## Classes/Education
 

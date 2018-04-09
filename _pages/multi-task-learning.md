@@ -17,6 +17,8 @@ author_profile: true
 * [Multi-Goal Reinforcement Learning: Challenging Robotics Environments and Request for Research](https://arxiv.org/abs/1802.09464)
 * [DiGrad: Multi-Task Reinforcement Learning with Shared Actions](https://arxiv.org/abs/1802.10463)
 * [Distral: Robust Multitask Reinforcement Learning](https://arxiv.org/abs/1707.04175)
+* [End-to-End Video Captioning with Multitask Reinforcement Learning](https://arxiv.org/abs/1803.07950)
+* [RL2: Fast Reinforcement Learning via Slow Reinforcement Learning](https://arxiv.org/pdf/1611.02779)
 
 # Read
 
