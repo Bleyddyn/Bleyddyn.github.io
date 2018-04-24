@@ -252,6 +252,11 @@ author_profile: true
 * [Reinforcement Learning With Unsupervised Auxiliary Tasks](https://arxiv.org/pdf/1611.05397.pdf)
 * [Latent Space Policies for Hierarchical Reinforcement Learning](https://arxiv.org/abs/1804.02808)
 * [Differentiable plasticity: training plastic neural networks with backpropagation](https://arxiv.org/abs/1804.02464)
+* [Averaging Weights Leads to Wider Optima and Better Generalization](http://arxiv.org/abs/1803.05407)
+  * Running average of weights during training to create an effect similar to ensembling
+  * [Blog post about implementing it](https://medium.com/@hortonhearsafoo/adding-a-cutting-edge-deep-learning-training-technique-to-the-fast-ai-library-2cd1dba90a49)
+  * [PyTorch implementation](https://github.com/fastai/fastai/pull/276/files)
+* [Learning World Models](https://worldmodels.github.io/)
 
 ### Not as relevant to MaLPi, but interesting
 
