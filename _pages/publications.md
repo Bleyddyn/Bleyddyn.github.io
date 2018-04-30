@@ -145,6 +145,13 @@ author_profile: true
 * [DAgger algorithm](https://www.cs.cmu.edu/~sross1/publications/Ross-AIStats11-NoRegret.pdf)
   * This is the imitation learning algorithm used in CS 294
   * [Blog Post 1](https://bleyddyn.github.io/2018-02-27-dagger-1) and [Blog Post 2](https://bleyddyn.github.io/2018-03-12-dagger-2)
+* [Reinforcement Learning with a Corrupted Reward Channel](https://arxiv.org/abs/1705.08417)
+  * One method they suggest for overcoming this is "Quantilization". "Rather than choosing the state with the highest observed reward, these agents instead randomly choose a state from a top quantile of high-reward states."
+* [Differentiable plasticity: training plastic neural networks with backpropagation](https://arxiv.org/abs/1804.02464)
+  * Use a Hebbian trace: "the Hebbian trace is simply a running average of the product of pre- and post-synaptic activity"
+  * Effective weight for every i/j neuron pair is baseline weight (normal NN) plus a plasticity coefficient times the hebbian trace. Plasticity coefficient is learned along with normal weights.
+* [The unreasonable effectiveness of the forget gate](https://arxiv.org/abs/1804.04849)
+  * A version of the LSTM layer that only has a forget gate. Also needs a new initilizer for the biases of the forget gate called a 'chrono initializer'.
 
 ## Papers to Read, by Category
 
@@ -251,12 +258,12 @@ author_profile: true
 * [Universal Planning Networks](https://arxiv.org/abs/1804.00645)
 * [Reinforcement Learning With Unsupervised Auxiliary Tasks](https://arxiv.org/pdf/1611.05397.pdf)
 * [Latent Space Policies for Hierarchical Reinforcement Learning](https://arxiv.org/abs/1804.02808)
-* [Differentiable plasticity: training plastic neural networks with backpropagation](https://arxiv.org/abs/1804.02464)
 * [Averaging Weights Leads to Wider Optima and Better Generalization](http://arxiv.org/abs/1803.05407)
   * Running average of weights during training to create an effect similar to ensembling
   * [Blog post about implementing it](https://medium.com/@hortonhearsafoo/adding-a-cutting-edge-deep-learning-training-technique-to-the-fast-ai-library-2cd1dba90a49)
   * [PyTorch implementation](https://github.com/fastai/fastai/pull/276/files)
 * [Learning World Models](https://worldmodels.github.io/)
+* [Temporal Difference Models: Model-Free Deep RL for Model-Based Control](https://arxiv.org/abs/1802.09081), BAIR
 
 ### Not as relevant to MaLPi, but interesting
 
@@ -317,6 +324,7 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [Strategic attentive writer for learning macro-actions](https://arxiv.org/abs/1606.04695)
 * [Averaging Weights Leads to Wider Optima and Better Generalization](https://arxiv.org/abs/1803.05407)
   * Sounds like this has some of the benefits of model ensembles, but at training time instead of run/inference time.
+* [The Limits and Potentials of Deep Learning for Robotics](https://arxiv.org/abs/1804.06557)
 
 ## Autoencoders
 
