@@ -31,6 +31,8 @@ author_profile: true
 
 ## Current
 
+* [World Models](https://arxiv.org/abs/1803.10122)
+  * [Source (not official)](https://github.com/AppliedDataSciencePartners/WorldModels)
 * [Active Robotic Mapping through Deep Reinforcement Learning](https://arxiv.org/abs/1712.10069)
 * [Boosting the Actor with Dual Critic](https://arxiv.org/abs/1712.10282)
 * [Vision Based Multi-task Manipulation for Inexpensive Robots Using End-to-End Learning from Demonstration](https://arxiv.org/abs/1707.02920)
@@ -39,7 +41,7 @@ author_profile: true
 * [Robust Adversarial Reinforcement Learning](https://arxiv.org/abs/1703.02702)
 * [Unicorn: Continual Learning with a Universal, Off-policy Agent](https://arxiv.org/abs/1802.08294)
 * [Unsupervised learning in LSTM recurrent neural networks](ftp://ftp.idsia.ch/pub/juergen/icann2001unsup.pdf)
-  * Possible method for clusting accelerometer data for a reward function
+  * Possible method for clustering accelerometer data for a reward function
 * [Recurrent Predictive State Policy Networks](https://arxiv.org/abs/1803.01489)
 
 ## Papers read, with minimal notes
@@ -157,6 +159,7 @@ author_profile: true
 
 * [Bayesian Neural Nets](/bayesian-nets)
 * [Actor/Critic papers](/actor-critic)
+* [Multi-Task papers](/multi-task-learning)
 
 ### Reviews
 
@@ -262,8 +265,8 @@ author_profile: true
   * Running average of weights during training to create an effect similar to ensembling
   * [Blog post about implementing it](https://medium.com/@hortonhearsafoo/adding-a-cutting-edge-deep-learning-training-technique-to-the-fast-ai-library-2cd1dba90a49)
   * [PyTorch implementation](https://github.com/fastai/fastai/pull/276/files)
-* [Learning World Models](https://worldmodels.github.io/)
 * [Temporal Difference Models: Model-Free Deep RL for Model-Based Control](https://arxiv.org/abs/1802.09081), BAIR
+* [Reinforcement Learning and Control as Probabilistic Inference: Tutorial and Review](https://arxiv.org/abs/1805.00909) BAIR
 
 ### Not as relevant to MaLPi, but interesting
 

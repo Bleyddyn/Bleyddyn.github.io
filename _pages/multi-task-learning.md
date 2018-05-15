@@ -39,4 +39,5 @@ author_profile: true
   * They allow the driver to override the NN during autonomous operation, rather than having the expert edit collected data after the fact.
   * They collect two stero pairs of images 33ms apart, then use those four images to make ten control decisions (power plus steering) over the next 330ms. However, only the final control decision is used, the others are considered 'side tasks' or auxiliary tasks.
   * They insert a binary modality input after the first convolutional layer, before the second. Modality would be something like driving at home versus at the track.
+
 ---
