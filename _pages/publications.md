@@ -154,6 +154,16 @@ author_profile: true
   * Effective weight for every i/j neuron pair is baseline weight (normal NN) plus a plasticity coefficient times the hebbian trace. Plasticity coefficient is learned along with normal weights.
 * [The unreasonable effectiveness of the forget gate](https://arxiv.org/abs/1804.04849)
   * A version of the LSTM layer that only has a forget gate. Also needs a new initilizer for the biases of the forget gate called a 'chrono initializer'.
+* [Attention and Augmented Recurrent Neural Networks](https://distill.pub/2016/augmented-rnns/)
+* [Episodic Memory Deep Q-Networks](https://arxiv.org/abs/1805.07603)
+  * A variant of experience replay (H) that keeps only the highest rewarding epsiodes for each state (action? state/action?) and adds a second loss term of lambda * (Q(s,a) - H(s,a))^2.
+  * Supposed to be more sample efficient.
+* [Why you need to improve your training data, and how to do it](https://petewarden.com/2018/05/28/why-you-need-to-improve-your-training-data-and-how-to-do-it/)
+  * Lot's of stuff in there but calculating a confusion matrix seems like a good second step (I already look at samples of the data).
+  * What's the equivalent of a confusion matrix for continuous outputs? A plot with output range on one axis and standard deviation on the other?
+* [Been There, Done That: Meta-Learning with Episodic Recall](https://arxiv.org/abs/1805.09692)
+  * They use a key/value memory that feeds past data into the LSTM not concatenated to the input, but through a new 'reinstatement' gate that works alongside the forget and input gates.
+* [Hierarchical Reinforcement Learning with Hindsight](https://arxiv.org/abs/1805.08180)
 
 ## Papers to Read, by Category
 
@@ -261,12 +271,22 @@ author_profile: true
 * [Universal Planning Networks](https://arxiv.org/abs/1804.00645)
 * [Reinforcement Learning With Unsupervised Auxiliary Tasks](https://arxiv.org/pdf/1611.05397.pdf)
 * [Latent Space Policies for Hierarchical Reinforcement Learning](https://arxiv.org/abs/1804.02808)
-* [Averaging Weights Leads to Wider Optima and Better Generalization](http://arxiv.org/abs/1803.05407)
-  * Running average of weights during training to create an effect similar to ensembling
+* [Averaging Weights Leads to Wider Optima and Better Generalization](https://arxiv.org/abs/1803.05407)
+  * Running average of weights during training to create an effect similar to ensembling, but at training time instead of run/inference time.
   * [Blog post about implementing it](https://medium.com/@hortonhearsafoo/adding-a-cutting-edge-deep-learning-training-technique-to-the-fast-ai-library-2cd1dba90a49)
   * [PyTorch implementation](https://github.com/fastai/fastai/pull/276/files)
 * [Temporal Difference Models: Model-Free Deep RL for Model-Based Control](https://arxiv.org/abs/1802.09081), BAIR
 * [Reinforcement Learning and Control as Probabilistic Inference: Tutorial and Review](https://arxiv.org/abs/1805.00909) BAIR
+* [Hierarchical Reinforcement Learning with Deep Nested Agents](https://arxiv.org/abs/1805.07008)
+* [Learning Real-World Robot Policies by Dreaming](https://arxiv.org/abs/1805.07813)
+* [Data-Efficient Hierarchical RL](https://sites.google.com/view/efficient-hrl)
+* [Variational Inference for Data-Efficient Model Learning in POMDPs](https://arxiv.org/abs/1805.09281)
+  * [intro to structured inference networks](http://pyro.ai/examples/dmm.html)
+* [Fast Policy Learning through Imitation and Reinforcement](https://arxiv.org/abs/1805.10413)
+* [Memory Augmented Self-Play](https://arxiv.org/abs/1805.11016)
+* [Deep Reinforcement Learning in a Handful of Trials using Probabilistic Dynamics Models](https://arxiv.org/abs/1805.12114)
+* [Integrating Episodic Memory into a Reinforcement Learning Agent using Reservoir Sampling](https://arxiv.org/abs/1806.00540)
+* [Relational Deep Reinforcement Learning](https://arxiv.org/abs/1806.01830)
 
 ### Not as relevant to MaLPi, but interesting
 
@@ -325,12 +345,12 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [Shifting Mean Activation Towards Zero with Bipolar Activation Functions](https://arxiv.org/abs/1709.04054)
   * Alternative to Batch Norm for normalization
 * [Strategic attentive writer for learning macro-actions](https://arxiv.org/abs/1606.04695)
-* [Averaging Weights Leads to Wider Optima and Better Generalization](https://arxiv.org/abs/1803.05407)
-  * Sounds like this has some of the benefits of model ensembles, but at training time instead of run/inference time.
 * [The Limits and Potentials of Deep Learning for Robotics](https://arxiv.org/abs/1804.06557)
+* [AutoAugment: Learning Augmentation Policies from Data](https://arxiv.org/abs/1805.09501)
 
 ## Autoencoders
 
+* [Auto-Encoding Variational Bayes](https://arxiv.org/abs/1312.6114). The original VAE paper.
 * [Density Estimation: A Neurotically In-Depth Look At Variational Autoencoders](http://ruishu.io/2018/03/14/vae/)
 * [Variational autoencoders](https://www.jeremyjordan.me/variational-autoencoders/)
 

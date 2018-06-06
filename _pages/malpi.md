@@ -12,9 +12,12 @@ A robotics project for playing around with hardware and learning to use Machine 
 
 * [Short video of MaLPi's first motion](https://youtu.be/rfDxLsf4Rfw)
 * [MaLPi's first(-ish) autonomous motion](https://www.youtube.com/watch?v=Zduionrgyko)
+* [MaLPi's first (second) autonomous lap](https://www.youtube.com/watch?v=h_J4u2mn3mA)
+* [Another lap, From MaLPi's point of view](https://www.youtube.com/watch?v=YhbjrreFSV4)
 
 ## Project Goals
 
+0. To have MaLPi drive around a DIYRoboCar race track. (I got a bit side-tracked)
 1. To have MaLPi able to wander around without bumping into things (much).
 2. To have MaLPi able to return to it's charging station before the battery(ies) run down.
 3. Eventually, have MaLPi actively search out new places/views, i.e. explore.
