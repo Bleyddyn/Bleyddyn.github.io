@@ -17,6 +17,7 @@ A robotics project for playing around with hardware and learning to use Machine 
 
 ## Project Goals
 
+{:start="0"}
 0. To have MaLPi drive around a DIYRoboCar race track. (I got a bit side-tracked)
 1. To have MaLPi able to wander around without bumping into things (much).
 2. To have MaLPi able to return to it's charging station before the battery(ies) run down.
