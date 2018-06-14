@@ -6,6 +6,10 @@ redirect_from:
   - /notes.html
 ---
 
+# Incoming
+
+* [Deep Variational Reinforcement Learning for POMDPs](https://arxiv.org/abs/1806.02426)
+
 # Miscellaneous
 
 The end of [this OpenAI blog post](https://blog.openai.com/baselines-acktr-a2c/) says that their baselines repo includes LSTM implementations. Mabye it's time to abandon my own code and start using one of their baselines.
