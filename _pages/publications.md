@@ -164,6 +164,14 @@ author_profile: true
 * [Been There, Done That: Meta-Learning with Episodic Recall](https://arxiv.org/abs/1805.09692)
   * They use a key/value memory that feeds past data into the LSTM not concatenated to the input, but through a new 'reinstatement' gate that works alongside the forget and input gates.
 * [Hierarchical Reinforcement Learning with Hindsight](https://arxiv.org/abs/1805.08180)
+* [Deep Reinforcement Learning in a Handful of Trials using Probabilistic Dynamics Models](https://arxiv.org/abs/1805.12114)
+  * Two types of uncertainty
+    * "Aleatoric uncertainty, arises from inherent stochasticities of a system, e.g. observation noise and process noise."
+    * "Epistemic uncertainty – corresponds to subjective uncertainty about the dynamics function, due to a lack of sufficient data to uniquely determine the underlying system exactly."
+  * Their algorithm is: probabilistic ensembles with trajectory sampling (PETS)
+* [Memory Augmented Self-Play](https://arxiv.org/abs/1805.11016)
+  * Followup to: Sukhbaatar, et. al. Intrinsic Motivation and Automatic Curricula via Asymmetric Self-Play. ArXiv e-prints, March 2017.
+  * Episodic feature vectors from past steps are passed through an LSTM and the hidden state (?) is used a input to the current time step.
 
 ## Papers to Read, by Category
 
@@ -283,8 +291,6 @@ author_profile: true
 * [Variational Inference for Data-Efficient Model Learning in POMDPs](https://arxiv.org/abs/1805.09281)
   * [intro to structured inference networks](http://pyro.ai/examples/dmm.html)
 * [Fast Policy Learning through Imitation and Reinforcement](https://arxiv.org/abs/1805.10413)
-* [Memory Augmented Self-Play](https://arxiv.org/abs/1805.11016)
-* [Deep Reinforcement Learning in a Handful of Trials using Probabilistic Dynamics Models](https://arxiv.org/abs/1805.12114)
 * [Integrating Episodic Memory into a Reinforcement Learning Agent using Reservoir Sampling](https://arxiv.org/abs/1806.00540)
 * [Relational Deep Reinforcement Learning](https://arxiv.org/abs/1806.01830)
 
@@ -347,6 +353,9 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [Strategic attentive writer for learning macro-actions](https://arxiv.org/abs/1606.04695)
 * [The Limits and Potentials of Deep Learning for Robotics](https://arxiv.org/abs/1804.06557)
 * [AutoAugment: Learning Augmentation Policies from Data](https://arxiv.org/abs/1805.09501)
+* [Progress & Compress: A scalable framework for continual learning](https://arxiv.org/abs/1805.06370)
+* [Deep Curiosity Search: Intra-Life Exploration Improves Performance on  Challenging Deep Reinforcement Learning Problems](https://arxiv.org/abs/1806.00553)
+* [Unsupervised Meta-Learning for Reinforcement Learning](https://arxiv.org/abs/1806.04640)
 
 ## Autoencoders
 
