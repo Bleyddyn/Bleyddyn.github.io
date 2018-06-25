@@ -286,7 +286,6 @@ author_profile: true
 * [Temporal Difference Models: Model-Free Deep RL for Model-Based Control](https://arxiv.org/abs/1802.09081), BAIR
 * [Reinforcement Learning and Control as Probabilistic Inference: Tutorial and Review](https://arxiv.org/abs/1805.00909) BAIR
 * [Hierarchical Reinforcement Learning with Deep Nested Agents](https://arxiv.org/abs/1805.07008)
-* [Learning Real-World Robot Policies by Dreaming](https://arxiv.org/abs/1805.07813)
 * [Data-Efficient Hierarchical RL](https://sites.google.com/view/efficient-hrl)
 * [Variational Inference for Data-Efficient Model Learning in POMDPs](https://arxiv.org/abs/1805.09281)
   * [intro to structured inference networks](http://pyro.ai/examples/dmm.html)
