@@ -12,6 +12,9 @@ usemath: true
 
 * An [interactive blog post](https://worldmodels.github.io/)
 * A [Keras/Tensorflow implementation](https://github.com/AppliedDataSciencePartners/WorldModels)
+* A [Tensorflow implementation](https://github.com/hardmaru/WorldModelsExperiments)
+  * This one seems to have a more stable VAE implementation.
+
 
 # Overview
 
@@ -24,5 +27,11 @@ usemath: true
 
 
 Still trying to get the implementation to run all the way through...
+
+# Learned Environment Models
+
+* World Models
+* [Learning Robot Policies by Dreaming](/publications/2018-06-25-learning-robot-policies-by-dreaming)
+* [Sample-Efficient Deep RL with Generative Adversarial Tree Search](/publications/2018-06-27-rl-with-generative-adversarial-tree-search)
 
 ---

@@ -31,17 +31,11 @@ author_profile: true
 
 ## Current
 
-* [World Models](https://arxiv.org/abs/1803.10122)
-  * [Source (not official)](https://github.com/AppliedDataSciencePartners/WorldModels)
 * [Active Robotic Mapping through Deep Reinforcement Learning](https://arxiv.org/abs/1712.10069)
 * [Boosting the Actor with Dual Critic](https://arxiv.org/abs/1712.10282)
-* [Vision Based Multi-task Manipulation for Inexpensive Robots Using End-to-End Learning from Demonstration](https://arxiv.org/abs/1707.02920)
-  * Includes a diagram for how to add a GAN to the network as an auxiliary task
 * [Robust Reinforcement Learning](https://papers.nips.cc/paper/1841-robust-reinforcement-learning.pdf)
 * [Robust Adversarial Reinforcement Learning](https://arxiv.org/abs/1703.02702)
 * [Unicorn: Continual Learning with a Universal, Off-policy Agent](https://arxiv.org/abs/1802.08294)
-* [Unsupervised learning in LSTM recurrent neural networks](ftp://ftp.idsia.ch/pub/juergen/icann2001unsup.pdf)
-  * Possible method for clustering accelerometer data for a reward function
 * [Recurrent Predictive State Policy Networks](https://arxiv.org/abs/1803.01489)
 
 ## Papers read, with minimal notes
@@ -75,7 +69,7 @@ author_profile: true
     * Compositionality
     * Robustness
     * Paper: [Reinforcement Learning with Deep Energy-Based Policies](https://arxiv.org/abs/1702.08165)
-    * Code: https://github.com/haarnoja/softqlearning
+    * [Code](https://github.com/haarnoja/softqlearning)
 * [Interpretable ML](https://medium.com/south-park-commons/how-to-make-your-data-and-models-interpretable-by-learning-from-cognitive-science-a6a29867790)
   * Generate prototypes and critics of a cluster for visualizing data in a human-centric way: [MMD-critic](https://github.com/BeenKim/MMD-critic)
 * [Learning Long Duration Sequential Task Structure From Demonstrations with Application in Surgical Robotics](http://bair.berkeley.edu/blog/2017/10/17/lfd-surgical-robots/)
@@ -106,6 +100,7 @@ author_profile: true
   * Reformulates MAML as Hierarchical Bayesian inference, and uses that to improve MAML.
 * [IMPALA: Scalable Distributed Deep-RL with Importance Weighted Actor-Learner Architectures](https://arxiv.org/abs/1802.01561)
   * Really should take notes on this and try to implement it.
+  * [Implementation from DeepMind](https://github.com/deepmind/scalable_agent)
 * [Learning Longer-Term Dependencies In RNNs With Auxiliary Losses](https://openreview.net/pdf?id=Hy9xDwyPM)
   * They suggest having an RNN try to predict sequences from 'anchors' chosen at random as an unsupervized auxiliary task.
   * Not much in the way of implementation details.
@@ -172,6 +167,12 @@ author_profile: true
 * [Memory Augmented Self-Play](https://arxiv.org/abs/1805.11016)
   * Followup to: Sukhbaatar, et. al. Intrinsic Motivation and Automatic Curricula via Asymmetric Self-Play. ArXiv e-prints, March 2017.
   * Episodic feature vectors from past steps are passed through an LSTM and the hidden state (?) is used a input to the current time step.
+* [Integrating Episodic Memory into a Reinforcement Learning Agent using Reservoir Sampling](https://arxiv.org/abs/1806.00540)
+  * Main idea is a way to choose which states to save to memory when training in an online way, with no experience replay.
+* [Unsupervised learning in LSTM recurrent neural networks](ftp://ftp.idsia.ch/pub/juergen/icann2001unsup.pdf)
+  * Possible method for clustering accelerometer data for a reward function
+* [Vision Based Multi-task Manipulation for Inexpensive Robots Using End-to-End Learning from Demonstration](https://arxiv.org/abs/1707.02920)
+  * Includes a diagram for how to add a GAN to the network as an auxiliary task
 
 ## Papers to Read, by Category
 
@@ -290,7 +291,6 @@ author_profile: true
 * [Variational Inference for Data-Efficient Model Learning in POMDPs](https://arxiv.org/abs/1805.09281)
   * [intro to structured inference networks](http://pyro.ai/examples/dmm.html)
 * [Fast Policy Learning through Imitation and Reinforcement](https://arxiv.org/abs/1805.10413)
-* [Integrating Episodic Memory into a Reinforcement Learning Agent using Reservoir Sampling](https://arxiv.org/abs/1806.00540)
 * [Relational Deep Reinforcement Learning](https://arxiv.org/abs/1806.01830)
 
 ### Not as relevant to MaLPi, but interesting
