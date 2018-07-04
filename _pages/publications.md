@@ -37,6 +37,7 @@ author_profile: true
 * [Robust Adversarial Reinforcement Learning](https://arxiv.org/abs/1703.02702)
 * [Unicorn: Continual Learning with a Universal, Off-policy Agent](https://arxiv.org/abs/1802.08294)
 * [Recurrent Predictive State Policy Networks](https://arxiv.org/abs/1803.01489)
+* [Safe and efficient off-policy reinforcement learning](https://arxiv.org/abs/1606.02647)
 
 ## Papers read, with minimal notes
 
@@ -173,6 +174,10 @@ author_profile: true
   * Possible method for clustering accelerometer data for a reward function
 * [Vision Based Multi-task Manipulation for Inexpensive Robots Using End-to-End Learning from Demonstration](https://arxiv.org/abs/1707.02920)
   * Includes a diagram for how to add a GAN to the network as an auxiliary task
+* [Fast and Scalable Bayesian Deep Learning by Weight-Perturbation in Adam](https://arxiv.org/abs/1806.04854)
+  * Variational replacements for Adam, AdaGrad and RMSProp that include uncertainty estimates in the gradient updates.
+  * Includes an RL example where the uncertainty is used for exploration.
+  * Might be worth trying if I can find an implementation.
 
 ## Papers to Read, by Category
 
@@ -192,7 +197,6 @@ author_profile: true
   * [Arxiv link](https://arxiv.org/abs/1705.05363)
 * Learning Atari: An Exploration of the A3C Reinforcement Learning Methods.
   * This paper is from Berkeley class, but I don't have a direct link for it. Google search should work.
-* [Safe and efficient off-policy reinforcement learning](https://arxiv.org/abs/1606.02647)
 * [A Robust Adaptive Stochastic Gradient Method for Deep Learning](https://arxiv.org/abs/1703.00788)
 * [Bridging the Gap Between Value and Policy Based Reinforcement Learning](https://arxiv.org/abs/1702.08892)
   * [PCL implementation](https://github.com/pfnet/chainerrl/blob/master/chainerrl/agents/pcl.py)
@@ -278,7 +282,6 @@ author_profile: true
 * [Composable Deep Reinforcement Learning for Robotic Manipulation](https://arxiv.org/abs/1803.06773), BAIR
 * [Recall Traces: Backtracking Models for Efficient Reinforcement Learning](https://arxiv.org/abs/1804.00379), BAIR
 * [Universal Planning Networks](https://arxiv.org/abs/1804.00645)
-* [Reinforcement Learning With Unsupervised Auxiliary Tasks](https://arxiv.org/pdf/1611.05397.pdf)
 * [Latent Space Policies for Hierarchical Reinforcement Learning](https://arxiv.org/abs/1804.02808)
 * [Averaging Weights Leads to Wider Optima and Better Generalization](https://arxiv.org/abs/1803.05407)
   * Running average of weights during training to create an effect similar to ensembling, but at training time instead of run/inference time.
@@ -355,6 +358,7 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [Progress & Compress: A scalable framework for continual learning](https://arxiv.org/abs/1805.06370)
 * [Deep Curiosity Search: Intra-Life Exploration Improves Performance on  Challenging Deep Reinforcement Learning Problems](https://arxiv.org/abs/1806.00553)
 * [Unsupervised Meta-Learning for Reinforcement Learning](https://arxiv.org/abs/1806.04640)
+* [Unsupervised Learning by Competing Hidden Units](https://arxiv.org/abs/1806.10181)
 
 ## Autoencoders
 
