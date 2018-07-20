@@ -20,6 +20,7 @@ author_profile: true
 * [Reviews](#reviews)
 * [Relevant to MaLPi](#relevant-to-malpi)
 * [Not as relevant to MaLPi, but interesting](#not-as-relevant-to-malpi-but-interesting)
+* [Autoencoders](#autoencoders)
 * [Classes/Education](#classeseducation)
 * [Simulators](#simulators)
 
@@ -31,12 +32,12 @@ author_profile: true
 
 ## Current
 
+* [Robot Learning in Homes: Improving Generalization and Reducing Dataset  Bias](https://arxiv.org/abs/1807.07049)
+* [Recurrent Predictive State Policy Networks](https://arxiv.org/abs/1803.01489)
 * [Active Robotic Mapping through Deep Reinforcement Learning](https://arxiv.org/abs/1712.10069)
 * [Boosting the Actor with Dual Critic](https://arxiv.org/abs/1712.10282)
 * [Robust Reinforcement Learning](https://papers.nips.cc/paper/1841-robust-reinforcement-learning.pdf)
 * [Robust Adversarial Reinforcement Learning](https://arxiv.org/abs/1703.02702)
-* [Unicorn: Continual Learning with a Universal, Off-policy Agent](https://arxiv.org/abs/1802.08294)
-* [Recurrent Predictive State Policy Networks](https://arxiv.org/abs/1803.01489)
 * [Safe and efficient off-policy reinforcement learning](https://arxiv.org/abs/1606.02647)
 
 ## Papers read, with minimal notes
@@ -178,6 +179,9 @@ author_profile: true
   * Variational replacements for Adam, AdaGrad and RMSProp that include uncertainty estimates in the gradient updates.
   * Includes an RL example where the uncertainty is used for exploration.
   * Might be worth trying if I can find an implementation.
+* [An Intriguing Failing of Convolutional Neural Networks and the CoordConv  Solution](https://arxiv.org/abs/1807.03247)
+  * [Blog Post](https://eng.uber.com/coordconv/)
+  * Definitely want to try this both in my MaLPi code and in the VAE portion of World Models.
 
 ## Papers to Read, by Category
 
@@ -282,7 +286,8 @@ author_profile: true
 * [Composable Deep Reinforcement Learning for Robotic Manipulation](https://arxiv.org/abs/1803.06773), BAIR
 * [Recall Traces: Backtracking Models for Efficient Reinforcement Learning](https://arxiv.org/abs/1804.00379), BAIR
 * [Universal Planning Networks](https://arxiv.org/abs/1804.00645)
-* [Latent Space Policies for Hierarchical Reinforcement Learning](https://arxiv.org/abs/1804.02808)
+* [Latent Space Policies for Hierarchical Reinforcement Learning](https://arxiv.org/abs/1804.02808), BAIR
+  * [ICML link](http://proceedings.mlr.press/v80/haarnoja18a.html)
 * [Averaging Weights Leads to Wider Optima and Better Generalization](https://arxiv.org/abs/1803.05407)
   * Running average of weights during training to create an effect similar to ensembling, but at training time instead of run/inference time.
   * [Blog post about implementing it](https://medium.com/@hortonhearsafoo/adding-a-cutting-edge-deep-learning-training-technique-to-the-fast-ai-library-2cd1dba90a49)
@@ -295,6 +300,8 @@ author_profile: true
   * [intro to structured inference networks](http://pyro.ai/examples/dmm.html)
 * [Fast Policy Learning through Imitation and Reinforcement](https://arxiv.org/abs/1805.10413)
 * [Relational Deep Reinforcement Learning](https://arxiv.org/abs/1806.01830)
+* [Backplay: "Man muss immer umkehren"](https://arxiv.org/abs/1807.06919)
+  * Another curriculum learning paper where they start near the goal and work backwards.
 
 ### Not as relevant to MaLPi, but interesting
 
@@ -359,6 +366,8 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [Deep Curiosity Search: Intra-Life Exploration Improves Performance on  Challenging Deep Reinforcement Learning Problems](https://arxiv.org/abs/1806.00553)
 * [Unsupervised Meta-Learning for Reinforcement Learning](https://arxiv.org/abs/1806.04640)
 * [Unsupervised Learning by Competing Hidden Units](https://arxiv.org/abs/1806.10181)
+* [Adaptive Neural Trees](https://arxiv.org/abs/1807.06699)
+  * Combining Decision Trees and neural nets
 
 ## Autoencoders
 
