@@ -302,6 +302,7 @@ author_profile: true
 * [Relational Deep Reinforcement Learning](https://arxiv.org/abs/1806.01830)
 * [Backplay: "Man muss immer umkehren"](https://arxiv.org/abs/1807.06919)
   * Another curriculum learning paper where they start near the goal and work backwards.
+* [Shared Multi-Task Imitation Learning for Indoor Self-Navigation](https://arxiv.org/abs/1808.04503)
 
 ### Not as relevant to MaLPi, but interesting
 
@@ -368,12 +369,14 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [Unsupervised Learning by Competing Hidden Units](https://arxiv.org/abs/1806.10181)
 * [Adaptive Neural Trees](https://arxiv.org/abs/1807.06699)
   * Combining Decision Trees and neural nets
+* [Reliable Uncertainty Estimates in Deep Neural Networks using Noise Contrastive Priors](https://arxiv.org/abs/1807.09289)
 
 ## Autoencoders
 
 * [Auto-Encoding Variational Bayes](https://arxiv.org/abs/1312.6114). The original VAE paper.
 * [Density Estimation: A Neurotically In-Depth Look At Variational Autoencoders](http://ruishu.io/2018/03/14/vae/)
 * [Variational autoencoders](https://www.jeremyjordan.me/variational-autoencoders/)
+* [Understanding disentangling in β-VAE](https://arxiv.org/abs/1804.03599)
 
 ## Classes/Education
 

@@ -12,5 +12,7 @@ redirect_from:
   * Last held: October 1-3rd, 2018 in Lille, France
 * [IEEE International Conference on Robotics and Automation](https://www.icra2019.org)
   * Next: May 20-24, 2019 in Montreal, Canada
+* [International Conference on Intelligent Robots and Systems (IROS)](https://www.iros2018.org)
+  * Next: Oct 1-5, 2018 in Spain
 
 ---
