@@ -303,6 +303,9 @@ author_profile: true
 * [Backplay: "Man muss immer umkehren"](https://arxiv.org/abs/1807.06919)
   * Another curriculum learning paper where they start near the goal and work backwards.
 * [Shared Multi-Task Imitation Learning for Indoor Self-Navigation](https://arxiv.org/abs/1808.04503)
+* [A Distributional Perspective on Reinforcement Learning](https://arxiv.org/abs/1707.06887)
+* [Learning End-to-end Autonomous Driving using Guided Auxiliary  Supervision](https://arxiv.org/abs/1808.10393)
+* [Shared Multi-Task Imitation Learning for Indoor Self-Navigation](https://arxiv.org/abs/1808.04503)
 
 ### Not as relevant to MaLPi, but interesting
 
