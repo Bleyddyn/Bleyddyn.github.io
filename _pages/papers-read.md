@@ -187,13 +187,14 @@ usemath: true
     *   If bonus is > a novelty threshold, add e to memory. bnovelty = 0 works well.
   * Reachability network training: This procedure takes as input a sequence of observations o1 , . . . , oN and forms pairs from those observations. The pairs (oi , oj) where \|i − j \| ≤ k are taken as positive (reachable) examples while the pairs with \|i − j\| > γk become negative examples. The hyperparameter γ is necessary to create a gap between positive and negative examples. In the end, the network is trained with logistic regression loss to output the probability of the positive (reachable) class.
   * Training the agent is PPO with the environment reward plus the bonus reward.
-* Empiricism and the limits of gradient descent (http://togelius.blogspot.com/2018/05/empiricism-and-limits-of-gradient.html)
+* [Empiricism and the limits of gradient descent](http://togelius.blogspot.com/2018/05/empiricism-and-limits-of-gradient.html)
   * Logical Empiricism: sense impressions are all there is. They cause/induce knowledge as our minds generalize over sense impressions.
   * Critical Rationalism: Karl Popper. We formulate hypotheses and test them against sense impressions
   * “learning by gradient descent is an implementation of empiricist induction, whereas evolutionary computation is much closer to the hypothetico-deductive process of Popper's critical rationalism.”
 * [Exploration by Random Network Distillation](https://arxiv.org/abs/1810.12894)
 * [Learning Shared Dynamics with Meta-World Models](https://arxiv.org/abs/1811.01741)
 * [Experience Replay for Continual Learning](https://arxiv.org/abs/1811.11682)
-* [IntroVAE: Introspective Variational Autoencoders for Photographic Image Synthesis](https://arxiv.org/abs/1807.06358)   * VAE+GAN in a simple network.
+* [IntroVAE: Introspective Variational Autoencoders for Photographic Image Synthesis](https://arxiv.org/abs/1807.06358)
+  * VAE+GAN in a simple network.
 
 ---
