@@ -12,7 +12,7 @@ author_profile: true
 
 # Sections
 
-* [Papers read](/publications)
+* [Papers read](/papers-read)
 * [Papers to Read, by Category](#papers-to-read-by-category)
 * [Reviews](#reviews)
 * [Relevant to MaLPi](#relevant-to-malpi)
