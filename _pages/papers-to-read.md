@@ -80,9 +80,6 @@ author_profile: true
   * I read through this once, but don't understand most of it.
 * [Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347)
   * From OpenAI.org: "outperforms other online policy gradient methods"
-* [A Distributional Perspective on Reinforcement Learning](https://arxiv.org/abs/1707.06887)
-  * [A blog post about it](https://flyyufelix.github.io/2017/10/24/distributional-bellman.html)
-  * [And Keras code](https://github.com/flyyufelix/C51-DDQN-Keras)
 * [Better Exploration with Parameter Noise](https://blog.openai.com/better-exploration-with-parameter-noise/)
   * Looks like I would need [Layer Normalization](https://arxiv.org/abs/1607.06450) first.
 * [Guiding Reinforcement Learning Exploration Using Natural Language](https://arxiv.org/abs/1707.08616)
@@ -104,7 +101,6 @@ author_profile: true
   * For value networks that will be used in a non-episodic way, don't end bootstraping at training episode boundaries.
 * [Time-Contrastive Networks: Self-Supervised Learning from Video](https://arxiv.org/abs/1704.06888)
   * [Website](https://sermanet.github.io/imitate/)
-  * Upvote
 * [Reverse Curriculum Generation for Reinforcement Learning Agents](http://bair.berkeley.edu/blog/2017/12/20/reverse-curriculum/)
   * This could be very useful when I try to train MaLPi to find its charging station.
   * Paper: [Reverse Curriculum Generation for Reinforcement Learning](http://proceedings.mlr.press/v78/florensa17a/florensa17a.pdf)
@@ -144,6 +140,45 @@ author_profile: true
 * [A Distributional Perspective on Reinforcement Learning](https://arxiv.org/abs/1707.06887)
 * [Learning End-to-end Autonomous Driving using Guided Auxiliary  Supervision](https://arxiv.org/abs/1808.10393)
 * [Shared Multi-Task Imitation Learning for Indoor Self-Navigation](https://arxiv.org/abs/1808.04503)
+* [Parametrized Deep Q-Networks Learning: Reinforcement Learning with  Discrete-Continuous Hybrid Action Space](https://arxiv.org/abs/1810.06394)
+* [CURIOUS: Intrinsically Motivated Multi-Task, Multi-Goal Reinforcement  Learning](https://arxiv.org/abs/1810.06284)
+* [GPU-Accelerated Robotic Simulation for Distributed Reinforcement  Learning](https://arxiv.org/abs/1810.05762)
+* [An Overview of Multi-Task Learning in Deep Neural Networks](https://arxiv.org/pdf/1706.05098.pdf)
+* [Learning Hierarchical Information Flow with Recurrent Neural Modules](https://arxiv.org/abs/1706.05744)
+* Venkatraman, et al. Predictive state decoders: Encoding the future into recurrent networks. In Proceedings of Advances in Neural Information Processing Systems (NIPS), 2017.
+* [At Human Speed: Deep Reinforcement Learning with Action Delay](https://arxiv.org/abs/1810.07286)
+* [Closing the Sim-to-Real Loop: Adapting Simulation Randomization with  Real World Experience](https://arxiv.org/abs/1810.05687)
+* [Safe Reinforcement Learning with Model Uncertainty Estimates](https://arxiv.org/abs/1810.08700)
+* [Curiosity-driven Exploration by Self-supervised Prediction](https://pathak22.github.io/noreward-rl/resources/icml17.pdf)
+* [Learning Latent Dynamics for Planning from Pixels](https://arxiv.org/abs/1811.04551)
+* [Towards Governing Agent's Efficacy: Action-Conditional β-VAE for Deep Transparent Reinforcement Learning](https://arxiv.org/abs/1811.04350)
+* [Learned optimizers that outperform SGD on wall-clock and validation loss](https://arxiv.org/abs/1810.10180)
+* [Reversible Recurrent Neural Networks](https://arxiv.org/abs/1810.10999)
+* [Model-Based Active Exploration](https://arxiv.org/abs/1810.12162)
+* [Differentiable MPC for End-to-end Planning and Control](https://arxiv.org/abs/1810.13400)
+* [Toward an AI Physicist for Unsupervised Learning](https://arxiv.org/abs/1810.10525)
+* Memory-based control with recurrent networks, Heess et al. Meta-learning
+* Gu, Holly, Lillicrap ‘16 parallel NAF. Continuous action space Q learning
+* [Resilient Computing with Reinforcement Learning on a Dynamical System:  Case Study in Sorting](https://arxiv.org/abs/1809.09261)
+* [Constrained Exploration and Recovery from Experience Shaping](https://arxiv.org/abs/1809.08925) 
+* [Building a Winning Self-Driving Car in Six Months](https://arxiv.org/abs/1811.01273)
+* [QUOTA: The Quantile Option Architecture for Reinforcement Learning](https://arxiv.org/abs/1811.02073) 
+* [Efficient Eligibility Traces for Deep Reinforcement Learning](https://arxiv.org/abs/1810.09967)
+* [Papers that cite World Models](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8020027393506054346)
+* [Flatland: a Lightweight First-Person 2-D Environment for Reinforcement  Learning](https://arxiv.org/abs/1809.00510)
+  * Looks interesting, says code will be available at some point.
+* [Guiding Policies with Language via Meta-Learning](https://arxiv.org/abs/1811.07882)
+* [Learning Actionable Representations with Goal-Conditioned Policies](https://arxiv.org/abs/1811.07819)
+* [Autoencoding beyond pixels using a learned similarity metric](https://arxiv.org/abs/1512.09300)
+* [Randomized Prior Functions for Deep Reinforcement Learning](https://arxiv.org/abs/1806.03335)
+* [An Introduction to Deep Reinforcement Learning](https://arxiv.org/abs/1811.12560)
+* Retrieving from a large memory:
+  * [The Kanerva Machine: A Generative Distributed Memory](https://arxiv.org/abs/1804.01756)
+  * [Followup](https://papers.nips.cc/paper/8149-learning-attractor-dynamics-for-generative-memory.pdf)
+* [Adapting Auxiliary Losses Using Gradient Similarity](https://arxiv.org/abs/1812.02224) 
+* [RUDDER: Return Decomposition for Delayed Rewards](https://arxiv.org/abs/1806.07857)
+* [Learning To Simulate](https://openreview.net/forum?id=HJgkx2Aqt7&noteId=HJgkx2Aqt7)
+* [Adversarial Examples, Uncertainty, and Transfer Testing Robustness in Gaussian Process Hybrid Deep Networks](https://arxiv.org/abs/1707.02476)
 
 ### Not as relevant to MaLPi, but interesting
 
@@ -211,6 +246,8 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [Adaptive Neural Trees](https://arxiv.org/abs/1807.06699)
   * Combining Decision Trees and neural nets
 * [Reliable Uncertainty Estimates in Deep Neural Networks using Noise Contrastive Priors](https://arxiv.org/abs/1807.09289)
+* [Papers of the Year](https://kloudstrifeblog.wordpress.com/2017/12/15/my-papers-of-the-year/amp)
+* [Wider and Deeper, Cheaper and Faster: Tensorized LSTMs for Sequence Learning](https://arxiv.org/abs/1711.01577)
 
 ## Autoencoders
 

@@ -165,5 +165,34 @@ author_profile: true
 * [An Intriguing Failing of Convolutional Neural Networks and the CoordConv  Solution](https://arxiv.org/abs/1807.03247)
   * [Blog Post](https://eng.uber.com/coordconv/)
   * Definitely want to try this both in my MaLPi code and in the VAE portion of World Models.
+* [Learning to Drive in a Day](https://arxiv.org/abs/1807.00412)
+  * Add a VAE to the convolutional layers as an auxiliary task.
+* Recurrent Predictive State Policy Networks
+  * Use a predictive state representation instead of an RNN and a simple feed-forward ‘reactive’ policy.
+  * Needs to be initialized to work well.
+  * Sounds like a version of the MERLIN algorithm, possibly with more theoretically grounded predictions.
+* [A Distributional Perspective on Reinforcement Learning](https://arxiv.org/abs/1707.06887)
+  * [A blog post about it](https://flyyufelix.github.io/2017/10/24/distributional-bellman.html)
+  * [And Keras code](https://github.com/flyyufelix/C51-DDQN-Keras)
+  * Instead of learning a single value for expected reward, learn a distribution.
+* [Robot Learning in Homes: Improving Generalization and Reducing Dataset Bias](https://arxiv.org/abs/1807.07049)
+  * 6 DOF, $3k robot arm. Collect 28k grasps in 6 different homes (cluttered, noisy training data). Noise is modeled with one network (includes arm ID as one input) and grasping angle with another. Model generalizes better when trained this way. Noise modelling gives another 10% improvement.
+* [Episodic Curiosity through Reachability](https://arxiv.org/abs/1810.02274)
+  * Episodic Curiosity Module: Embedding network + Comparator network, Memory buffer with M embeddings (replace randomly once full), Reward Bonus Estimator.
+    *   O -(embed)-> e
+    *   Compare e with all M
+    *   Similarity score C(M,e) = F(c1,...,cm), F = max is prone to outliers, so use F = 90th percentile (?)
+    *   Curiosity bonus b = B(M, e) = α(β − C(M, e)), β = 0.5 works well. α depends on reward scale.
+    *   If bonus is > a novelty threshold, add e to memory. bnovelty = 0 works well.
+  * Reachability network training: This procedure takes as input a sequence of observations o1 , . . . , oN and forms pairs from those observations. The pairs (oi , oj ) where |i − j | ≤ k are taken as positive (reachable) examples while the pairs with |i − j| > γk become negative examples. The hyperparameter γ is necessary to create a gap between positive and negative examples. In the end, the network is trained with logistic regression loss to output the probability of the positive (reachable) class.
+  * Training the agent is PPO with the environment reward plus the bonus reward.
+* Empiricism and the limits of gradient descent (http://togelius.blogspot.com/2018/05/empiricism-and-limits-of-gradient.html)
+  * Logical Empiricism: sense impressions are all there is. They cause/induce knowledge as our minds generalize over sense impressions.
+  * Critical Rationalism: Karl Popper. We formulate hypotheses and test them against sense impressions
+  * “learning by gradient descent is an implementation of empiricist induction, whereas evolutionary computation is much closer to the hypothetico-deductive process of Popper's critical rationalism.”
+* [Exploration by Random Network Distillation](https://arxiv.org/abs/1810.12894)
+* [Learning Shared Dynamics with Meta-World Models](https://arxiv.org/abs/1811.01741)
+* [Experience Replay for Continual Learning](https://arxiv.org/abs/1811.11682)
+* [IntroVAE: Introspective Variational Autoencoders for Photographic Image Synthesis](https://arxiv.org/abs/1807.06358)   * VAE+GAN in a simple network.
 
 ---
