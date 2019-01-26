@@ -179,6 +179,11 @@ author_profile: true
 * [RUDDER: Return Decomposition for Delayed Rewards](https://arxiv.org/abs/1806.07857)
 * [Learning To Simulate](https://openreview.net/forum?id=HJgkx2Aqt7&noteId=HJgkx2Aqt7)
 * [Adversarial Examples, Uncertainty, and Transfer Testing Robustness in Gaussian Process Hybrid Deep Networks](https://arxiv.org/abs/1707.02476)
+* [Self-supervised Learning of Image Embedding for Continuous Control](https://arxiv.org/abs/1901.00943)
+* [](https://deepmind.com/blog/alphastar-mastering-real-time-strategy-game-starcraft-ii/)
+  * This blog about DeepMind's StarCraft AI has a large list of potentially useful links.
+  * [Original LSTM paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.676.4320&rep=rep1&type=pdf)
+  * [Pointer Networks](https://papers.nips.cc/paper/5866-pointer-networks.pdf)
 
 ### Not as relevant to MaLPi, but interesting
 
@@ -248,6 +253,11 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [Reliable Uncertainty Estimates in Deep Neural Networks using Noise Contrastive Priors](https://arxiv.org/abs/1807.09289)
 * [Papers of the Year](https://kloudstrifeblog.wordpress.com/2017/12/15/my-papers-of-the-year/amp)
 * [Wider and Deeper, Cheaper and Faster: Tensorized LSTMs for Sequence Learning](https://arxiv.org/abs/1711.01577)
+* [LASER Language-Agnostic SEntence Representations](https://github.com/facebookresearch/LASER)
+  * Pre-trained multi-lingual embeddings. Possibly useful for task description embedding.
+* [Building Machines That Learn and Think Like People](https://arxiv.org/abs/1604.00289)
+* [How do Mixture Density RNNs Predict the Future?](https://arxiv.org/abs/1901.07859)
+  * Relevant to the RNN part of World Models?
 
 ## Autoencoders
 
