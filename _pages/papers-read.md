@@ -196,5 +196,6 @@ usemath: true
 * [Experience Replay for Continual Learning](https://arxiv.org/abs/1811.11682)
 * [IntroVAE: Introspective Variational Autoencoders for Photographic Image Synthesis](https://arxiv.org/abs/1807.06358)
   * VAE+GAN in a simple network.
+* [The Obstacle Tower: A Generalization Challenge in Vision, Control, and Planning](https://storage.googleapis.com/obstacle-tower-build/Obstacle_Tower_Paper_Final.pdf)
 
 ---
