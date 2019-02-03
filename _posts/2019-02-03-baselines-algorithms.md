@@ -32,61 +32,62 @@ th.extra_space {
 }
 </style>
 
+
 <table>
     <tr><th>Algorithm</th>
-        <th class="centered extra_space">Recurrent</th><th>Multi-Processing</th>
+        <th class="centered extra_space">Recurrent</th><th>Multi-Processing</th><th>Replay Buffer</th>
             <th colspan="4" class="centered">Action Spaces</th><th colspan="4" class="centered">Observation Spaces</th></tr>
-    <tr><th></th><th></th><th></th>
+    <tr><th></th><th></th><th></th><th></th>
             <th class="fixed extra_space">Discrete</th><th class="fixed">Box</th><th class="fixed">MultiDiscrete</th><th class="fixed">MultiBinary</th>
             <th class="fixed extra_space">Discrete</th><th class="fixed">Box</th><th class="fixed">MultiDiscrete</th><th class="fixed">MultiBinary</th>
     </tr>
     <tr><td><a href="https://stable-baselines.readthedocs.io/en/master/modules/a2c.html">A2C</a></td>
-        <td class="centered extra_space">✔️</td><td class="centered">✔️</td>
+        <td class="centered extra_space">✔️</td><td class="centered">✔️</td><td class="centered">❌</td>
         <td class="centered extra_space">✔️</td><td class="centered">✔️</td><td class="centered">✔️</td><td class="centered">✔️</td>
         <td class="centered extra_space">✔️</td><td class="centered">✔️</td><td class="centered">✔️</td><td class="centered">✔️</td>
     </tr>
     <tr><td><a href="https://stable-baselines.readthedocs.io/en/master/modules/acer.html">ACER</a></td>
-        <td class="centered extra_space">✔️</td><td class="centered">✔️</td>
+        <td class="centered extra_space">✔️</td><td class="centered">✔️</td><td class="centered">✔️</td>
         <td class="centered extra_space">✔️</td><td class="centered">❌</td><td class="centered">❌</td><td class="centered">❌</td>
         <td class="centered extra_space">✔️</td><td class="centered">✔️</td><td class="centered">✔️</td><td class="centered">✔️</td>
     </tr>
     <tr><td><a href="https://stable-baselines.readthedocs.io/en/master/modules/acktr.html">ACKTR</a></td>
-        <td class="centered extra_space">✔️</td><td class="centered">✔️</td>
+        <td class="centered extra_space">✔️</td><td class="centered">✔️</td><td class="centered">❌</td>
         <td class="centered extra_space">✔️</td><td class="centered">❌</td><td class="centered">❌</td><td class="centered">❌</td>
         <td class="centered extra_space">✔️</td><td class="centered">✔️</td><td class="centered">✔️</td><td class="centered">✔️</td>
     </tr>
     <tr><td><a href="https://stable-baselines.readthedocs.io/en/master/modules/ddpg.html">DDPG</a></td>
-        <td class="centered extra_space">❌</td><td class="centered">❌</td>
+        <td class="centered extra_space">❌</td><td class="centered">❌</td><td class="centered">✔️</td>
         <td class="centered extra_space">❌</td><td class="centered">✔️</td><td class="centered">❌</td><td class="centered">❌</td>
         <td class="centered extra_space">✔️</td><td class="centered">✔️</td><td class="centered">✔️</td><td class="centered">✔️</td>
     </tr>
     <tr><td><a href="https://stable-baselines.readthedocs.io/en/master/modules/dqn.html">DQN</a></td>
-        <td class="centered extra_space">❌</td><td class="centered">❌</td>
+        <td class="centered extra_space">❌</td><td class="centered">❌</td><td class="centered">✔️</td>
         <td class="centered extra_space">✔️</td><td class="centered">❌</td><td class="centered">❌</td><td class="centered">❌</td>
         <td class="centered extra_space">✔️</td><td class="centered">✔️</td><td class="centered">✔️</td><td class="centered">✔️</td>
     </tr>
     <tr><td><a href="https://stable-baselines.readthedocs.io/en/master/modules/gail.html">GAIL</a></td>
-        <td class="centered extra_space">✔️</td><td class="centered">✔️ (MPI)</td>
+        <td class="centered extra_space">✔️</td><td class="centered">✔️ (MPI)</td><td class="centered">❌</td>
         <td class="centered extra_space">❌</td><td class="centered">✔️</td><td class="centered">❌</td><td class="centered">❌</td>
         <td class="centered extra_space">✔️</td><td class="centered">✔️</td><td class="centered">✔️</td><td class="centered">✔️</td>
     </tr>
     <tr><td><a href="https://stable-baselines.readthedocs.io/en/master/modules/ppo1.html">PPO1</a></td>
-        <td class="centered extra_space">✔️</td><td class="centered">✔️ (MPI)</td>
+        <td class="centered extra_space">✔️</td><td class="centered">✔️ (MPI)</td><td class="centered">❌</td>
         <td class="centered extra_space">✔️</td><td class="centered">✔️</td><td class="centered">✔️</td><td class="centered">✔️</td>
         <td class="centered extra_space">✔️</td><td class="centered">✔️</td><td class="centered">✔️</td><td class="centered">✔️</td>
     </tr>
     <tr><td><a href="https://stable-baselines.readthedocs.io/en/master/modules/ppo2.html">PPO2</a></td>
-        <td class="centered extra_space">✔️</td><td class="centered">✔️</td>
+        <td class="centered extra_space">✔️</td><td class="centered">✔️</td><td class="centered">❌</td>
         <td class="centered extra_space">✔️</td><td class="centered">✔️</td><td class="centered">✔️</td><td class="centered">✔️</td>
         <td class="centered extra_space">✔️</td><td class="centered">✔️</td><td class="centered">✔️</td><td class="centered">✔️</td>
     </tr>
     <tr><td><a href="https://stable-baselines.readthedocs.io/en/master/modules/sac.html">SAC</a></td>
-        <td class="centered extra_space">❌</td><td class="centered">❌</td>
+        <td class="centered extra_space">❌</td><td class="centered">❌</td><td class="centered">✔️</td>
         <td class="centered extra_space">❌</td><td class="centered">✔️</td><td class="centered">❌</td><td class="centered">❌</td>
         <td class="centered extra_space">✔️</td><td class="centered">✔️</td><td class="centered">✔️</td><td class="centered">✔️</td>
     </tr>
     <tr><td><a href="https://stable-baselines.readthedocs.io/en/master/modules/trpo.html">TRPO</a></td>
-        <td class="centered extra_space">✔️</td><td class="centered">✔️ (MPI)</td>
+        <td class="centered extra_space">✔️</td><td class="centered">✔️ (MPI)</td><td class="centered">❌</td>
         <td class="centered extra_space">✔️</td><td class="centered">✔️</td><td class="centered">✔️</td><td class="centered">✔️</td>
         <td class="centered extra_space">✔️</td><td class="centered">✔️</td><td class="centered">✔️</td><td class="centered">✔️</td>
     </tr>
@@ -100,5 +101,7 @@ th.extra_space {
 <li>SAC does not support stable_baselines.common.policies because it uses double q-values and value estimation</li>
 <li><a href="https://stable-baselines.readthedocs.io/en/master/modules/her.html">HER</a> (Hindsight Experience Replay) is not refactored yet.</li>
 </ol>
+
+Edit 1: add Replay Buffer.
 
 ---
