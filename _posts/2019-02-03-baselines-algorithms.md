@@ -35,7 +35,7 @@ th.extra_space {
 <table>
     <tr><th>Algorithm</th>
         <th class="centered extra_space">Recurrent</th><th>Multi-Processing</th>
-            <th colspan="4">Action Spaces</th><th colspan="4">Observation Spaces</th></tr>
+            <th colspan="4" class="centered">Action Spaces</th><th colspan="4" class="centered">Observation Spaces</th></tr>
     <tr><th></th><th></th><th></th>
             <th class="fixed extra_space">Discrete</th><th class="fixed">Box</th><th class="fixed">MultiDiscrete</th><th class="fixed">MultiBinary</th>
             <th class="fixed extra_space">Discrete</th><th class="fixed">Box</th><th class="fixed">MultiDiscrete</th><th class="fixed">MultiBinary</th>
