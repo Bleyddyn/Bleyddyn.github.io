@@ -184,7 +184,6 @@ author_profile: true
   * This blog about DeepMind's StarCraft AI has a large list of potentially useful links.
   * [Original LSTM paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.676.4320&rep=rep1&type=pdf)
   * [Pointer Networks](https://papers.nips.cc/paper/5866-pointer-networks.pdf)
-* [Revisiting Self-Supervised Visual Representation Learning](https://arxiv.org/abs/1901.09005)
 
 ### Not as relevant to MaLPi, but interesting
 

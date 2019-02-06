@@ -197,5 +197,9 @@ usemath: true
 * [IntroVAE: Introspective Variational Autoencoders for Photographic Image Synthesis](https://arxiv.org/abs/1807.06358)
   * VAE+GAN in a simple network.
 * [The Obstacle Tower: A Generalization Challenge in Vision, Control, and Planning](https://storage.googleapis.com/obstacle-tower-build/Obstacle_Tower_Paper_Final.pdf)
+* [Revisiting Self-Supervised Visual Representation Learning](https://arxiv.org/abs/1901.09005)
+  * "self-supervised learning techniques are likely to benefit from using CNNs with increased number of channels across wide range of scenarios."
+  * Skip connections help maintain generalizability in later layers (not so useful for MaLPi/DonkeyCar).
+  * Multiple different types of self-supervision are tried: Predict rotation (0°, 90°, 180°, 270°), each image is its own example and must be identified after augmentation (translation, scaling, rotation, etc), Jigsaw (permute image patches and predict permutation). Patch based methods need to do some kind of averaging over patches when used for the down-stream task.
 
 ---
