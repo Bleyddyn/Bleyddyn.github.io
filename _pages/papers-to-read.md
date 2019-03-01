@@ -150,7 +150,6 @@ author_profile: true
 * [Closing the Sim-to-Real Loop: Adapting Simulation Randomization with  Real World Experience](https://arxiv.org/abs/1810.05687)
 * [Safe Reinforcement Learning with Model Uncertainty Estimates](https://arxiv.org/abs/1810.08700)
 * [Curiosity-driven Exploration by Self-supervised Prediction](https://pathak22.github.io/noreward-rl/resources/icml17.pdf)
-* [Learning Latent Dynamics for Planning from Pixels](https://arxiv.org/abs/1811.04551)
 * [Towards Governing Agent's Efficacy: Action-Conditional β-VAE for Deep Transparent Reinforcement Learning](https://arxiv.org/abs/1811.04350)
 * [Learned optimizers that outperform SGD on wall-clock and validation loss](https://arxiv.org/abs/1810.10180)
 * [Reversible Recurrent Neural Networks](https://arxiv.org/abs/1810.10999)
@@ -184,6 +183,15 @@ author_profile: true
   * This blog about DeepMind's StarCraft AI has a large list of potentially useful links.
   * [Original LSTM paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.676.4320&rep=rep1&type=pdf)
   * [Pointer Networks](https://papers.nips.cc/paper/5866-pointer-networks.pdf)
+* [The Value Function Polytope in Reinforcement Learning](https://arxiv.org/abs/1901.11524)
+* [A Geometric Perspective on Optimal Representations for Reinforcement Learning](https://arxiv.org/abs/1901.11530)
+  * Finding better representations. Follow on to previous paper.
+* [Task2Vec: Task Embedding for Meta-Learning](https://arxiv.org/abs/1902.03545)
+* [Simultaneously Learning Vision and Feature-based Control Policies for Real-world Ball-in-a-Cup](https://arxiv.org/abs/1902.04706)
+* [Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics](https://arxiv.org/abs/1705.07115)
+* [World Discovery Models](https://arxiv.org/abs/1902.07685)
+* [From Language to Goals: Inverse Reinforcement Learning for Vision-Based Instruction Following](https://arxiv.org/abs/1902.07742)
+* [Continual Learning with Tiny Episodic Memories](https://arxiv.org/abs/1902.10486)
 
 ### Not as relevant to MaLPi, but interesting
 
@@ -258,6 +266,11 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [Building Machines That Learn and Think Like People](https://arxiv.org/abs/1604.00289)
 * [How do Mixture Density RNNs Predict the Future?](https://arxiv.org/abs/1901.07859)
   * Relevant to the RNN part of World Models?
+* [Learning to Understand Goal Specifications by Modelling Reward](https://arxiv.org/abs/1806.01946)
+* [Investigating Generalisation in Continuous Deep Reinforcement Learning](https://arxiv.org/abs/1902.07015)
+* [Hyperbolic Discounting and Learning over Multiple Horizons](https://arxiv.org/abs/1902.06865)
+  * Also useful as an auxiliary task.
+* [Recurrent Experience Replay in Distributed Reinforcement Learning](https://openreview.net/forum?id=r1lyTjAqYX)
 
 ## Autoencoders
 
@@ -281,6 +294,7 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [Hierarchical RL Workshop](https://sites.google.com/view/hrlnips2017)
   * Includes lectures by David Silver
 * [Google's Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/) (15 hours, lessons, videos, exercises)
+* [CS294-158 Deep Unsupervised Learning Spring 2019](https://sites.google.com/view/berkeley-cs294-158-sp19/home)
 
 ## Simulators
 

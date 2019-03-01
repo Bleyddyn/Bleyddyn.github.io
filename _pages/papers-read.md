@@ -201,5 +201,25 @@ usemath: true
   * "self-supervised learning techniques are likely to benefit from using CNNs with increased number of channels across wide range of scenarios."
   * Skip connections help maintain generalizability in later layers (not so useful for MaLPi/DonkeyCar).
   * Multiple different types of self-supervision are tried: Predict rotation (0°, 90°, 180°, 270°), each image is its own example and must be identified after augmentation (translation, scaling, rotation, etc), Jigsaw (permute image patches and predict permutation). Patch based methods need to do some kind of averaging over patches when used for the down-stream task.
+* [Decoupling feature extraction from policy learning: assessing benefits of state representation learning in goal based robotics](https://arxiv.org/abs/1901.08651)
+  * [Timothée Lesort, Natalia Díaz-Rodríguez, Jean-François Goudou, and David Filliat. State representation learning for control: An overview. Neural Networks, 2018. ISSN 0893-6080.](http://www.sciencedirect.com/science/article/pii/S0893608018302053)
+  * State Representations should be: compact, sufficient, disentangled and generalizable.
+  * Possible unsupervised goals: inverse dynamics (give s, s+1, predict a), auto-encoder (reconstruction), reward prediction (given s, predict r?). Each loss can be weighted.
+  * They split the state representation, with part of it used for inverse dynamics, and the rest for reward and reconstruction losses.
+  * State space somewhere between 12 and 52 seems to be good enough for their tasks. Seems like a very useful test to run.
+  * Similarly, 10-20k samples for training the state representation seems sufficient. 50-75k might actually reduce performance.
+* [Deep Learning Is Not Good Enough, We Need Bayesian Deep Learning for Safe AI](https://alexgkendall.com/computer_vision/bayesian_deep_learning_for_safe_ai/)
+  * Covers epistemic and aleatoric uncertainties.
+  * If the model outputs a variance, add it to the loss function.
+  * Links to a paper that uses uncertainty in multi-task systems: [Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics](https://arxiv.org/abs/1705.07115)
+    * Learn loss weightings for different tasks. The less certain the system is on a task, the more that loss is weighted?
+* [Learning Latent Dynamics for Planning from Pixels](https://danijar.com/publications/2019-planet.pdf)
+  * or [Web version](https://planetrl.github.io/)
+  * or [Arxiv](https://arxiv.org/abs/1811.04551)
+  * [BLog](https://ai.googleblog.com/2019/02/introducing-planet-deep-planning.html)
+  * [Source code](https://github.com/google-research/planet)
+  * Recurrent state space model (learned) with both deterministic and stochastic components.
+  * Trained on multi-step latent space predictions.
+  * Control is done with Model-Predictive Control (no learned policy).
 
 ---
