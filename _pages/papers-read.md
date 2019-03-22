@@ -221,5 +221,13 @@ usemath: true
   * Recurrent state space model (learned) with both deterministic and stochastic components.
   * Trained on multi-step latent space predictions.
   * Control is done with Model-Predictive Control (no learned policy).
+* [Online Meta-Learning](https://arxiv.org/abs/1902.08438)
+  * A version of MAML intended for online learning.
+* [The Bitter Lesson](http://www.incompleteideas.net/IncIdeas/BitterLesson.html)
+  * General purpose solutions (e.g. search, learning) work better in the long run, given increasing computation, than trying to code in heuristics, even if those are based on how we think.
+* [How do Mixture Density RNNs Predict the Future?](https://arxiv.org/abs/1901.07859)
+  * [Code](https://github.com/kaiolae/WorldModels)
+  * Different components of the MD-RNN produce different stochastic events (e.g. appearance of a fireball).
+  * Strong tendency for different components to produce events that are governed by different rules, e.g. near a wall is very different than in the middle of the room. Straightaway vs curves, maybe?
 
 ---

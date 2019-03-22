@@ -192,6 +192,9 @@ author_profile: true
 * [World Discovery Models](https://arxiv.org/abs/1902.07685)
 * [From Language to Goals: Inverse Reinforcement Learning for Vision-Based Instruction Following](https://arxiv.org/abs/1902.07742)
 * [Continual Learning with Tiny Episodic Memories](https://arxiv.org/abs/1902.10486)
+* [Model-Based Reinforcement Learning for Atari](https://arxiv.org/abs/1903.00374)
+* [Using Natural Language for Reward Shaping in Reinforcement Learning](https://arxiv.org/abs/1903.02020)
+* [Assessing Generalization in Deep Reinforcement Learning](https://arxiv.org/abs/1810.12282)
 
 ### Not as relevant to MaLPi, but interesting
 
@@ -264,13 +267,14 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [LASER Language-Agnostic SEntence Representations](https://github.com/facebookresearch/LASER)
   * Pre-trained multi-lingual embeddings. Possibly useful for task description embedding.
 * [Building Machines That Learn and Think Like People](https://arxiv.org/abs/1604.00289)
-* [How do Mixture Density RNNs Predict the Future?](https://arxiv.org/abs/1901.07859)
-  * Relevant to the RNN part of World Models?
 * [Learning to Understand Goal Specifications by Modelling Reward](https://arxiv.org/abs/1806.01946)
 * [Investigating Generalisation in Continuous Deep Reinforcement Learning](https://arxiv.org/abs/1902.07015)
 * [Hyperbolic Discounting and Learning over Multiple Horizons](https://arxiv.org/abs/1902.06865)
   * Also useful as an auxiliary task.
 * [Recurrent Experience Replay in Distributed Reinforcement Learning](https://openreview.net/forum?id=r1lyTjAqYX)
+* [Stiffness: A New Perspective on Generalization in Neural Networks](https://arxiv.org/abs/1901.09491)
+* [IndyLSTMs: Independently Recurrent LSTMs](https://arxiv.org/abs/1903.08023)
+* [Efficient Off-Policy Meta-Reinforcement Learning via Probabilistic Context Variables](https://arxiv.org/abs/1903.08254)
 
 ## Autoencoders
 
