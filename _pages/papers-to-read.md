@@ -192,9 +192,10 @@ author_profile: true
 * [World Discovery Models](https://arxiv.org/abs/1902.07685)
 * [From Language to Goals: Inverse Reinforcement Learning for Vision-Based Instruction Following](https://arxiv.org/abs/1902.07742)
 * [Continual Learning with Tiny Episodic Memories](https://arxiv.org/abs/1902.10486)
-* [Model-Based Reinforcement Learning for Atari](https://arxiv.org/abs/1903.00374)
 * [Using Natural Language for Reward Shaping in Reinforcement Learning](https://arxiv.org/abs/1903.02020)
 * [Assessing Generalization in Deep Reinforcement Learning](https://arxiv.org/abs/1810.12282)
+* [Inductive transfer with context-sensitive neural networks](https://link.springer.com/content/pdf/10.1007%2Fs10994-008-5088-0.pdf)
+  * David Silver, adding context to multi-task learning, 2008.
 
 ### Not as relevant to MaLPi, but interesting
 

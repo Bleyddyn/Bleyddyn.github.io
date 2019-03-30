@@ -10,7 +10,6 @@ author_profile: true
 # To Read
 
 * [Beyond Shared Hierarchies: Deep Multitask Learning through Soft Layer Ordering](https://arxiv.org/abs/1711.00108)
-* [An Overview of Multi-Task Learning in Deep Neural Networks](http://ruder.io/multi-task/)
 * [Pseudo-task Augmentation: From Deep Multitask Learning to Intratask Sharing---and Back](https://arxiv.org/abs/1803.04062)
 * [Zero-Shot Task Generalization with Multi-Task Deep Reinforcement Learning](https://arxiv.org/abs/1706.05064)
 * [Multi-task Learning for Continuous Control](https://arxiv.org/abs/1802.01034)
@@ -39,5 +38,6 @@ author_profile: true
   * They allow the driver to override the NN during autonomous operation, rather than having the expert edit collected data after the fact.
   * They collect two stero pairs of images 33ms apart, then use those four images to make ten control decisions (power plus steering) over the next 330ms. However, only the final control decision is used, the others are considered 'side tasks' or auxiliary tasks.
   * They insert a binary modality input after the first convolutional layer, before the second. Modality would be something like driving at home versus at the track.
+* [An Overview of Multi-Task Learning in Deep Neural Networks](http://ruder.io/multi-task/)
 
 ---

@@ -194,6 +194,8 @@ usemath: true
 * [Exploration by Random Network Distillation](https://arxiv.org/abs/1810.12894)
 * [Learning Shared Dynamics with Meta-World Models](https://arxiv.org/abs/1811.01741)
 * [Experience Replay for Continual Learning](https://arxiv.org/abs/1811.11682)
+  * Learn new serially presented tasks without forgetting older tasks.
+  * Randomly discard data from the replay buffer, thus keeping some data around from previous tasks.
 * [IntroVAE: Introspective Variational Autoencoders for Photographic Image Synthesis](https://arxiv.org/abs/1807.06358)
   * VAE+GAN in a simple network.
 * [The Obstacle Tower: A Generalization Challenge in Vision, Control, and Planning](https://storage.googleapis.com/obstacle-tower-build/Obstacle_Tower_Paper_Final.pdf)
@@ -229,5 +231,15 @@ usemath: true
   * [Code](https://github.com/kaiolae/WorldModels)
   * Different components of the MD-RNN produce different stochastic events (e.g. appearance of a fireball).
   * Strong tendency for different components to produce events that are governed by different rules, e.g. near a wall is very different than in the middle of the room. Straightaway vs curves, maybe?
+* [A Survey on Multi-Task Learning](https://arxiv.org/abs/1707.08114)
+  * Might be useful as a reference.
+  * "classification of MTL models into five main approaches, including feature learning approach, low-rank approach, task clustering approach, task relation learning approach, and decomposition approach"
+* [Model-Based Reinforcement Learning for Atari](https://arxiv.org/abs/1903.00374)
+  * [Code](https://github.com/tensorflow/tensor2tensor/blob/master/tensor2tensor/rl/README.md)
+  * [Blog](https://ai.googleblog.com/2019/03/simulated-policy-learning-in-video.html)
+  * The main idea for me was that they alternated collecting data with the current policy, training the world model, and training the policy.
+  * Scheduled sampling? "randomly replacing in training some frames of the input X by the prediction from the previous step. Typically, we linearly increase the mixing probability during training arriving at 100%." (Based on [Scheduled sampling for sequence prediction with recurrent neural networks](https://papers.nips.cc/paper/5956-scheduled-sampling-for-sequence-prediction-with-recurrent-neural-networks.pdf) )
+  * They used short rollouts (~50) of the model to train the policy, to prevent it drifting too far.
+* [Cognitive Mapping and Planning for Visual Navigation](https://arxiv.org/abs/1702.03920)
 
 ---
