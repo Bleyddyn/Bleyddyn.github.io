@@ -241,5 +241,13 @@ usemath: true
   * Scheduled sampling? "randomly replacing in training some frames of the input X by the prediction from the previous step. Typically, we linearly increase the mixing probability during training arriving at 100%." (Based on [Scheduled sampling for sequence prediction with recurrent neural networks](https://papers.nips.cc/paper/5956-scheduled-sampling-for-sequence-prediction-with-recurrent-neural-networks.pdf) )
   * They used short rollouts (~50) of the model to train the policy, to prevent it drifting too far.
 * [Cognitive Mapping and Planning for Visual Navigation](https://arxiv.org/abs/1702.03920)
+* [Sim-to-Real via Sim-to-Sim: Data-efficient Robotic Grasping via Randomized-to-Canonical Adaptation Networks](https://arxiv.org/abs/1812.07252)
+  * Some RL methods can be destabilized by domain randomization (one sim2real method).
+  * Use a context GAN to convert both randomized images and real world images into a canonical version.
+  * Train on the canonical version in sim, test in the real world.
+  * QT-Opt is an off-policy, continuous-action generalization of Q-learning.
+  * They use a mean pairwise squared error for the image difference, instead of MSE. Available in TF.
+* [From Variational to Deterministic Autoencoders](https://arxiv.org/abs/1903.12436)
+  * They fit a mixture of 10 Gaussians to the latent space so they can sample from their auto-encoder (or existing varieties).
 
 ---

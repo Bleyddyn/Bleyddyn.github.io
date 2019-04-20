@@ -196,6 +196,8 @@ author_profile: true
 * [Assessing Generalization in Deep Reinforcement Learning](https://arxiv.org/abs/1810.12282)
 * [Inductive transfer with context-sensitive neural networks](https://link.springer.com/content/pdf/10.1007%2Fs10994-008-5088-0.pdf)
   * David Silver, adding context to multi-task learning, 2008.
+* [Reinforced Imitation in Heterogeneous Action Space](https://arxiv.org/abs/1904.03438)
+* [Reinforcement Learning with Attention that Works: A Self-Supervised Approach](https://arxiv.org/abs/1904.03367)
 
 ### Not as relevant to MaLPi, but interesting
 
@@ -276,6 +278,7 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [Stiffness: A New Perspective on Generalization in Neural Networks](https://arxiv.org/abs/1901.09491)
 * [IndyLSTMs: Independently Recurrent LSTMs](https://arxiv.org/abs/1903.08023)
 * [Efficient Off-Policy Meta-Reinforcement Learning via Probabilistic Context Variables](https://arxiv.org/abs/1903.08254)
+* [Diagnosing Bottlenecks in Deep Q-learning Algorithms](https://arxiv.org/abs/1902.10250)
 
 ## Autoencoders
 
