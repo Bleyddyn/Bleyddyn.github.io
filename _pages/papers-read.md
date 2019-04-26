@@ -249,5 +249,9 @@ usemath: true
   * They use a mean pairwise squared error for the image difference, instead of MSE. Available in TF.
 * [From Variational to Deterministic Autoencoders](https://arxiv.org/abs/1903.12436)
   * They fit a mixture of 10 Gaussians to the latent space so they can sample from their auto-encoder (or existing varieties).
+* [Adversarial Variational Bayes: Unifying Variational Autoencoders and Generative Adversarial Networks](https://arxiv.org/abs/1701.04722)
+* [A Recipe for Training Neural Networks](https://karpathy.github.io/2019/04/25/recipe/)
+  * Definitely revisit this occasionally.
+  * dropout2d for ConvNets? E.g. SpatialDropout2D in Keras, see: https://www.programcreek.com/python/example/89709/keras.layers.SpatialDropout2D.
 
 ---
