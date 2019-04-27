@@ -253,5 +253,8 @@ usemath: true
 * [A Recipe for Training Neural Networks](https://karpathy.github.io/2019/04/25/recipe/)
   * Definitely revisit this occasionally.
   * dropout2d for ConvNets? E.g. SpatialDropout2D in Keras, see: https://www.programcreek.com/python/example/89709/keras.layers.SpatialDropout2D.
+* [Exploring the Limitations of Behavior Cloning for Autonomous Driving](https://arxiv.org/abs/1904.08980)
+  * They pretrain ResNet34 on ImageNet. Maybe try Cifar10/100 on DonkeyCar.
+  * They use speed prediction as a regularizer/auxiliary task.
 
 ---
