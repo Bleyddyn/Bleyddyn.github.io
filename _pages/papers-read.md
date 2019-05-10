@@ -256,5 +256,14 @@ usemath: true
 * [Exploring the Limitations of Behavior Cloning for Autonomous Driving](https://arxiv.org/abs/1904.08980)
   * They pretrain ResNet34 on ImageNet. Maybe try Cifar10/100 on DonkeyCar.
   * They use speed prediction as a regularizer/auxiliary task.
+* [CAM-Convs: Camera-Aware Multi-Scale Convolutions for Single-View Depth](https://arxiv.org/abs/1904.02028)
+  * "Normalized Coordinates (nc): We also include a Coord-Conv channel of normalized coordinates." See: [An Intriguing Failing of Convolutional Neural Networks and the CoordConv Solution](https://arxiv.org/abs/1807.03247) and [Keras Code](https://github.com/titu1994/keras-coordconv)
+* [Challenging Common Assumptions in the Unsupervised Learning of Disentangled Representations](https://arxiv.org/abs/1811.12359)
+  * [Code](https://github.com/google-research/disentanglement_lib)
+  * [Blog](https://ai.googleblog.com/2019/04/evaluating-unsupervised-learning-of.html)
+  * Sounds like none of the disentanglement methods really work or provably benefit downstream tasks.
+  * Would require some kind of implicit or explicit supervision. Possibly something like adding a lane detector that only uses some of the latent space?
+* [Reinforcement Learning, Fast and Slow](https://www.cell.com/action/showPdf?pii=S1364-6613%2819%2930061-0)
+  * Lots of good references for Meta-RL and Episodic Deep RL (compare current state to previous states to find best previous action).
 
 ---

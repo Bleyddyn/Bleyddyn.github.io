@@ -198,6 +198,9 @@ author_profile: true
   * David Silver, adding context to multi-task learning, 2008.
 * [Reinforced Imitation in Heterogeneous Action Space](https://arxiv.org/abs/1904.03438)
 * [Reinforcement Learning with Attention that Works: A Self-Supervised Approach](https://arxiv.org/abs/1904.03367)
+* Gershman, S.J. and Daw, N.D. (2017) Reinforcement learning and episodic memory in humans and animals: an integrative
+framework. Annu. Rev. Psychol. 68, 101–128
+* [Meta-learning of Sequential Strategies](https://arxiv.org/abs/1905.03030)
 
 ### Not as relevant to MaLPi, but interesting
 
@@ -279,7 +282,6 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [IndyLSTMs: Independently Recurrent LSTMs](https://arxiv.org/abs/1903.08023)
 * [Efficient Off-Policy Meta-Reinforcement Learning via Probabilistic Context Variables](https://arxiv.org/abs/1903.08254)
 * [Diagnosing Bottlenecks in Deep Q-learning Algorithms](https://arxiv.org/abs/1902.10250)
-* [CAM-Convs: Camera-Aware Multi-Scale Convolutions for Single-View Depth](https://arxiv.org/abs/1904.02028)
 
 ## Autoencoders
 
@@ -287,9 +289,7 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [Density Estimation: A Neurotically In-Depth Look At Variational Autoencoders](http://ruishu.io/2018/03/14/vae/)
 * [Variational autoencoders](https://www.jeremyjordan.me/variational-autoencoders/)
 * [Understanding disentangling in β-VAE](https://arxiv.org/abs/1804.03599)
-* [Challenging Common Assumptions in the Unsupervised Learning of Disentangled Representations](https://arxiv.org/abs/1811.12359)
-  * [Code](https://github.com/google-research/disentanglement_lib)
-  * [Blog](https://ai.googleblog.com/2019/04/evaluating-unsupervised-learning-of.html)
+* [Disentangling Factors of Variation Using Few Labels](https://arxiv.org/abs/1905.01258)
 
 ## Classes/Education
 
