@@ -201,6 +201,22 @@ author_profile: true
 * Gershman, S.J. and Daw, N.D. (2017) Reinforcement learning and episodic memory in humans and animals: an integrative
 framework. Annu. Rev. Psychol. 68, 101–128
 * [Meta-learning of Sequential Strategies](https://arxiv.org/abs/1905.03030)
+* [SOLAR: Deep Structured Representations for Model-Based Reinforcement Learning](https://arxiv.org/abs/1808.09105)
+  * [Code](https://github.com/sharadmv/parasol)
+  * [Blog](https://bair.berkeley.edu/blog/2019/05/20/solar/)
+  * Based on the [SVAE paper](https://arxiv.org/abs/1603.06277) (in [Autoencoders](#autoencoders))
+* [Robustness to Out-of-Distribution Inputs via Task-Aware Generative Uncertainty](https://arxiv.org/abs/1812.10687)
+* [Multi-Sample Dropout for Accelerated Training and Better Generalization](https://arxiv.org/abs/1905.09788)
+* [Learning Powerful Policies by Using Consistent Dynamics Model](https://arxiv.org/abs/1906.04355)
+  * Add an auxiliary task to the learned model that penalizes errors in future predictions.
+* [Soft Actor-Critic Algorithms and Applications](https://arxiv.org/abs/1812.05905)
+  * [Project Page](https://sites.google.com/view/sac-and-applications)
+  * Fewer hyperparameters, better sample efficiency.
+  * [Learning to Walk via Deep Reinforcement Learning](https://arxiv.org/abs/1812.11103)
+    * SAC with a learneable temperature hyperparameter.
+* [Learning Dynamics Model in Reinforcement Learning by Incorporating the Long Term Future](https://arxiv.org/abs/1903.01599)
+  * Add an auxiliary task to predict the far future.
+  * Includes use in imitation learning
 
 ### Not as relevant to MaLPi, but interesting
 
@@ -282,6 +298,14 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [IndyLSTMs: Independently Recurrent LSTMs](https://arxiv.org/abs/1903.08023)
 * [Efficient Off-Policy Meta-Reinforcement Learning via Probabilistic Context Variables](https://arxiv.org/abs/1903.08254)
 * [Diagnosing Bottlenecks in Deep Q-learning Algorithms](https://arxiv.org/abs/1902.10250)
+* [Large-Scale Long-Tailed Recognition in an Open World](https://arxiv.org/abs/1904.05160)
+  * Another use of memory, this time for situations that don't occur enough to train on.
+* [Human Visual Understanding for Cognition and Manipulation -- A primer for the roboticist](https://arxiv.org/abs/1905.05272)
+* [Stand-Alone Self-Attention in Vision Models](https://arxiv.org/abs/1906.05909)
+  * Replacing convolutions with attention in vision models.
+* [Learning the Arrow of Time](https://openreview.net/pdf?id=SkevntbkJB)
+* [Improving the robustness of ImageNet classifiers using elements of human visual cognition](https://arxiv.org/abs/1906.08416)
+  * Episodic memory and shape based representations.
 
 ## Autoencoders
 
@@ -290,6 +314,7 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [Variational autoencoders](https://www.jeremyjordan.me/variational-autoencoders/)
 * [Understanding disentangling in β-VAE](https://arxiv.org/abs/1804.03599)
 * [Disentangling Factors of Variation Using Few Labels](https://arxiv.org/abs/1905.01258)
+* [Composing graphical models with neural networks for structured representations and fast inference](https://arxiv.org/abs/1603.06277)
 
 ## Classes/Education
 
@@ -307,6 +332,9 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
   * Includes lectures by David Silver
 * [Google's Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/) (15 hours, lessons, videos, exercises)
 * [CS294-158 Deep Unsupervised Learning Spring 2019](https://sites.google.com/view/berkeley-cs294-158-sp19/home)
+* [Testing and Debugging in Machine Learning](https://developers.google.com/machine-learning/testing-debugging/) (~4 hours)
+* [Metacademy](https://metacademy.org/browse)
+  * Lists of subjects and prerequisites for ML.
 
 ## Simulators
 
