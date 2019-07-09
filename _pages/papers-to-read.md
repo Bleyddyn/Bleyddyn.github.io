@@ -174,6 +174,7 @@ author_profile: true
 * Retrieving from a large memory:
   * [The Kanerva Machine: A Generative Distributed Memory](https://arxiv.org/abs/1804.01756)
   * [Followup](https://papers.nips.cc/paper/8149-learning-attractor-dynamics-for-generative-memory.pdf)
+  * [Shaping Belief States with Generative Environment Models for RL](https://arxiv.org/abs/1906.09237v2)
 * [Adapting Auxiliary Losses Using Gradient Similarity](https://arxiv.org/abs/1812.02224) 
 * [RUDDER: Return Decomposition for Delayed Rewards](https://arxiv.org/abs/1806.07857)
 * [Learning To Simulate](https://openreview.net/forum?id=HJgkx2Aqt7&noteId=HJgkx2Aqt7)
@@ -217,6 +218,8 @@ framework. Annu. Rev. Psychol. 68, 101–128
 * [Learning Dynamics Model in Reinforcement Learning by Incorporating the Long Term Future](https://arxiv.org/abs/1903.01599)
   * Add an auxiliary task to predict the far future.
   * Includes use in imitation learning
+* [Unsupervised Learning of Object Keypoints for Perception and Control](https://arxiv.org/abs/1906.11883)
+* [Real-Time Freespace Segmentation on Autonomous Robots for Detection of Obstacles and Drop-Offs](https://arxiv.org/abs/1902.00842)
 
 ### Not as relevant to MaLPi, but interesting
 
@@ -306,6 +309,7 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [Learning the Arrow of Time](https://openreview.net/pdf?id=SkevntbkJB)
 * [Improving the robustness of ImageNet classifiers using elements of human visual cognition](https://arxiv.org/abs/1906.08416)
   * Episodic memory and shape based representations.
+* [When to Trust Your Model: Model-Based Policy Optimization](https://arxiv.org/abs/1906.08253)
 
 ## Autoencoders
 

@@ -265,5 +265,9 @@ usemath: true
   * Would require some kind of implicit or explicit supervision. Possibly something like adding a lane detector that only uses some of the latent space?
 * [Reinforcement Learning, Fast and Slow](https://www.cell.com/action/showPdf?pii=S1364-6613%2819%2930061-0)
   * Lots of good references for Meta-RL and Episodic Deep RL (compare current state to previous states to find best previous action).
+* [Learning Dynamics Model in Reinforcement Learning by Incorporating the Long Term Future](https://arxiv.org/abs/1903.01599)
+  * "having an auxiliary loss to predict the longer-term future helps in faster imitation learning."
+  * The latent state is dependent on the LSTM's hidden state, thus all preceding inputs, "which has been shown to improve the representational power of [z]."
+  * Lots of this that I don't understand, like training an LSTM on the observations sequence backward?
 
 ---
