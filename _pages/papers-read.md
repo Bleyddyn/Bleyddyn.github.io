@@ -269,5 +269,9 @@ usemath: true
   * "having an auxiliary loss to predict the longer-term future helps in faster imitation learning."
   * The latent state is dependent on the LSTM's hidden state, thus all preceding inputs, "which has been shown to improve the representational power of [z]."
   * Lots of this that I don't understand, like training an LSTM on the observations sequence backward?
+* [Convolutional Reservoir Computing for World Models](https://arxiv.org/abs/1907.08040)
+  * Use a CNN and something like World Model's MD-RNN with fixed, randomly generated (with a gaussian distribution) weights. The only part that needs to be trained is a small layer on the top to generate actions.
+  * There's a bit more to it than that because both sections have hyperparameters that need to be set.
+  * One idea that might be tried in the future is to use evolution methods to find weights that generalize well to multiple tasks, rather than randomly chosen weights.
 
 ---

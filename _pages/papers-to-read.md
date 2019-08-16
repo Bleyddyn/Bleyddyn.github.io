@@ -310,6 +310,9 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [Improving the robustness of ImageNet classifiers using elements of human visual cognition](https://arxiv.org/abs/1906.08416)
   * Episodic memory and shape based representations.
 * [When to Trust Your Model: Model-Based Policy Optimization](https://arxiv.org/abs/1906.08253)
+* [Metalearned Neural Memory](https://arxiv.org/abs/1907.09720)
+* [ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks](https://arxiv.org/abs/1908.02265)
+* [Word2Vec to behavior](https://arxiv.org/abs/1908.01211)
 
 ## Autoencoders
 
