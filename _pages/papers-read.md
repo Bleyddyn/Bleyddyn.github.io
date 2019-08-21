@@ -4,6 +4,7 @@ title: "Papers Read"
 permalink: /papers-read
 author_profile: true
 usemath: true
+redirect_from: "/publications/"
 ---
 
 {% if author.googlescholar %}
