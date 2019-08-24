@@ -44,14 +44,11 @@ author_profile: true
   * [PCL implementation](https://github.com/pfnet/chainerrl/blob/master/chainerrl/agents/pcl.py)
 * [Learning from Demonstrations for Real World Reinforcement Learning](https://arxiv.org/abs/1704.03732)
 * [On Generalized Bellman Equations and Temporal-Difference Learning](https://arxiv.org/abs/1704.04463)
-* [Learning to Act By Predicting the Future](https://arxiv.org/abs/1611.01779)
 * [Neural Episodic Control](https://arxiv.org/abs/1703.01988)
 * [Equivalence Between Policy Gradients and Soft Q-Learning](https://arxiv.org/abs/1704.06440)
   * [Reddit discussion](https://www.reddit.com/r/MachineLearning/comments/6bi6np/d_glearning_taming_the_noise_in_reinforcement/)
 * [Count-Based Exploration with Neural Density Models](https://arxiv.org/abs/1703.01310)
   * Replacing epsilon greedy exploration with a generalized count-based exploration strategy.
-* [Learning to act by predicting the future](https://openreview.net/forum?id=rJLS7qKel&noteId=rJLS7qKel)
-  * Predicting the future as a supervised learning task
 * [One-Shot Imitation Learning](https://arxiv.org/abs/1703.07326)
 * [Efficient Parallel Methods for Deep Reinforcement Learning](https://arxiv.org/abs/1705.04862v2)
 * [Recurrent Additive Networks](http://www.kentonl.com/pub/llz.2017.pdf)

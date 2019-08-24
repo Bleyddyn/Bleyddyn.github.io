@@ -274,5 +274,10 @@ redirect_from: "/publications/"
   * Use a CNN and something like World Model's MD-RNN with fixed, randomly generated (with a gaussian distribution) weights. The only part that needs to be trained is a small layer on the top to generate actions.
   * There's a bit more to it than that because both sections have hyperparameters that need to be set.
   * One idea that might be tried in the future is to use evolution methods to find weights that generalize well to multiple tasks, rather than randomly chosen weights.
+* [Learning to Act By Predicting the Future](https://arxiv.org/abs/1611.01779)
+  * [OpenReview link](https://openreview.net/forum?id=rJLS7qKel&noteId=rJLS7qKel)
+  * Predicting the future as a supervised learning task
+  * They predict 'measurements', i.e. any info that's not the raw sensory input (images), at multiple future timesteps: 1, 2, 4, 8, 16, and 32.
+  * They also add a goal as input to the predictor (so image + measurements + goal). A goal that can be changed at test time to achieve different behaviors.
 
 ---
