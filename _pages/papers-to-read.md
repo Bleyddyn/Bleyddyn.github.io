@@ -217,6 +217,8 @@ framework. Annu. Rev. Psychol. 68, 101–128
   * Includes use in imitation learning
 * [Unsupervised Learning of Object Keypoints for Perception and Control](https://arxiv.org/abs/1906.11883)
 * [Real-Time Freespace Segmentation on Autonomous Robots for Detection of Obstacles and Drop-Offs](https://arxiv.org/abs/1902.00842)
+* [Dynamics-aware Embeddings](https://arxiv.org/abs/1908.09357)
+* [A Survey on Reproducibility by Evaluating Deep Reinforcement Learning Algorithms on Real-World Robots](https://arxiv.org/abs/1909.03772)
 
 ### Not as relevant to MaLPi, but interesting
 
@@ -310,6 +312,10 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [Metalearned Neural Memory](https://arxiv.org/abs/1907.09720)
 * [ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks](https://arxiv.org/abs/1908.02265)
 * [Word2Vec to behavior](https://arxiv.org/abs/1908.01211)
+* [Hierarchical Decision Making by Generating and Following Natural Language Instructions](https://arxiv.org/abs/1906.00744)
+* [AC-Teach: A Bayesian Actor-Critic Method for Policy Learning with an Ensemble of Suboptimal Teachers](https://arxiv.org/abs/1909.04121)
+  * [Blog](https://ai.stanford.edu/blog/acteach/)
+* [Depth from Videos in the Wild: Unsupervised Monocular Depth Learning from Unknown Cameras](https://arxiv.org/abs/1904.04998)
 
 ## Autoencoders
 
