@@ -219,6 +219,19 @@ framework. Annu. Rev. Psychol. 68, 101–128
 * [Real-Time Freespace Segmentation on Autonomous Robots for Detection of Obstacles and Drop-Offs](https://arxiv.org/abs/1902.00842)
 * [Dynamics-aware Embeddings](https://arxiv.org/abs/1908.09357)
 * [A Survey on Reproducibility by Evaluating Deep Reinforcement Learning Algorithms on Real-World Robots](https://arxiv.org/abs/1909.03772)
+* [Advantage-Weighted Regression: Simple and Scalable Off-Policy Reinforcement Learning](https://arxiv.org/abs/1910.00177)
+  * [Blog](https://xbpeng.github.io/projects/AWR/)
+* [Stabilizing Off-Policy Reinforcement Learning with Conservative Policy Gradients](https://arxiv.org/abs/1910.01062)
+  * [Code](https://github.com/tesslerc/ConservativePolicyGradient)
+* [A Mobile Manipulation System for One-Shot Teaching of Complex Tasks in Homes](https://arxiv.org/abs/1910.00127)
+* [Reinforcement Learning with Structured Hierarchical Grammar Representations of Actions](https://arxiv.org/abs/1910.02876)
+  * Create new, higher level actions based on common action sequences, after initial training and add them to the action space.
+* OpenAI's Automatic Domain Randomization on the DonkeyCar simulator?
+  * [Blog](https://openai.com/blog/solving-rubiks-cube/)
+  * [Paper](https://d4mucfpksywv.cloudfront.net/papers/solving-rubiks-cube.pdf)
+  * Start with a single, easy environment in sim. When performance plateaus, increase the range of simulated features. E.g. increase range of friction, or weight of car, or size/color of lane markings.
+  * They used Embed + Sum on the inputs so they didn't need to change the policy between sim and real.
+  * They used Policy cloning (and DAgger?) to train a new policy from an older one, e.g. if the policy architecture did change. Section 6.4.
 
 ### Not as relevant to MaLPi, but interesting
 
@@ -325,6 +338,7 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [Understanding disentangling in β-VAE](https://arxiv.org/abs/1804.03599)
 * [Disentangling Factors of Variation Using Few Labels](https://arxiv.org/abs/1905.01258)
 * [Composing graphical models with neural networks for structured representations and fast inference](https://arxiv.org/abs/1603.06277)
+* [Balancing Reconstruction Quality and Regularisation in ELBO for VAEs](https://arxiv.org/abs/1909.03765)
 
 ## Classes/Education
 
