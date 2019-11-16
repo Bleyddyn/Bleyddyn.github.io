@@ -279,5 +279,16 @@ redirect_from: "/publications/"
   * Predicting the future as a supervised learning task
   * They predict 'measurements', i.e. any info that's not the raw sensory input (images), at multiple future timesteps: 1, 2, 4, 8, 16, and 32.
   * They also add a goal as input to the predictor (so image + measurements + goal). A goal that can be changed at test time to achieve different behaviors.
+* [Reinforcement Learning with Structured Hierarchical Grammar Representations of Actions](https://arxiv.org/abs/1910.02876)
+  * Create new, higher level actions based on common action sequences, after initial training and add them to the action space.
+  * Run a base RL agent and collect experience. Have a grammar calculator choose action-macros, sequences of actions used frequently by the agent. Action-macros are added to the agent's action space and new nodes are added to the agent's last layer initialized to the same value as the macro's first primitive action. Repeat.
+  * Hindsight Action Replay. Store macro experiences as if they were a sequence of primitive actions and as a macro (one action). Sequences of actions that match an existing macro are also stored twice.
+* [Uncertainty Quantification in Deep Learning](https://www.inovex.de/blog/uncertainty-quantification-deep-learning/)
+  * Dropout Ensembles output mean and variance, plus use dropout at inference time (Monte-Carlo Dropout) to estimate both aleatory (intrinsic to the data generator) and epistemic uncertainty (model uncertainty due to lack of training data in part of the input domain).
+  * Would duplication of an input image and running it through as a batch to get mean/var run slower than just a single image?
+* [A Power Law Keeps the Brain’s Perceptions Balanced](https://www.quantamagazine.org/a-power-law-keeps-the-brains-perceptions-balanced-20191022/)
+* [The present in terms of the future: Successor representations in Reinforcement learning](https://medium.com/@awjuliani/the-present-in-terms-of-the-future-successor-representations-in-reinforcement-learning-316b78c5fa3)
+* [Self-Supervised Representation Learning](https://lilianweng.github.io/lil-log/2019/11/10/self-supervised-learning.html)
+  * A lot of ways to use self-supervised learning to learn useful embeddings.
 
 ---

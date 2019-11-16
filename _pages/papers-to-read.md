@@ -224,14 +224,20 @@ framework. Annu. Rev. Psychol. 68, 101–128
 * [Stabilizing Off-Policy Reinforcement Learning with Conservative Policy Gradients](https://arxiv.org/abs/1910.01062)
   * [Code](https://github.com/tesslerc/ConservativePolicyGradient)
 * [A Mobile Manipulation System for One-Shot Teaching of Complex Tasks in Homes](https://arxiv.org/abs/1910.00127)
-* [Reinforcement Learning with Structured Hierarchical Grammar Representations of Actions](https://arxiv.org/abs/1910.02876)
-  * Create new, higher level actions based on common action sequences, after initial training and add them to the action space.
 * OpenAI's Automatic Domain Randomization on the DonkeyCar simulator?
   * [Blog](https://openai.com/blog/solving-rubiks-cube/)
   * [Paper](https://d4mucfpksywv.cloudfront.net/papers/solving-rubiks-cube.pdf)
   * Start with a single, easy environment in sim. When performance plateaus, increase the range of simulated features. E.g. increase range of friction, or weight of car, or size/color of lane markings.
   * They used Embed + Sum on the inputs so they didn't need to change the policy between sim and real.
   * They used Policy cloning (and DAgger?) to train a new policy from an older one, e.g. if the policy architecture did change. Section 6.4.
+* [Generalization in Reinforcement Learning with Selective Noise Injection and Information Bottleneck](https://arxiv.org/abs/1910.12911)
+* [Learning to Predict Without Looking Ahead: World Models Without Forward Prediction](https://learningtopredict.github.io/)
+  * [Repo](https://github.com/learningtopredict/learningtopredict.github.io/issues), but no code yet.
+* [Word2vec to behavior: morphology facilitates the grounding of language in machines](https://arxiv.org/abs/1908.01211)
+  * [Code](https://github.com/davidmatthews1uvm/2019-IROS)
+* [DeepRacer](https://arxiv.org/abs/1911.01562)
+* [CrossNorm: Normalization for Off-Policy TD Reinforcement Learning](https://arxiv.org/abs/1902.05605)
+  * Eliminates the need for a target network?
 
 ### Not as relevant to MaLPi, but interesting
 
@@ -329,6 +335,10 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [AC-Teach: A Bayesian Actor-Critic Method for Policy Learning with an Ensemble of Suboptimal Teachers](https://arxiv.org/abs/1909.04121)
   * [Blog](https://ai.stanford.edu/blog/acteach/)
 * [Depth from Videos in the Wild: Unsupervised Monocular Depth Learning from Unknown Cameras](https://arxiv.org/abs/1904.04998)
+* [Teacher algorithms for curriculum learning of Deep RL in continuously parameterized environments](https://arxiv.org/abs/1910.07224)
+* [A Review of Robot Learning for Manipulation: Challenges, Representations, and Algorithms](https://arxiv.org/abs/1907.03146)
+* [Weakly Supervised Disentanglement with Guarantees](https://arxiv.org/abs/1910.09772)
+* [Using a Logarithmic Mapping to Enable Lower Discount Factors in Reinforcement Learning](https://arxiv.org/abs/1906.00572)
 
 ## Autoencoders
 

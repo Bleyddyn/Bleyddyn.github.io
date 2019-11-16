@@ -36,6 +36,8 @@ The end of [this OpenAI blog post](https://blog.openai.com/baselines-acktr-a2c/)
 
 [How to approximate a Bayesian Neural Network with dropout](https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-7-action-selection-strategies-for-exploration-d3a97b7cceaf)
 
+[Nerual Net debugging links](https://twitter.com/chipro/status/1189564204312711170)
+
 # Mnemonic Medium
 
 [Long read](https://numinous.productions/ttft/). They discuss an essay/notebook they wrote to help teach the concepts behind Quantum Computing. Includes flash cards (like Anki) inside the notebook and includes spaced repetition for learning facts and context. Memory systems like it are one example of 'tools for thought', which includes language and the Hindu-Arabic number system. Design of the flash cards needs a lot of work: multiple ways of asking each question, prevent learning via insignificant context, useful links between cards, etc.
