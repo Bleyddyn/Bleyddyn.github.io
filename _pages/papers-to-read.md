@@ -238,6 +238,9 @@ framework. Annu. Rev. Psychol. 68, 101–128
 * [DeepRacer](https://arxiv.org/abs/1911.01562)
 * [CrossNorm: Normalization for Off-Policy TD Reinforcement Learning](https://arxiv.org/abs/1902.05605)
   * Eliminates the need for a target network?
+* [Optimizing agent behavior over long time scales by transporting value](https://www.nature.com/articles/s41467-019-13073-w)
+  * Looking back over episodic memory
+  * [Code](https://github.com/deepmind/deepmind-research/tree/master/tvt)
 
 ### Not as relevant to MaLPi, but interesting
 
@@ -330,7 +333,6 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [When to Trust Your Model: Model-Based Policy Optimization](https://arxiv.org/abs/1906.08253)
 * [Metalearned Neural Memory](https://arxiv.org/abs/1907.09720)
 * [ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks](https://arxiv.org/abs/1908.02265)
-* [Word2Vec to behavior](https://arxiv.org/abs/1908.01211)
 * [Hierarchical Decision Making by Generating and Following Natural Language Instructions](https://arxiv.org/abs/1906.00744)
 * [AC-Teach: A Bayesian Actor-Critic Method for Policy Learning with an Ensemble of Suboptimal Teachers](https://arxiv.org/abs/1909.04121)
   * [Blog](https://ai.stanford.edu/blog/acteach/)
@@ -339,6 +341,7 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [A Review of Robot Learning for Manipulation: Challenges, Representations, and Algorithms](https://arxiv.org/abs/1907.03146)
 * [Weakly Supervised Disentanglement with Guarantees](https://arxiv.org/abs/1910.09772)
 * [Using a Logarithmic Mapping to Enable Lower Discount Factors in Reinforcement Learning](https://arxiv.org/abs/1906.00572)
+* [Regularization Matters in Policy Optimization](https://arxiv.org/abs/1910.09191)
 
 ## Autoencoders
 
