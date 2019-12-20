@@ -241,6 +241,10 @@ framework. Annu. Rev. Psychol. 68, 101–128
 * [Optimizing agent behavior over long time scales by transporting value](https://www.nature.com/articles/s41467-019-13073-w)
   * Looking back over episodic memory
   * [Code](https://github.com/deepmind/deepmind-research/tree/master/tvt)
+* [Reinforcement Learning Upside Down: Don't Predict Rewards -- Just Map Them to Actions](https://arxiv.org/abs/1912.02875)
+* [Training Agents using Upside-Down Reinforcement Learning](https://arxiv.org/abs/1912.02877)
+* [A Simple Randomization Technique for Generalization in Deep Reinforcement Learning](https://arxiv.org/abs/1910.05396)
+* [Prioritized Sequence Experience Replay](https://arxiv.org/abs/1905.12726)
 
 ### Not as relevant to MaLPi, but interesting
 
@@ -342,6 +346,7 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [Weakly Supervised Disentanglement with Guarantees](https://arxiv.org/abs/1910.09772)
 * [Using a Logarithmic Mapping to Enable Lower Discount Factors in Reinforcement Learning](https://arxiv.org/abs/1906.00572)
 * [Regularization Matters in Policy Optimization](https://arxiv.org/abs/1910.09191)
+* [Meta-Learning without Memorization](https://arxiv.org/abs/1912.03820)
 
 ## Autoencoders
 
@@ -372,6 +377,8 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [Testing and Debugging in Machine Learning](https://developers.google.com/machine-learning/testing-debugging/) (~4 hours)
 * [Metacademy](https://metacademy.org/browse)
   * Lists of subjects and prerequisites for ML.
+* [Mathematics for Machine Learning](https://mml-book.com/)
+  * A free textbook.
 
 ## Simulators
 
