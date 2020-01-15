@@ -245,6 +245,7 @@ framework. Annu. Rev. Psychol. 68, 101–128
 * [Training Agents using Upside-Down Reinforcement Learning](https://arxiv.org/abs/1912.02877)
 * [A Simple Randomization Technique for Generalization in Deep Reinforcement Learning](https://arxiv.org/abs/1910.05396)
 * [Prioritized Sequence Experience Replay](https://arxiv.org/abs/1905.12726)
+* [RTFM: Generalising to New Environment Dynamics via Reading](https://openreview.net/forum?id=SJgob6NKvH)
 
 ### Not as relevant to MaLPi, but interesting
 
