@@ -22,11 +22,11 @@ The run with no dropout was clearly better, both the images and the loss curves.
 
 ### No Dropout
 
-![](/images/blog/2020-01/VAE_no_dropout.png "VAE No Dropout")
+![](/images/blog/2020-01/VAE_no_dropout_v2.png "VAE No Dropout")
 
 ### 0.2 Dropout
 
-![](/images/blog/2020-01/VAE_dropout_0.2.png "VAE Dropout 0.2")
+![](/images/blog/2020-01/VAE_dropout_0.2_v2.png "VAE Dropout 0.2")
 
 ### 0.4 Dropout
 
@@ -36,11 +36,11 @@ The run with no dropout was clearly better, both the images and the loss curves.
 
 ### No Dropout
 
-![](/images/blog/2020-01/VAE_no_dropout_loss.png "VAE No Dropout Loss")
+![](/images/blog/2020-01/VAE_no_dropout_loss_v2.png "VAE No Dropout Loss")
 
 ### 0.2 Dropout
 
-![](/images/blog/2020-01/VAE_dropout_0.2_loss.png "VAE Dropout 0.2 Loss")
+![](/images/blog/2020-01/VAE_dropout_0.2_loss_v2.png "VAE Dropout 0.2 Loss")
 
 ### 0.4 Dropout
 
