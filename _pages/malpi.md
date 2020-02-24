@@ -22,7 +22,7 @@ A robotics project for playing around with hardware and learning to use Machine 
 
 ## Software
 
-[My GitHub repo](https://github.com/Bleyddyn/malpi)
+[My GitHub repo](https://github.com/Bleyddyn/malpi)<br/>
 [My DonkeyCar fork](https://github.com/Bleyddyn/donkeycar)
 
 ## Current Hardware
