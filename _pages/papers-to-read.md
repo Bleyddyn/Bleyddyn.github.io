@@ -246,6 +246,9 @@ framework. Annu. Rev. Psychol. 68, 101–128
 * [A Simple Randomization Technique for Generalization in Deep Reinforcement Learning](https://arxiv.org/abs/1910.05396)
 * [Prioritized Sequence Experience Replay](https://arxiv.org/abs/1905.12726)
 * [RTFM: Generalising to New Environment Dynamics via Reading](https://openreview.net/forum?id=SJgob6NKvH)
+* [FixMatch: Simplifying Semi-Supervised Learning with Consistency and Confidence](https://arxiv.org/abs/2001.07685)
+* [Gradient Surgery for Multi-Task Learning](https://arxiv.org/abs/2001.06782)
+* [Q-Learning in enormous action spaces via amortized approximate maximization](https://arxiv.org/abs/2001.08116)
 
 ### Not as relevant to MaLPi, but interesting
 

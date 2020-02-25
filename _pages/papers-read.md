@@ -193,6 +193,7 @@ redirect_from: "/publications/"
   * Critical Rationalism: Karl Popper. We formulate hypotheses and test them against sense impressions
   * “learning by gradient descent is an implementation of empiricist induction, whereas evolutionary computation is much closer to the hypothetico-deductive process of Popper's critical rationalism.”
 * [Exploration by Random Network Distillation](https://arxiv.org/abs/1810.12894)
+  * A related paper [CONSERVATIVE UNCERTAINTY ESTIMATION BY FITTING PRIOR NETWORKS](https://openreview.net/attachment?id=BJlahxHYDS&name=original_pdf)
 * [Learning Shared Dynamics with Meta-World Models](https://arxiv.org/abs/1811.01741)
 * [Experience Replay for Continual Learning](https://arxiv.org/abs/1811.11682)
   * Learn new serially presented tasks without forgetting older tasks.
