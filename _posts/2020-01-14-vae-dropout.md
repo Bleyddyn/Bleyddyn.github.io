@@ -55,7 +55,7 @@ At least not in the encoder. I have seen example code that has dropout only in t
 
 # Future
 
-Ever since I read about them I've been using the SpatialDropout2D layers right after Convolution layers, but maybe I should repeat this experiment with standard Dropout layers.
+Ever since I read about them ([a more recent example](https://gaborvecsei.github.io/Monte-Carlo-Dropout/)) I've been using SpatialDropout2D layers right after Convolution layers, but maybe I should repeat this experiment with standard Dropout layers.
 
 I could also try with Dropout layers only in the decoder.
 

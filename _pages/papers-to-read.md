@@ -249,6 +249,11 @@ framework. Annu. Rev. Psychol. 68, 101–128
 * [FixMatch: Simplifying Semi-Supervised Learning with Consistency and Confidence](https://arxiv.org/abs/2001.07685)
 * [Gradient Surgery for Multi-Task Learning](https://arxiv.org/abs/2001.06782)
 * [Q-Learning in enormous action spaces via amortized approximate maximization](https://arxiv.org/abs/2001.08116)
+* [AMRL: Aggregated Memory For Reinforcement Learning](https://openreview.net/forum?id=Bkl7bREtDr)
+  * One of several recent papers on memory.
+  * See also: [REALM: Retrieval-Augmented Language Model Pre-Training](https://arxiv.org/abs/2002.08909)
+    * Finished reading this. The Future Work section includes ideas about where this could be generalized, e.g. structured knowledge.
+* [Network Randomization: A Simple Technique for Generalization in Deep Reinforcement Learning](https://arxiv.org/abs/1910.05396)
 
 ### Not as relevant to MaLPi, but interesting
 
