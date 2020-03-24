@@ -291,5 +291,8 @@ redirect_from: "/publications/"
 * [The present in terms of the future: Successor representations in Reinforcement learning](https://medium.com/@awjuliani/the-present-in-terms-of-the-future-successor-representations-in-reinforcement-learning-316b78c5fa3)
 * [Self-Supervised Representation Learning](https://lilianweng.github.io/lil-log/2019/11/10/self-supervised-learning.html)
   * A lot of ways to use self-supervised learning to learn useful embeddings.
+* [DisCor: Corrective Feedback in Reinforcement Learning via Distribution Correction](https://arxiv.org/abs/2003.07305)
+  * [Blog post](https://bair.berkeley.edu/blog/2020/03/16/discor/)
+  * Weights the replay buffer based on Bellman error in the target values.
 
 ---

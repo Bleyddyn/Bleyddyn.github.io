@@ -18,6 +18,7 @@ author_profile: true
 * [Relevant to MaLPi](#relevant-to-malpi)
 * [Not as relevant to MaLPi, but interesting](#not-as-relevant-to-malpi-but-interesting)
 * [Autoencoders](#autoencoders)
+* [Memory](#memory)
 * [Classes/Education](#classeseducation)
 * [Simulators](#simulators)
 
@@ -44,7 +45,6 @@ author_profile: true
   * [PCL implementation](https://github.com/pfnet/chainerrl/blob/master/chainerrl/agents/pcl.py)
 * [Learning from Demonstrations for Real World Reinforcement Learning](https://arxiv.org/abs/1704.03732)
 * [On Generalized Bellman Equations and Temporal-Difference Learning](https://arxiv.org/abs/1704.04463)
-* [Neural Episodic Control](https://arxiv.org/abs/1703.01988)
 * [Equivalence Between Policy Gradients and Soft Q-Learning](https://arxiv.org/abs/1704.06440)
   * [Reddit discussion](https://www.reddit.com/r/MachineLearning/comments/6bi6np/d_glearning_taming_the_noise_in_reinforcement/)
 * [Count-Based Exploration with Neural Density Models](https://arxiv.org/abs/1703.01310)
@@ -233,6 +233,7 @@ framework. Annu. Rev. Psychol. 68, 101–128
 * [Generalization in Reinforcement Learning with Selective Noise Injection and Information Bottleneck](https://arxiv.org/abs/1910.12911)
 * [Learning to Predict Without Looking Ahead: World Models Without Forward Prediction](https://learningtopredict.github.io/)
   * [Repo](https://github.com/learningtopredict/learningtopredict.github.io/issues), but no code yet.
+* [Emergent Communication with World Models](https://arxiv.org/abs/2002.09604)
 * [Word2vec to behavior: morphology facilitates the grounding of language in machines](https://arxiv.org/abs/1908.01211)
   * [Code](https://github.com/davidmatthews1uvm/2019-IROS)
 * [DeepRacer](https://arxiv.org/abs/1911.01562)
@@ -249,11 +250,10 @@ framework. Annu. Rev. Psychol. 68, 101–128
 * [FixMatch: Simplifying Semi-Supervised Learning with Consistency and Confidence](https://arxiv.org/abs/2001.07685)
 * [Gradient Surgery for Multi-Task Learning](https://arxiv.org/abs/2001.06782)
 * [Q-Learning in enormous action spaces via amortized approximate maximization](https://arxiv.org/abs/2001.08116)
-* [AMRL: Aggregated Memory For Reinforcement Learning](https://openreview.net/forum?id=Bkl7bREtDr)
-  * One of several recent papers on memory.
-  * See also: [REALM: Retrieval-Augmented Language Model Pre-Training](https://arxiv.org/abs/2002.08909)
-    * Finished reading this. The Future Work section includes ideas about where this could be generalized, e.g. structured knowledge.
 * [Network Randomization: A Simple Technique for Generalization in Deep Reinforcement Learning](https://arxiv.org/abs/1910.05396)
+* [Reinforcement Learning with Convolutional Reservoir Computing](https://arxiv.org/abs/1912.04161)
+* [Neuroevolution of Self-Interpretable Agents](https://arxiv.org/abs/2003.08165)
+  * David Ha, et. al.
 
 ### Not as relevant to MaLPi, but interesting
 
@@ -366,6 +366,15 @@ ss [Concrete Dropout](https://arxiv.org/abs/1705.07832)
 * [Disentangling Factors of Variation Using Few Labels](https://arxiv.org/abs/1905.01258)
 * [Composing graphical models with neural networks for structured representations and fast inference](https://arxiv.org/abs/1603.06277)
 * [Balancing Reconstruction Quality and Regularisation in ELBO for VAEs](https://arxiv.org/abs/1909.03765)
+
+## Memory
+
+* [Neural Episodic Control](https://arxiv.org/abs/1703.01988)
+* [AMRL: Aggregated Memory For Reinforcement Learning](https://openreview.net/forum?id=Bkl7bREtDr)
+  * One of several recent papers on memory.
+  * See also: [REALM: Retrieval-Augmented Language Model Pre-Training](https://arxiv.org/abs/2002.08909)
+    * Finished reading this. The Future Work section includes ideas about where this could be generalized, e.g. structured knowledge.
+* [Reservoir memory machines](https://arxiv.org/abs/2003.04793)
 
 ## Classes/Education
 
