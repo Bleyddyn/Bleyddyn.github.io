@@ -294,5 +294,7 @@ redirect_from: "/publications/"
 * [DisCor: Corrective Feedback in Reinforcement Learning via Distribution Correction](https://arxiv.org/abs/2003.07305)
   * [Blog post](https://bair.berkeley.edu/blog/2020/03/16/discor/)
   * Weights the replay buffer based on Bellman error in the target values.
-
+* [Learning Memory-Based Control for Human-Scale Bipedal Locomotion](http://www.roboticsproceedings.org/rss16/p031.pdf)
+  * A two legged robot called Cassie.
+  * RNN controller, lots of dynamics randomization
 ---

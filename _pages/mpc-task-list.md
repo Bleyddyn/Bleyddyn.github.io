@@ -9,17 +9,17 @@ redirect_from:
 
 This is my very tentative list of features to add to MaLPi. Although they are listed in numbered order, only the first one is 'real'. If/when I finish the first task I'll re-asses the list, possibly moving things around or dropping some or adding new ones.
 
-1. Lane detector -> reward function
-	* Add more lane labels to existing data
-	* Add support in dagger.py to use existing lane detector to speed up labeling
-    * Run existing detector with dropout turned on, choose n most uncertain images, label them, save to new .npz file, retrain lane detector
+1. Parallel options
+    * Modify malpi/dkwm enough to train on the carrracing gym
+    * Add enough data to the DK simulator's telemetry to calculate a decent reward func
+    * Add an intrinsic/exploration reward to the world model
+    * Merge autorope/donkeycar into my repo as best as possible
 1. VAE based DonkeyCar pilot
-1. Train on data and on WorldModel
 1. Switch to RNN policy
-1. Add an IMU and learn to detect crashes/bumps
-1. Train one model for both UCSD and Home datasets
-1. Add location as another auxiliary task
+1. Update all code to TF2
+1. Train a single policy on multiple tracks/tasks
 1. Add a small DNC as a working memory
+1. Add an IMU and learn to detect crashes/bumps
 1. Add more tasks
     * Cone/Human/dog/etc detector (bounding box as output)
     * Drive to goal with goal given as an image
