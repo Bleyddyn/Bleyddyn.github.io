@@ -9,14 +9,10 @@ redirect_from:
 
 This is my very tentative list of features to add to MaLPi. Although they are listed in numbered order, only the first one is 'real'. If/when I finish the first task I'll re-asses the list, possibly moving things around or dropping some or adding new ones.
 
-1. Parallel options
-    * Modify malpi/dkwm enough to train on the carrracing gym
-    * Add enough data to the DK simulator's telemetry to calculate a decent reward func
-    * Add an intrinsic/exploration reward to the world model
-    * Merge autorope/donkeycar into my repo as best as possible
 1. VAE based DonkeyCar pilot
+1. Pre-train VAE on images from all but one track
+1. Train separate policies on each track with the VAE as an image embedder
 1. Switch to RNN policy
-1. Update all code to TF2
 1. Train a single policy on multiple tracks/tasks
 1. Add a small DNC as a working memory
 1. Add an IMU and learn to detect crashes/bumps
