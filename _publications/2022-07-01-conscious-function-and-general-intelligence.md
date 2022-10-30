@@ -10,6 +10,7 @@ usemath: true
 
 
 Authors: Juliani, Arulkumaran, Sasai, Kanai
+
 Transactions on Machine Learning Research (07/2022)
 
 # Definition
