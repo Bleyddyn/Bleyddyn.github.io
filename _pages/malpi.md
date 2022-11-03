@@ -45,3 +45,7 @@ Estimated total hardware costs: $210-$230
 
 * [MaLPi v2](/malpi-v2/)
 * MaLPi v1 was largely built using lego parts and spare motors I had lying around. It never got far enough along to actually drive.
+
+# Misc
+
+Link to my <a rel="me" href="https://mastodon.nz/@Bleyddyn">Mastodon</a> profile. (Should go in the side-bar)
