@@ -1,10 +1,10 @@
 This is my very tentative list of features to add to MaLPi. Although they are listed in numbered order, only the first one is 'real'. If/when I finish the first task I'll re-asses the list, possibly moving things around or dropping some or adding new ones.
 
-1. VAE based DonkeyCar pilot
+1. ✓ VAE based DonkeyCar pilot
 1. Pre-train VAE on images from all but one track
     * Add auxiliary outputs: CTE, track #, steering, throttle
-    * Collect training data from all tracks
-1. Train separate policies on each track with the VAE as an image embedder
+    * Collect more training data from all tracks
+1. ✓ Train separate policies on each track with the VAE as an image embedder
     * Testing script needs to output a single value with standard deviation
 1. Implement Pre-training paper
 1. Switch to RNN policy
