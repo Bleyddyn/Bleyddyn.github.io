@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Papers Read"
+title: "Notes"
 permalink: /papers-read
 author_profile: true
 usemath: true
