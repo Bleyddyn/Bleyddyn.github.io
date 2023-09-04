@@ -10,4 +10,4 @@ redirect_from:
 
 * [MaLPi](/malpi/)
 * [Rhine Cruise Image](/cruise-painting/)
-* [Vitality](Vitality/index.html)
+* ~~[Vitality](https://github.com/sixones/vitality)~~
