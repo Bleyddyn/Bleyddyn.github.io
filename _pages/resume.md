@@ -102,7 +102,7 @@ Purification of a fatty acid binding protein grown in bacteria from a cloned gen
 
 # Education
 
-San Diego State University
+## San Diego State University
 
 1994 - 1998
 
