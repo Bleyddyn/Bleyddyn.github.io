@@ -9,6 +9,9 @@ main:
   - title: "MaLPi"
     url: /malpi/
 
+  - title: "Climate Change"
+    url: /climate/
+
   - title: "CV"
     url: /resume/
 

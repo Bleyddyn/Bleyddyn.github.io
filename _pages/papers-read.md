@@ -297,4 +297,10 @@ redirect_from: "/publications/"
 * [Learning Memory-Based Control for Human-Scale Bipedal Locomotion](http://www.roboticsproceedings.org/rss16/p031.pdf)
   * A two legged robot called Cassie.
   * RNN controller, lots of dynamics randomization
+* [](https://arxiv.org/abs/2309.15065)
+* [](https://arxiv.org/abs/2309.14845)
+* [](https://arxiv.org/abs/2309.12634)
+* [](https://arxiv.org/abs/2309.15049)
+* [Event Tables for Efficient Experience Replay](https://openreview.net/forum?id=XejzjAjKjv)
+
 ---
