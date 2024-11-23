@@ -15,12 +15,12 @@ A few companies that are trying to return to low/zero emission sailing ships for
 
 - Vega:
    * 3 masted square-rigged schooner
-   * Cargo Cap: 82 dwt, 148 m3
+   * Cargo Cap: 82 dwt, 148 m<sup>3</sup>
    * Auxiliary: ?
    * Started: 2023
 - Ceiba:
    * 3 masted square-rigged schooner
-   * Cargo Cap: 190 metric tons, 350 m3 (9 TEU equivalent)
+   * Cargo Cap: 190 metric tons, 350 m<sup>3</sup> (9 TEU equivalent)
    * Auxiliary: Electric
    * Started: Estimated 2025
 - Cargo: Coffee
@@ -31,12 +31,12 @@ A few companies that are trying to return to low/zero emission sailing ships for
 - Timbercoast:
    * 2 masted schooner
    * Auxiliary: Diesel 
-   * Cargo Cap: 114 dwt, 135 m3
+   * Cargo Cap: 114 dwt, 135 m<sup>3</sup>
    * Solar: 2.1 kW
    * Wind: 2x 400W
    * Prop: 24V, 110Amps (?)
 - Cargo: Coffee, Rum, Chocolate?
-- Routes: Germany, Spain, Carribean, Mexico, Azores, UK
+- Routes: Germany, Spain, Caribbean, Mexico, Azores, UK
 
 
 [Sea Cloud][3].
@@ -58,6 +58,20 @@ A few companies that are trying to return to low/zero emission sailing ships for
    * Started: 2020
 - Routes: Hudson NY to New York City
 - They also focus on low/zero emissions in getting cargo from the dock to the customer.
+
+## The Bad
+
+I recently wrote a [letter](/climate/tax_ubi_climate) to five of my elected representatives with a suggestion for the kinds of changes we should be making to prevent climate change from getting worse than it already is, without making an already unjust situation even more so. Sadly, but not unexpectedly, not one of them bothered to respond.
+
+My proposal was very much US-centric because that's about as far as I could stretch my self. Sorry.
+
+## The Ugly
+
+Under Construction
+
+Picture lots of graphs here, showing fossil fuel use, atmospheric CO<sup>2</sup>, global temperatures, costs associated with climate change, etc.
+
+(^ conscious reference back at the late 90's and 00's, when just about every web page was perpetually under construction)
 
 [1]: https://www.sailcargo.inc/
 [2]: https://timbercoast.com/en/
